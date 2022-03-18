@@ -1,371 +1,416 @@
+Unity Editor version:    2020.3.26f1 (7298b473bc1a)
+Branch:                  2020.3/staging
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 11.5.1 (Build 20G80)
+Darwin version:          20.6.0
+Architecture:            x86_64
+Running under Rosetta:   YES
+Available memory:        16384 MB
 Using pre-set license
-Built from '2020.3/staging' branch; Version is '2020.3.25f1 (9b9180224418) revision 10195328'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10  (10.0.19044) 64bit Core' Language: 'en' Physical Memory: 32512 MB
-BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+Pro License: NO
 
 COMMAND LINE ARGUMENTS:
-C:\Program Files\Unity\Hub\Editor\2020.3.25f1\Editor\Unity.exe
+/Applications/Unity/Hub/Editor/2020.3.26f1/Unity.app/Contents/MacOS/Unity
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker0
 -projectPath
-C:/Users/cpwyc/Desktop/RestorationsOfEldya/Restorations of Eldya
+/Users/derinyilmaz/Desktop/RestorationsOfEldya/Restorations of Eldya
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-59448
-Successfully changed project path to: C:/Users/cpwyc/Desktop/RestorationsOfEldya/Restorations of Eldya
-C:/Users/cpwyc/Desktop/RestorationsOfEldya/Restorations of Eldya
+56656
+Successfully changed project path to: /Users/derinyilmaz/Desktop/RestorationsOfEldya/Restorations of Eldya
+/Users/derinyilmaz/Desktop/RestorationsOfEldya/Restorations of Eldya
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 47.24 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 31.95 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Initialize engine version: 2020.3.25f1 (9b9180224418)
-[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.25f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/cpwyc/Desktop/RestorationsOfEldya/Restorations of Eldya/Assets
+Initialize engine version: 2020.3.26f1 (7298b473bc1a)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2020.3.26f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/derinyilmaz/Desktop/RestorationsOfEldya/Restorations of Eldya/Assets
 GfxDevice: creating device client; threaded=0
-Direct3D:
-    Version:  Direct3D 11.0 [level 11.1]
-    Renderer: Intel(R) UHD Graphics (ID=0x9bc4)
-    Vendor:   
-    VRAM:     16256 MB
-    Driver:   27.20.100.9749
+2022-03-18 16:39:04.476 Unity[50826:7910151] (null) preferred device: Apple M1 (high power)
+2022-03-18 16:39:04.476 Unity[50826:7910151] Metal devices available: 1
+2022-03-18 16:39:04.476 Unity[50826:7910151] 0: Apple M1 (high power)
+2022-03-18 16:39:04.476 Unity[50826:7910151] Using device Apple M1 (high power)
+Initializing Metal device caps: Apple M1
 Initialize mono
-Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.25f1/Editor/Data/Managed'
-Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.25f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
-Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.25f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56704
+Mono path[0] = '/Applications/Unity/Hub/Editor/2020.3.26f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2020.3.26f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = '/Applications/Unity/Hub/Editor/2020.3.26f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56826
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.25f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.25f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.004248 seconds.
-Native extension for WindowsStandalone target not found
+Register platform support module: /Applications/Unity/Hub/Editor/2020.3.26f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2020.3.26f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.003178 seconds.
+Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 56.20 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 31.14 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.882 seconds
+- Completed reload, in  1.245 seconds
 Domain Reload Profiling:
-	ReloadAssembly (882ms)
-		BeginReloadAssembly (89ms)
+	ReloadAssembly (1246ms)
+		BeginReloadAssembly (85ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (694ms)
-			LoadAssemblies (86ms)
+			CreateAndSetChildDomain (3ms)
+		EndReloadAssembly (1037ms)
+			LoadAssemblies (83ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (181ms)
+			SetupTypeCache (183ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (43ms)
-			SetupLoadedEditorAssemblies (341ms)
+			RebuildScriptCaches (46ms)
+			SetupLoadedEditorAssemblies (515ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (7ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (56ms)
-				BeforeProcessingInitializeOnLoad (16ms)
-				ProcessInitializeOnLoadAttributes (228ms)
-				ProcessInitializeOnLoadMethodAttributes (34ms)
+				InitializePlatformSupportModulesInManaged (14ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (31ms)
+				BeforeProcessingInitializeOnLoad (23ms)
+				ProcessInitializeOnLoadAttributes (341ms)
+				ProcessInitializeOnLoadMethodAttributes (106ms)
 				AfterProcessingInitializeOnLoad (0ms)
-				EditorAssembliesLoaded (0ms)
+				EditorAssembliesLoaded (1ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.007423 seconds.
+Registered in 0.004553 seconds.
 Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.38 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.33 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.391 seconds
+- Completed reload, in  2.164 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1392ms)
-		BeginReloadAssembly (212ms)
+	ReloadAssembly (2165ms)
+		BeginReloadAssembly (275ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (9ms)
+			DisableScriptedObjects (33ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (22ms)
-		EndReloadAssembly (1101ms)
-			LoadAssemblies (123ms)
+			CreateAndSetChildDomain (42ms)
+		EndReloadAssembly (1793ms)
+			LoadAssemblies (190ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (399ms)
-			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (56ms)
-			SetupLoadedEditorAssemblies (416ms)
+			SetupTypeCache (329ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (54ms)
+			SetupLoadedEditorAssemblies (964ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
-				SetLoadedEditorAssemblies (1ms)
+				InitializePlatformSupportModulesInManaged (15ms)
+				SetLoadedEditorAssemblies (2ms)
 				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (102ms)
-				ProcessInitializeOnLoadAttributes (285ms)
-				ProcessInitializeOnLoadMethodAttributes (11ms)
-				AfterProcessingInitializeOnLoad (10ms)
+				BeforeProcessingInitializeOnLoad (110ms)
+				ProcessInitializeOnLoadAttributes (807ms)
+				ProcessInitializeOnLoadMethodAttributes (28ms)
+				AfterProcessingInitializeOnLoad (1ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (8ms)
+			AwakeInstancesAfterBackupRestoration (29ms)
 Platform modules already initialized, skipping
+Validating Project structure ... 0.001891 seconds.
+Shader import version has changed; will reimport all shaders...
+Upgrading shader files ...0.001828 seconds.
+Application.AssetDatabase Initial Script Refresh Start
+RefreshInfo: InitialScriptRefreshV2(NoUpdateAssetOptions) scanfilter:  ... 1 filters
+RefreshProfiler: Total: 0.000ms
+Application.AssetDatabase Initial Script Refresh End
+Application.AssetDatabase.Refresh Start
+Application.AssetDatabase.Refresh End
+RefreshInfo: StopAssetImportingV2(ForceSynchronousImport) scanfilter: 
+RefreshProfiler: Total: 0.000ms
+Launching external process: /Applications/Unity/Hub/Editor/2020.3.26f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.02 seconds
+Initializing Unity extensions:
+[C# Project] Writing /Users/derinyilmaz/Desktop/RestorationsOfEldya/Restorations of Eldya/Restorations of Eldya.sln because it has changed
+[C# Project] First difference on line 4
+
+[C# Project] Current /Users/derinyilmaz/Desktop/RestorationsOfEldya/Restorations of Eldya/Restorations of Eldya.sln:
+[C# Project]   004: Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{1D4B476B-CDA9-3C01-E95B-FB6A9D62786D}"
+[C# Project]   005: EndProject
+[C# Project]   006: Global
+[C# Project]   007: 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+[C# Project]   008: 		Debug|Any CPU = Debug|Any CPU
+
+[C# Project] New /Users/derinyilmaz/Desktop/RestorationsOfEldya/Restorations of Eldya/Restorations of Eldya.sln:
+[C# Project]   004: Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnityEngine.TestRunner", "UnityEngine.TestRunner.csproj", "{769E280A-4D03-9FBA-A547-75D251C1C004}"
+[C# Project]   005: EndProject
+[C# Project]   006: Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnityEngine.UI.Tests", "UnityEngine.UI.Tests.csproj", "{C8BF79C0-90BB-E471-50D3-5D926FE14D85}"
+[C# Project]   007: EndProject
+[C# Project]   008: Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.Timeline", "Unity.Timeline.csproj", "{F0C87D11-A5D2-A9CB-7AA8-564369A9B367}"
+[C# Project] Writing /Users/derinyilmaz/Desktop/RestorationsOfEldya/Restorations of Eldya/UnityEngine.TestRunner.csproj because it has changed
+[C# Project] First difference on line 5
+
+[C# Project] Current /Users/derinyilmaz/Desktop/RestorationsOfEldya/Restorations of Eldya/UnityEngine.TestRunner.csproj:
+[C# Project]   005:   </PropertyGroup>
+[C# Project]   006:   <PropertyGroup>
+[C# Project]   007:     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+[C# Project]   008:     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+[C# Project]   009:     <ProductVersion>10.0.20506</ProductVersion>
+
+[C# Project] New /Users/derinyilmaz/Desktop/RestorationsOfEldya/Restorations of Eldya/UnityEngine.TestRunner.csproj:
+[C# Project]   005:     <CscToolPath>/Applications/Unity/Hub/Editor/2020.3.26f1/Unity.app/Contents/Tools/RoslynScripts</CscToolPath>
+[C# Project]   006:     <CscToolExe>unity_csc.sh</CscToolExe>
+[C# Project]   007:   </PropertyGroup>
+[C# Project]   008:   <PropertyGroup>
+[C# Project]   009:     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+[C# Project] Writing /Users/derinyilmaz/Desktop/RestorationsOfEldya/Restorations of Eldya/Unity.Timeline.csproj because it has changed
+[C# Project] First difference on line 5
+
+[C# Project] Current /Users/derinyilmaz/Desktop/RestorationsOfEldya/Restorations of Eldya/Unity.Timeline.csproj:
+[C# Project]   005:   </PropertyGroup>
+[C# Project]   006:   <PropertyGroup>
+[C# Project]   007:     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+[C# Project]   008:     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+[C# Project]   009:     <ProductVersion>10.0.20506</ProductVersion>
+
+[C# Project] New /Users/derinyilmaz/Desktop/RestorationsOfEldya/Restorations of Eldya/Unity.Timeline.csproj:
+[C# Project]   005:     <CscToolPath>/Applications/Unity/Hub/Editor/2020.3.26f1/Unity.app/Contents/Tools/RoslynScripts</CscToolPath>
+[C# Project]   006:     <CscToolExe>unity_csc.sh</CscToolExe>
+[C# Project]   007:   </PropertyGroup>
+[C# Project]   008:   <PropertyGroup>
+[C# Project]   009:     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+[C# Project] Writing /Users/derinyilmaz/Desktop/RestorationsOfEldya/Restorations of Eldya/UnityEngine.UI.csproj because it has changed
+[C# Project] First difference on line 5
+
+[C# Project] Current /Users/derinyilmaz/Desktop/RestorationsOfEldya/Restorations of Eldya/UnityEngine.UI.csproj:
+[C# Project]   005:   </PropertyGroup>
+[C# Project]   006:   <PropertyGroup>
+[C# Project]   007:     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+[C# Project]   008:     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+[C# Project]   009:     <ProductVersion>10.0.20506</ProductVersion>
+
+[C# Project] New /Users/derinyilmaz/Desktop/RestorationsOfEldya/Restorations of Eldya/UnityEngine.UI.csproj:
+[C# Project]   005:     <CscToolPath>/Applications/Unity/Hub/Editor/2020.3.26f1/Unity.app/Contents/Tools/RoslynScripts</CscToolPath>
+[C# Project]   006:     <CscToolExe>unity_csc.sh</CscToolExe>
+[C# Project]   007:   </PropertyGroup>
+[C# Project]   008:   <PropertyGroup>
+[C# Project]   009:     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+[C# Project] Writing /Users/derinyilmaz/Desktop/RestorationsOfEldya/Restorations of Eldya/Unity.TextMeshPro.csproj because it has changed
+[C# Project] First difference on line 5
+
+[C# Project] Current /Users/derinyilmaz/Desktop/RestorationsOfEldya/Restorations of Eldya/Unity.TextMeshPro.csproj:
+[C# Project]   005:   </PropertyGroup>
+[C# Project]   006:   <PropertyGroup>
+[C# Project]   007:     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+[C# Project]   008:     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+[C# Project]   009:     <ProductVersion>10.0.20506</ProductVersion>
+
+[C# Project] New /Users/derinyilmaz/Desktop/RestorationsOfEldya/Restorations of Eldya/Unity.TextMeshPro.csproj:
+[C# Project]   005:     <CscToolPath>/Applications/Unity/Hub/Editor/2020.3.26f1/Unity.app/Contents/Tools/RoslynScripts</CscToolPath>
+[C# Project]   006:     <CscToolExe>unity_csc.sh</CscToolExe>
+[C# Project]   007:   </PropertyGroup>
+[C# Project]   008:   <PropertyGroup>
+[C# Project]   009:     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+[C# Project] Writing /Users/derinyilmaz/Desktop/RestorationsOfEldya/Restorations of Eldya/Assembly-CSharp.csproj because it has changed
+[C# Project] First difference on line 625
+
+[C# Project] Current /Users/derinyilmaz/Desktop/RestorationsOfEldya/Restorations of Eldya/Assembly-CSharp.csproj:
+[C# Project]   625:  <Reference Include="Unity.VSCode.Editor">
+[C# Project]   626:  <HintPath>/Users/derinyilmaz/Desktop/RestorationsOfEldya/Restorations of Eldya/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+[C# Project]   627:  </Reference>
+[C# Project]   628:  <Reference Include="Unity.TextMeshPro.Editor">
+[C# Project]   629:  <HintPath>/Users/derinyilmaz/Desktop/RestorationsOfEldya/Restorations of Eldya/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+
+[C# Project] New /Users/derinyilmaz/Desktop/RestorationsOfEldya/Restorations of Eldya/Assembly-CSharp.csproj:
+[C# Project]   625:   </ItemGroup>
+[C# Project]   626:   <ItemGroup>
+[C# Project]   627:     <ProjectReference Include="Unity.VSCode.Editor.csproj">
+[C# Project]   628:       <Project>{7077F7D5-0F44-E8FD-9B29-A63F27A58535}</Project>
+[C# Project]   629:       <Name>Unity.VSCode.Editor</Name>
+[C# Project] Writing /Users/derinyilmaz/Desktop/RestorationsOfEldya/Restorations of Eldya/UnityEditor.TestRunner.csproj because it has changed
+[C# Project] First difference on line 5
+
+[C# Project] Current /Users/derinyilmaz/Desktop/RestorationsOfEldya/Restorations of Eldya/UnityEditor.TestRunner.csproj:
+[C# Project]   005:   </PropertyGroup>
+[C# Project]   006:   <PropertyGroup>
+[C# Project]   007:     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+[C# Project]   008:     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+[C# Project]   009:     <ProductVersion>10.0.20506</ProductVersion>
+
+[C# Project] New /Users/derinyilmaz/Desktop/RestorationsOfEldya/Restorations of Eldya/UnityEditor.TestRunner.csproj:
+[C# Project]   005:     <CscToolPath>/Applications/Unity/Hub/Editor/2020.3.26f1/Unity.app/Contents/Tools/RoslynScripts</CscToolPath>
+[C# Project]   006:     <CscToolExe>unity_csc.sh</CscToolExe>
+[C# Project]   007:   </PropertyGroup>
+[C# Project]   008:   <PropertyGroup>
+[C# Project]   009:     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+[C# Project] Writing /Users/derinyilmaz/Desktop/RestorationsOfEldya/Restorations of Eldya/Unity.PlasticSCM.Editor.csproj because it has changed
+[C# Project] First difference on line 5
+
+[C# Project] Current /Users/derinyilmaz/Desktop/RestorationsOfEldya/Restorations of Eldya/Unity.PlasticSCM.Editor.csproj:
+[C# Project]   005:   </PropertyGroup>
+[C# Project]   006:   <PropertyGroup>
+[C# Project]   007:     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+[C# Project]   008:     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+[C# Project]   009:     <ProductVersion>10.0.20506</ProductVersion>
+
+[C# Project] New /Users/derinyilmaz/Desktop/RestorationsOfEldya/Restorations of Eldya/Unity.PlasticSCM.Editor.csproj:
+[C# Project]   005:     <CscToolPath>/Applications/Unity/Hub/Editor/2020.3.26f1/Unity.app/Contents/Tools/RoslynScripts</CscToolPath>
+[C# Project]   006:     <CscToolExe>unity_csc.sh</CscToolExe>
+[C# Project]   007:   </PropertyGroup>
+[C# Project]   008:   <PropertyGroup>
+[C# Project]   009:     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+[C# Project] Writing /Users/derinyilmaz/Desktop/RestorationsOfEldya/Restorations of Eldya/UnityEditor.UI.csproj because it has changed
+[C# Project] First difference on line 5
+
+[C# Project] Current /Users/derinyilmaz/Desktop/RestorationsOfEldya/Restorations of Eldya/UnityEditor.UI.csproj:
+[C# Project]   005:   </PropertyGroup>
+[C# Project]   006:   <PropertyGroup>
+[C# Project]   007:     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+[C# Project]   008:     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+[C# Project]   009:     <ProductVersion>10.0.20506</ProductVersion>
+
+[C# Project] New /Users/derinyilmaz/Desktop/RestorationsOfEldya/Restorations of Eldya/UnityEditor.UI.csproj:
+[C# Project]   005:     <CscToolPath>/Applications/Unity/Hub/Editor/2020.3.26f1/Unity.app/Contents/Tools/RoslynScripts</CscToolPath>
+[C# Project]   006:     <CscToolExe>unity_csc.sh</CscToolExe>
+[C# Project]   007:   </PropertyGroup>
+[C# Project]   008:   <PropertyGroup>
+[C# Project]   009:     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+[C# Project] Writing /Users/derinyilmaz/Desktop/RestorationsOfEldya/Restorations of Eldya/Unity.Services.Core.Editor.csproj because it has changed
+[C# Project] First difference on line 5
+
+[C# Project] Current /Users/derinyilmaz/Desktop/RestorationsOfEldya/Restorations of Eldya/Unity.Services.Core.Editor.csproj:
+[C# Project]   005:   </PropertyGroup>
+[C# Project]   006:   <PropertyGroup>
+[C# Project]   007:     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+[C# Project]   008:     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+[C# Project]   009:     <ProductVersion>10.0.20506</ProductVersion>
+
+[C# Project] New /Users/derinyilmaz/Desktop/RestorationsOfEldya/Restorations of Eldya/Unity.Services.Core.Editor.csproj:
+[C# Project]   005:     <CscToolPath>/Applications/Unity/Hub/Editor/2020.3.26f1/Unity.app/Contents/Tools/RoslynScripts</CscToolPath>
+[C# Project]   006:     <CscToolExe>unity_csc.sh</CscToolExe>
+[C# Project]   007:   </PropertyGroup>
+[C# Project]   008:   <PropertyGroup>
+[C# Project]   009:     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+[C# Project] Writing /Users/derinyilmaz/Desktop/RestorationsOfEldya/Restorations of Eldya/Unity.Timeline.Editor.csproj because it has changed
+[C# Project] First difference on line 5
+
+[C# Project] Current /Users/derinyilmaz/Desktop/RestorationsOfEldya/Restorations of Eldya/Unity.Timeline.Editor.csproj:
+[C# Project]   005:   </PropertyGroup>
+[C# Project]   006:   <PropertyGroup>
+[C# Project]   007:     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+[C# Project]   008:     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+[C# Project]   009:     <ProductVersion>10.0.20506</ProductVersion>
+
+[C# Project] New /Users/derinyilmaz/Desktop/RestorationsOfEldya/Restorations of Eldya/Unity.Timeline.Editor.csproj:
+[C# Project]   005:     <CscToolPath>/Applications/Unity/Hub/Editor/2020.3.26f1/Unity.app/Contents/Tools/RoslynScripts</CscToolPath>
+[C# Project]   006:     <CscToolExe>unity_csc.sh</CscToolExe>
+[C# Project]   007:   </PropertyGroup>
+[C# Project]   008:   <PropertyGroup>
+[C# Project]   009:     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+[C# Project] Writing /Users/derinyilmaz/Desktop/RestorationsOfEldya/Restorations of Eldya/Unity.VisualStudio.Editor.csproj because it has changed
+[C# Project] First difference on line 5
+
+[C# Project] Current /Users/derinyilmaz/Desktop/RestorationsOfEldya/Restorations of Eldya/Unity.VisualStudio.Editor.csproj:
+[C# Project]   005:   </PropertyGroup>
+[C# Project]   006:   <PropertyGroup>
+[C# Project]   007:     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+[C# Project]   008:     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+[C# Project]   009:     <ProductVersion>10.0.20506</ProductVersion>
+
+[C# Project] New /Users/derinyilmaz/Desktop/RestorationsOfEldya/Restorations of Eldya/Unity.VisualStudio.Editor.csproj:
+[C# Project]   005:     <CscToolPath>/Applications/Unity/Hub/Editor/2020.3.26f1/Unity.app/Contents/Tools/RoslynScripts</CscToolPath>
+[C# Project]   006:     <CscToolExe>unity_csc.sh</CscToolExe>
+[C# Project]   007:   </PropertyGroup>
+[C# Project]   008:   <PropertyGroup>
+[C# Project]   009:     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+[C# Project] Writing /Users/derinyilmaz/Desktop/RestorationsOfEldya/Restorations of Eldya/Unity.TextMeshPro.Editor.csproj because it has changed
+[C# Project] First difference on line 5
+
+[C# Project] Current /Users/derinyilmaz/Desktop/RestorationsOfEldya/Restorations of Eldya/Unity.TextMeshPro.Editor.csproj:
+[C# Project]   005:   </PropertyGroup>
+[C# Project]   006:   <PropertyGroup>
+[C# Project]   007:     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+[C# Project]   008:     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+[C# Project]   009:     <ProductVersion>10.0.20506</ProductVersion>
+
+[C# Project] New /Users/derinyilmaz/Desktop/RestorationsOfEldya/Restorations of Eldya/Unity.TextMeshPro.Editor.csproj:
+[C# Project]   005:     <CscToolPath>/Applications/Unity/Hub/Editor/2020.3.26f1/Unity.app/Contents/Tools/RoslynScripts</CscToolPath>
+[C# Project]   006:     <CscToolExe>unity_csc.sh</CscToolExe>
+[C# Project]   007:   </PropertyGroup>
+[C# Project]   008:   <PropertyGroup>
+[C# Project]   009:     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+[C# Project] Writing /Users/derinyilmaz/Desktop/RestorationsOfEldya/Restorations of Eldya/Unity.CollabProxy.Editor.csproj because it has changed
+[C# Project] First difference on line 5
+
+[C# Project] Current /Users/derinyilmaz/Desktop/RestorationsOfEldya/Restorations of Eldya/Unity.CollabProxy.Editor.csproj:
+[C# Project]   005:   </PropertyGroup>
+[C# Project]   006:   <PropertyGroup>
+[C# Project]   007:     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+[C# Project]   008:     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+[C# Project]   009:     <ProductVersion>10.0.20506</ProductVersion>
+
+[C# Project] New /Users/derinyilmaz/Desktop/RestorationsOfEldya/Restorations of Eldya/Unity.CollabProxy.Editor.csproj:
+[C# Project]   005:     <CscToolPath>/Applications/Unity/Hub/Editor/2020.3.26f1/Unity.app/Contents/Tools/RoslynScripts</CscToolPath>
+[C# Project]   006:     <CscToolExe>unity_csc.sh</CscToolExe>
+[C# Project]   007:   </PropertyGroup>
+[C# Project]   008:   <PropertyGroup>
+[C# Project]   009:     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+[C# Project] Writing /Users/derinyilmaz/Desktop/RestorationsOfEldya/Restorations of Eldya/Unity.Rider.Editor.csproj because it has changed
+[C# Project] First difference on line 5
+
+[C# Project] Current /Users/derinyilmaz/Desktop/RestorationsOfEldya/Restorations of Eldya/Unity.Rider.Editor.csproj:
+[C# Project]   005:   </PropertyGroup>
+[C# Project]   006:   <PropertyGroup>
+[C# Project]   007:     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+[C# Project]   008:     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+[C# Project]   009:     <ProductVersion>10.0.20506</ProductVersion>
+
+[C# Project] New /Users/derinyilmaz/Desktop/RestorationsOfEldya/Restorations of Eldya/Unity.Rider.Editor.csproj:
+[C# Project]   005:     <CscToolPath>/Applications/Unity/Hub/Editor/2020.3.26f1/Unity.app/Contents/Tools/RoslynScripts</CscToolPath>
+[C# Project]   006:     <CscToolExe>unity_csc.sh</CscToolExe>
+[C# Project]   007:   </PropertyGroup>
+[C# Project]   008:   <PropertyGroup>
+[C# Project]   009:     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+[C# Project] Writing /Users/derinyilmaz/Desktop/RestorationsOfEldya/Restorations of Eldya/Unity.VSCode.Editor.csproj because it has changed
+[C# Project] First difference on line 5
+
+[C# Project] Current /Users/derinyilmaz/Desktop/RestorationsOfEldya/Restorations of Eldya/Unity.VSCode.Editor.csproj:
+[C# Project]   005:   </PropertyGroup>
+[C# Project]   006:   <PropertyGroup>
+[C# Project]   007:     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+[C# Project]   008:     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+[C# Project]   009:     <ProductVersion>10.0.20506</ProductVersion>
+
+[C# Project] New /Users/derinyilmaz/Desktop/RestorationsOfEldya/Restorations of Eldya/Unity.VSCode.Editor.csproj:
+[C# Project]   005:     <CscToolPath>/Applications/Unity/Hub/Editor/2020.3.26f1/Unity.app/Contents/Tools/RoslynScripts</CscToolPath>
+[C# Project]   006:     <CscToolExe>unity_csc.sh</CscToolExe>
+[C# Project]   007:   </PropertyGroup>
+[C# Project]   008:   <PropertyGroup>
+[C# Project]   009:     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
-Refreshing native plugins compatible for Editor in 0.41 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.21 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1504 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 68.8 MB.
-System memory in use after: 68.9 MB.
+Unloading 1539 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 161.8 MB.
+System memory in use after: 161.0 MB.
 
-Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 1936.
-Total: 3.224300 ms (FindLiveObjects: 0.158000 ms CreateObjectMapping: 0.059900 ms MarkObjects: 2.936800 ms  DeleteObjects: 0.068600 ms)
+Unloading 81 unused Assets to reduce memory usage. Loaded Objects now: 2010.
+Total: 2.575958 ms (FindLiveObjects: 0.095792 ms CreateObjectMapping: 0.029875 ms MarkObjects: 2.055833 ms  DeleteObjects: 0.393583 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/Scripts
-  artifactKey: Guid(8b0eb93e52b883d44b9e5a54ef36aedb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts using Guid(8b0eb93e52b883d44b9e5a54ef36aedb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c01b3ca080f2fc8d78524d623241095') in 0.005792 seconds 
-  Import took 0.008452 seconds .
+  path: Assets/_Sprites/PSP - Lunar Silver Star Harmony - Dark Sorcerer.png
+  artifactKey: Guid(423dfa328efea413ab55c8cdd9463d7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Sprites/PSP - Lunar Silver Star Harmony - Dark Sorcerer.png using Guid(423dfa328efea413ab55c8cdd9463d7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b86709dbf36518c8886d6bfb040137d1') in 0.612337 seconds 
+  Import took 0.618004 seconds .
 
-========================================================================
-Received Import Request.
-  Time since last request: 0.428885 seconds.
-  path: Assets/__Scripts
-  artifactKey: Guid(8b0eb93e52b883d44b9e5a54ef36aedb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/__Scripts using Guid(8b0eb93e52b883d44b9e5a54ef36aedb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4838172ff8203a47bfd30a087ec6044e') in 0.004218 seconds 
-  Import took 0.007284 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.034793 seconds.
-  path: Assets/Materials
-  artifactKey: Guid(1f82a07df42d9524dadeb6b7933884ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials using Guid(1f82a07df42d9524dadeb6b7933884ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2dd341cefb69aeaaf2bc65dab6f6446a') in 0.004060 seconds 
-  Import took 0.007189 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.936811 seconds.
-  path: Assets/_Materials
-  artifactKey: Guid(1f82a07df42d9524dadeb6b7933884ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Materials using Guid(1f82a07df42d9524dadeb6b7933884ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4499432ae64517f27372786d916ff0d0') in 0.004382 seconds 
-  Import took 0.007514 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.955693 seconds.
-  path: Assets/Scenes
-  artifactKey: Guid(83898caba5128c544b3cc5c3c4069676) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes using Guid(83898caba5128c544b3cc5c3c4069676) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdbf30988e4e4a06aa7a2d971f15cca2') in 0.003924 seconds 
-  Import took 0.007005 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.190111 seconds.
-  path: Assets/_Scenes
-  artifactKey: Guid(83898caba5128c544b3cc5c3c4069676) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Scenes using Guid(83898caba5128c544b3cc5c3c4069676) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '853deb01dba3018a909174f4558f397f') in 0.004283 seconds 
-  Import took 0.007363 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.004890 seconds.
-  path: Assets/Cainos
-  artifactKey: Guid(4a8b4431142f7104d9d977dff0c6d740) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cainos using Guid(4a8b4431142f7104d9d977dff0c6d740) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a80162e67bcdb2e34cfc7c7c4dbfcd01') in 0.011536 seconds 
-  Import took 0.019637 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.948077 seconds.
-  path: Assets/Free Pixel Art Forest
-  artifactKey: Guid(b01ad7818186a734283da832d6058e95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Free Pixel Art Forest using Guid(b01ad7818186a734283da832d6058e95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e135c373d04cd2940f87cdb9c17def7') in 0.005691 seconds 
-  Import took 0.009692 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 42.985883 seconds.
-  path: Assets/_Backgrounds
-  artifactKey: Guid(eec7d65f11734c74aaa3c3fdd8b69e1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Backgrounds using Guid(eec7d65f11734c74aaa3c3fdd8b69e1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abbe7a4b56fd1e02081d8b756bf13043') in 0.004643 seconds 
-  Import took 0.008049 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.007082 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.38 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.177 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1177ms)
-		BeginReloadAssembly (154ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (38ms)
-		EndReloadAssembly (936ms)
-			LoadAssemblies (126ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (317ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (42ms)
-			SetupLoadedEditorAssemblies (332ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (7ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (62ms)
-				ProcessInitializeOnLoadAttributes (239ms)
-				ProcessInitializeOnLoadMethodAttributes (12ms)
-				AfterProcessingInitializeOnLoad (11ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (11ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.66 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1498 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 68.7 MB.
-System memory in use after: 68.8 MB.
-
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1938.
-Total: 2.976400 ms (FindLiveObjects: 0.146000 ms CreateObjectMapping: 0.056900 ms MarkObjects: 2.756300 ms  DeleteObjects: 0.016400 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 15.516634 seconds.
-  path: Assets/_Materials/New Folder
-  artifactKey: Guid(4dc9de9c1a994cf4bac8bfd14d929f26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Materials/New Folder using Guid(4dc9de9c1a994cf4bac8bfd14d929f26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '254c61c3673117f4d28b5f8be88df3bd') in 0.006908 seconds 
-  Import took 0.010238 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 13.904239 seconds.
-  path: Assets/_Sprites
-  artifactKey: Guid(ab4a736d55844ac41bcee287e757ae13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Sprites using Guid(ab4a736d55844ac41bcee287e757ae13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c26428269331b32d8e15ad371411b5f2') in 0.004491 seconds 
-  Import took 0.007697 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 8.135584 seconds.
-  path: Assets/_Animations
-  artifactKey: Guid(ee944554baf2f3e4c842fcb6d8a6a029) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Animations using Guid(ee944554baf2f3e4c842fcb6d8a6a029) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba3cb2041ca1159318688b7bab9012dd') in 0.004390 seconds 
-  Import took 0.007583 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 15.506140 seconds.
-  path: Assets/_Prefabs
-  artifactKey: Guid(43c05ce645db57a4ebfba3d2e3e0309a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Prefabs using Guid(43c05ce645db57a4ebfba3d2e3e0309a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bd6276366542bb807f099796a4fa14f') in 0.004694 seconds 
-  Import took 0.008049 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 43.212497 seconds.
-  path: Assets/_Sprites/FireMinion.png
-  artifactKey: Guid(c97c9f8df6116f940bfff6fc7f946482) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Sprites/FireMinion.png using Guid(c97c9f8df6116f940bfff6fc7f946482) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2315238da94e9c95f5fc5bbf47bb166') in 0.213734 seconds 
-  Import took 0.217222 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.267551 seconds.
-  path: Assets/_Sprites/Scenes
-  artifactKey: Guid(f90c80a293d134847b5fa8fa5fbe7be3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Sprites/Scenes using Guid(f90c80a293d134847b5fa8fa5fbe7be3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5f1adea3e50b015b79261b9bb9fe7d2') in 0.004107 seconds 
-  Import took 0.007439 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.006924 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.44 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.332 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1333ms)
-		BeginReloadAssembly (147ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (37ms)
-		EndReloadAssembly (1096ms)
-			LoadAssemblies (130ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (439ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (51ms)
-			SetupLoadedEditorAssemblies (363ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (7ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (74ms)
-				ProcessInitializeOnLoadAttributes (254ms)
-				ProcessInitializeOnLoadMethodAttributes (12ms)
-				AfterProcessingInitializeOnLoad (14ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (13ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.39 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1532 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 72.9 MB.
-System memory in use after: 73.0 MB.
-
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1981.
-Total: 2.991600 ms (FindLiveObjects: 0.134800 ms CreateObjectMapping: 0.053100 ms MarkObjects: 2.787600 ms  DeleteObjects: 0.015200 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-AssetImportWorkerClient::OnTransportError - code=2 error=End of file
