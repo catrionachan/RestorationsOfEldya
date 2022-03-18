@@ -56,6 +56,7 @@
     <Compile Include="Assets\Free Pixel Art Forest\Demo\MoveBackground.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Assets\Cainos\Pixel Art Platformer - Village Props\Changelog.txt" />
     <None Include="Assets\Free Pixel Art Forest\Contact.txt" />
     <None Include="Assets\Free Pixel Art Forest\Lisense.txt" />
     <None Include="Assets\Free Pixel Art Forest\readme.txt" />
