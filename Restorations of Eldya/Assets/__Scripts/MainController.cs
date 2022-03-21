@@ -36,7 +36,7 @@ public class MainController : MonoBehaviour
         //finds the minimum and maximum x position value to have the enemy within the screen
         //sets a random x position between the minimum and maximum x values
        
-        positioning.y = -0.1f;
+        positioning.y = 0f;
         positioning.x = 5;
         //set y position above the screen
         enemy.transform.position = positioning;
