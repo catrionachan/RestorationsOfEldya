@@ -8,19 +8,8 @@ public class FireBallMover : MonoBehaviour
     [Header("Set in Inspector")]
     public float speed = 2f; //speed in m/s
 
-    [HideInInspector]
-    //variable for BoundsCheck
-    public BoundsCheck bndCheck;
-
     private int fireSpawn;
-    private int counter = 0;
-    //public Animator animatorController;
-    //Awake method that gets the Components of BoundsCheck
-    void Awake()
-    {
-        bndCheck = GetComponent<BoundsCheck>();
-    }
-
+      
     //Property of the Vector3 representing the position of the object
     public Vector3 pos
     {
@@ -59,7 +48,7 @@ public class FireBallMover : MonoBehaviour
     public virtual void CheckBounds()
     {
         ////if the enemy object is off the screen at the bottom, it destroys the object
-        //if (bndCheck != null && pos.x=-3)
+        
 
         if (pos.x <= -5)
         {

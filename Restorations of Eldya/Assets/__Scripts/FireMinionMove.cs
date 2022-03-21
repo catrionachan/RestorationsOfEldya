@@ -14,6 +14,7 @@ public class FireMinionMove : MonoBehaviour
 
     private int fireSpawn;
     private int counter = 0;
+    public GameObject fireball;
     //public Animator animatorController;
     //Awake method that gets the Components of BoundsCheck
     void Awake()
@@ -37,23 +38,24 @@ public class FireMinionMove : MonoBehaviour
     //
     void Start()
     {
-        float randNum = Random.Range(300f, 700f);
-        fireSpawn = (int)randNum;
-        //animatorController = GetComponent<animatorController>();
+       //animatorController = GetComponent<animatorController>();
     }
     // Update is called once per frame
     void Update()
     {
         Move(); //calls move method 
         counter++;
-        if (counter == fireSpawn)
+        if (counter == 2000 && bndCheck!=null)
         {
             //animatorController.SetBool("isAttack", true);
             counter = 0;
+            GameObject fire = Instantiate<GameObject>(fireball);
+            Vector3 tempPos = pos;
+            tempPos.x = (float) pos.x - 0.2f;
+            tempPos.y = (float)pos.y - 0.15f;
+            fire.transform.position = tempPos;
         }
-        else if (counter == 200) {
-            //animatorController.SetBool("isAttack", false);
-        }
+        
         CheckBounds(); //checks if enemy is within the bounds of the screen
     }
 

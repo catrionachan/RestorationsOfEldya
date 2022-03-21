@@ -169,6 +169,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 1
   bndCheck: {fileID: 0}
+  fireball: {fileID: 5797188998105044971, guid: 6a642912ecaebba48ac0933620c4cb78, type: 3}
 --- !u!114 &7773380130732541699
 MonoBehaviour:
   m_ObjectHideFlags: 0
