@@ -143,7 +143,6 @@ GameObject:
   m_Component:
   - component: {fileID: 32703827}
   - component: {fileID: 32703826}
-  - component: {fileID: 32703825}
   m_Layer: 0
   m_Name: Layer_0000_9 (8)
   m_TagString: Untagged
@@ -151,21 +150,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &32703825
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 32703824}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6e9e32b7281e96947899f72129830dbf, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: -1.2
-  PontoDeDestino: -8.56
-  PontoOriginal: 9
 --- !u!212 &32703826
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -241,7 +225,6 @@ GameObject:
   m_Component:
   - component: {fileID: 40759711}
   - component: {fileID: 40759710}
-  - component: {fileID: 40759709}
   m_Layer: 0
   m_Name: Layer_0000_9 (5)
   m_TagString: Untagged
@@ -249,21 +232,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &40759709
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 40759708}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6e9e32b7281e96947899f72129830dbf, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: -1.2
-  PontoDeDestino: -8.56
-  PontoOriginal: 9
 --- !u!212 &40759710
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -339,7 +307,6 @@ GameObject:
   m_Component:
   - component: {fileID: 79765108}
   - component: {fileID: 79765107}
-  - component: {fileID: 79765106}
   m_Layer: 0
   m_Name: Layer_0002_7 (2)
   m_TagString: Untagged
@@ -347,21 +314,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &79765106
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 79765105}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6e9e32b7281e96947899f72129830dbf, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: -1
-  PontoDeDestino: -8.56
-  PontoOriginal: 9
 --- !u!212 &79765107
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -519,7 +471,6 @@ GameObject:
   m_Component:
   - component: {fileID: 115770979}
   - component: {fileID: 115770978}
-  - component: {fileID: 115770977}
   m_Layer: 0
   m_Name: Layer_0004_Lights (5)
   m_TagString: Untagged
@@ -527,21 +478,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &115770977
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 115770976}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6e9e32b7281e96947899f72129830dbf, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: -0.8
-  PontoDeDestino: -8.56
-  PontoOriginal: 9
 --- !u!212 &115770978
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -617,7 +553,6 @@ GameObject:
   m_Component:
   - component: {fileID: 128540311}
   - component: {fileID: 128540310}
-  - component: {fileID: 128540309}
   m_Layer: 0
   m_Name: Layer_0002_7 (6)
   m_TagString: Untagged
@@ -625,21 +560,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &128540309
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 128540308}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6e9e32b7281e96947899f72129830dbf, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: -1
-  PontoDeDestino: -8.56
-  PontoOriginal: 9
 --- !u!212 &128540310
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -797,7 +717,6 @@ GameObject:
   m_Component:
   - component: {fileID: 232002389}
   - component: {fileID: 232002388}
-  - component: {fileID: 232002387}
   m_Layer: 0
   m_Name: Layer_0002_7 (7)
   m_TagString: Untagged
@@ -805,21 +724,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &232002387
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 232002386}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6e9e32b7281e96947899f72129830dbf, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: -1
-  PontoDeDestino: -8.56
-  PontoOriginal: 9
 --- !u!212 &232002388
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1059,7 +963,6 @@ GameObject:
   m_Component:
   - component: {fileID: 296602759}
   - component: {fileID: 296602758}
-  - component: {fileID: 296602757}
   m_Layer: 0
   m_Name: Layer_0002_7
   m_TagString: Untagged
@@ -1067,21 +970,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &296602757
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 296602756}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6e9e32b7281e96947899f72129830dbf, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: -1
-  PontoDeDestino: -8.56
-  PontoOriginal: 9
 --- !u!212 &296602758
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1162,7 +1050,6 @@ GameObject:
   m_Component:
   - component: {fileID: 326182009}
   - component: {fileID: 326182008}
-  - component: {fileID: 326182007}
   m_Layer: 0
   m_Name: Layer_0000_9 (7)
   m_TagString: Untagged
@@ -1170,21 +1057,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &326182007
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 326182006}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6e9e32b7281e96947899f72129830dbf, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: -1.2
-  PontoDeDestino: -8.56
-  PontoOriginal: 9
 --- !u!212 &326182008
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1317,7 +1189,6 @@ GameObject:
   m_Component:
   - component: {fileID: 375862875}
   - component: {fileID: 375862874}
-  - component: {fileID: 375862873}
   m_Layer: 0
   m_Name: Layer_0006_4 (6)
   m_TagString: Untagged
@@ -1325,21 +1196,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &375862873
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 375862872}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6e9e32b7281e96947899f72129830dbf, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: -0.5
-  PontoDeDestino: -8.56
-  PontoOriginal: 9.5
 --- !u!212 &375862874
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1415,7 +1271,6 @@ GameObject:
   m_Component:
   - component: {fileID: 401127865}
   - component: {fileID: 401127864}
-  - component: {fileID: 401127863}
   m_Layer: 0
   m_Name: Layer_0007_Lights (1)
   m_TagString: Untagged
@@ -1423,21 +1278,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &401127863
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 401127862}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6e9e32b7281e96947899f72129830dbf, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: -0.35
-  PontoDeDestino: -8.56
-  PontoOriginal: 9.5
 --- !u!212 &401127864
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1591,7 +1431,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 421521272}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.21, y: 0, z: -3}
+  m_LocalPosition: {x: 0.6, y: 0, z: -3}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -1644,7 +1484,6 @@ GameObject:
   m_Component:
   - component: {fileID: 431096726}
   - component: {fileID: 431096725}
-  - component: {fileID: 431096724}
   m_Layer: 0
   m_Name: Layer_0000_9 (4)
   m_TagString: Untagged
@@ -1652,21 +1491,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &431096724
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 431096723}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6e9e32b7281e96947899f72129830dbf, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: -1.2
-  PontoDeDestino: -8.56
-  PontoOriginal: 9
 --- !u!212 &431096725
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1772,7 +1596,6 @@ GameObject:
   m_Component:
   - component: {fileID: 440865415}
   - component: {fileID: 440865414}
-  - component: {fileID: 440865413}
   m_Layer: 0
   m_Name: Layer_0006_4 (2)
   m_TagString: Untagged
@@ -1780,21 +1603,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &440865413
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 440865412}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6e9e32b7281e96947899f72129830dbf, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: -0.5
-  PontoDeDestino: -8.56
-  PontoOriginal: 9.5
 --- !u!212 &440865414
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2066,7 +1874,6 @@ GameObject:
   m_Component:
   - component: {fileID: 474811800}
   - component: {fileID: 474811799}
-  - component: {fileID: 474811798}
   m_Layer: 0
   m_Name: Layer_0007_Lights
   m_TagString: Untagged
@@ -2074,21 +1881,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &474811798
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 474811797}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6e9e32b7281e96947899f72129830dbf, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: -0.35
-  PontoDeDestino: -8.56
-  PontoOriginal: 9.5
 --- !u!212 &474811799
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2164,7 +1956,6 @@ GameObject:
   m_Component:
   - component: {fileID: 483626987}
   - component: {fileID: 483626986}
-  - component: {fileID: 483626985}
   m_Layer: 0
   m_Name: Layer_0002_7 (8)
   m_TagString: Untagged
@@ -2172,21 +1963,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &483626985
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 483626984}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6e9e32b7281e96947899f72129830dbf, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: -1
-  PontoDeDestino: -8.56
-  PontoOriginal: 9
 --- !u!212 &483626986
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2262,7 +2038,6 @@ GameObject:
   m_Component:
   - component: {fileID: 485385115}
   - component: {fileID: 485385114}
-  - component: {fileID: 485385113}
   m_Layer: 0
   m_Name: Layer_0002_7 (5)
   m_TagString: Untagged
@@ -2270,21 +2045,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &485385113
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 485385112}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6e9e32b7281e96947899f72129830dbf, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: -1
-  PontoDeDestino: -8.56
-  PontoOriginal: 9
 --- !u!212 &485385114
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2360,7 +2120,6 @@ GameObject:
   m_Component:
   - component: {fileID: 506980732}
   - component: {fileID: 506980731}
-  - component: {fileID: 506980730}
   m_Layer: 0
   m_Name: Layer_0002_7 (1)
   m_TagString: Untagged
@@ -2368,21 +2127,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &506980730
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 506980729}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6e9e32b7281e96947899f72129830dbf, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: -1
-  PontoDeDestino: -8.56
-  PontoOriginal: 9
 --- !u!212 &506980731
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2691,7 +2435,6 @@ GameObject:
   m_Component:
   - component: {fileID: 534473897}
   - component: {fileID: 534473896}
-  - component: {fileID: 534473895}
   m_Layer: 0
   m_Name: Layer_0004_Lights
   m_TagString: Untagged
@@ -2699,21 +2442,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &534473895
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 534473894}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6e9e32b7281e96947899f72129830dbf, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: -0.8
-  PontoDeDestino: -8.56
-  PontoOriginal: 9
 --- !u!212 &534473896
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2789,7 +2517,6 @@ GameObject:
   m_Component:
   - component: {fileID: 578550811}
   - component: {fileID: 578550810}
-  - component: {fileID: 578550809}
   m_Layer: 0
   m_Name: Layer_0008_3 (9)
   m_TagString: Untagged
@@ -2797,21 +2524,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &578550809
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 578550808}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6e9e32b7281e96947899f72129830dbf, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: -0.2
-  PontoDeDestino: -8.56
-  PontoOriginal: 9.5
 --- !u!212 &578550810
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2887,7 +2599,6 @@ GameObject:
   m_Component:
   - component: {fileID: 599004967}
   - component: {fileID: 599004966}
-  - component: {fileID: 599004965}
   m_Layer: 0
   m_Name: Layer_0008_3 (4)
   m_TagString: Untagged
@@ -2895,21 +2606,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &599004965
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 599004964}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6e9e32b7281e96947899f72129830dbf, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: -0.2
-  PontoDeDestino: -8.56
-  PontoOriginal: 9.5
 --- !u!212 &599004966
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2985,7 +2681,6 @@ GameObject:
   m_Component:
   - component: {fileID: 608370860}
   - component: {fileID: 608370859}
-  - component: {fileID: 608370858}
   m_Layer: 0
   m_Name: Layer_0008_3 (8)
   m_TagString: Untagged
@@ -2993,21 +2688,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &608370858
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 608370857}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6e9e32b7281e96947899f72129830dbf, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: -0.2
-  PontoDeDestino: -8.56
-  PontoOriginal: 9.5
 --- !u!212 &608370859
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3083,7 +2763,6 @@ GameObject:
   m_Component:
   - component: {fileID: 613143550}
   - component: {fileID: 613143549}
-  - component: {fileID: 613143548}
   m_Layer: 0
   m_Name: Layer_0004_Lights (2)
   m_TagString: Untagged
@@ -3091,21 +2770,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &613143548
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 613143547}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6e9e32b7281e96947899f72129830dbf, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: -0.8
-  PontoDeDestino: -8.56
-  PontoOriginal: 9
 --- !u!212 &613143549
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3238,7 +2902,6 @@ GameObject:
   m_Component:
   - component: {fileID: 624072679}
   - component: {fileID: 624072678}
-  - component: {fileID: 624072677}
   m_Layer: 0
   m_Name: Layer_0008_3 (1)
   m_TagString: Untagged
@@ -3246,21 +2909,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &624072677
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 624072676}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6e9e32b7281e96947899f72129830dbf, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: -0.2
-  PontoDeDestino: -8.56
-  PontoOriginal: 9.5
 --- !u!212 &624072678
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3336,7 +2984,6 @@ GameObject:
   m_Component:
   - component: {fileID: 685941614}
   - component: {fileID: 685941613}
-  - component: {fileID: 685941612}
   m_Layer: 0
   m_Name: Layer_0000_9
   m_TagString: Untagged
@@ -3344,21 +2991,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &685941612
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 685941611}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6e9e32b7281e96947899f72129830dbf, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: -1.2
-  PontoDeDestino: -8.56
-  PontoOriginal: 9
 --- !u!212 &685941613
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3532,7 +3164,6 @@ GameObject:
   m_Component:
   - component: {fileID: 710800964}
   - component: {fileID: 710800963}
-  - component: {fileID: 710800962}
   m_Layer: 0
   m_Name: Layer_0008_3 (3)
   m_TagString: Untagged
@@ -3540,21 +3171,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &710800962
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 710800961}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6e9e32b7281e96947899f72129830dbf, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: -0.2
-  PontoDeDestino: -8.56
-  PontoOriginal: 9.5
 --- !u!212 &710800963
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3712,7 +3328,6 @@ GameObject:
   m_Component:
   - component: {fileID: 747222304}
   - component: {fileID: 747222303}
-  - component: {fileID: 747222302}
   m_Layer: 0
   m_Name: Layer_0007_Lights (3)
   m_TagString: Untagged
@@ -3720,21 +3335,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &747222302
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 747222301}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6e9e32b7281e96947899f72129830dbf, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: -0.35
-  PontoDeDestino: -8.56
-  PontoOriginal: 9.5
 --- !u!212 &747222303
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3810,7 +3410,6 @@ GameObject:
   m_Component:
   - component: {fileID: 797618028}
   - component: {fileID: 797618027}
-  - component: {fileID: 797618026}
   m_Layer: 0
   m_Name: Layer_0006_4 (9)
   m_TagString: Untagged
@@ -3818,21 +3417,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &797618026
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 797618025}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6e9e32b7281e96947899f72129830dbf, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: -0.5
-  PontoDeDestino: -8.56
-  PontoOriginal: 9.5
 --- !u!212 &797618027
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3908,7 +3492,6 @@ GameObject:
   m_Component:
   - component: {fileID: 822661112}
   - component: {fileID: 822661111}
-  - component: {fileID: 822661110}
   m_Layer: 0
   m_Name: Layer_0006_4 (5)
   m_TagString: Untagged
@@ -3916,21 +3499,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &822661110
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 822661109}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6e9e32b7281e96947899f72129830dbf, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: -0.5
-  PontoDeDestino: -8.56
-  PontoOriginal: 9.5
 --- !u!212 &822661111
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -4006,7 +3574,6 @@ GameObject:
   m_Component:
   - component: {fileID: 829035506}
   - component: {fileID: 829035505}
-  - component: {fileID: 829035504}
   m_Layer: 0
   m_Name: Layer_0004_Lights (4)
   m_TagString: Untagged
@@ -4014,21 +3581,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &829035504
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 829035503}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6e9e32b7281e96947899f72129830dbf, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: -0.8
-  PontoDeDestino: -8.56
-  PontoOriginal: 9
 --- !u!212 &829035505
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -4104,7 +3656,6 @@ GameObject:
   m_Component:
   - component: {fileID: 830752482}
   - component: {fileID: 830752481}
-  - component: {fileID: 830752480}
   m_Layer: 0
   m_Name: Layer_0007_Lights (2)
   m_TagString: Untagged
@@ -4112,21 +3663,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &830752480
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 830752479}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6e9e32b7281e96947899f72129830dbf, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: -0.35
-  PontoDeDestino: -8.56
-  PontoOriginal: 9.5
 --- !u!212 &830752481
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -4332,7 +3868,6 @@ GameObject:
   m_Component:
   - component: {fileID: 857921620}
   - component: {fileID: 857921619}
-  - component: {fileID: 857921618}
   m_Layer: 0
   m_Name: Layer_0008_3 (7)
   m_TagString: Untagged
@@ -4340,21 +3875,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &857921618
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 857921617}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6e9e32b7281e96947899f72129830dbf, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: -0.2
-  PontoDeDestino: -8.56
-  PontoOriginal: 9.5
 --- !u!212 &857921619
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -4430,7 +3950,6 @@ GameObject:
   m_Component:
   - component: {fileID: 865070556}
   - component: {fileID: 865070555}
-  - component: {fileID: 865070554}
   m_Layer: 0
   m_Name: Layer_0000_9 (1)
   m_TagString: Untagged
@@ -4438,21 +3957,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &865070554
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 865070553}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6e9e32b7281e96947899f72129830dbf, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: -1.2
-  PontoDeDestino: -8.56
-  PontoOriginal: 9
 --- !u!212 &865070555
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -4618,7 +4122,6 @@ GameObject:
   m_Component:
   - component: {fileID: 927835477}
   - component: {fileID: 927835476}
-  - component: {fileID: 927835475}
   m_Layer: 0
   m_Name: Layer_0007_Lights (4)
   m_TagString: Untagged
@@ -4626,21 +4129,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &927835475
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 927835474}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6e9e32b7281e96947899f72129830dbf, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: -0.35
-  PontoDeDestino: -8.56
-  PontoOriginal: 9.5
 --- !u!212 &927835476
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -4716,7 +4204,6 @@ GameObject:
   m_Component:
   - component: {fileID: 944472563}
   - component: {fileID: 944472562}
-  - component: {fileID: 944472561}
   m_Layer: 0
   m_Name: Layer_0007_Lights (9)
   m_TagString: Untagged
@@ -4724,21 +4211,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &944472561
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 944472560}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6e9e32b7281e96947899f72129830dbf, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: -0.35
-  PontoDeDestino: -8.56
-  PontoOriginal: 9.5
 --- !u!212 &944472562
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -4896,7 +4368,6 @@ GameObject:
   m_Component:
   - component: {fileID: 971835046}
   - component: {fileID: 971835045}
-  - component: {fileID: 971835044}
   m_Layer: 0
   m_Name: Layer_0007_Lights (6)
   m_TagString: Untagged
@@ -4904,21 +4375,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &971835044
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 971835043}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6e9e32b7281e96947899f72129830dbf, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: -0.35
-  PontoDeDestino: -8.56
-  PontoOriginal: 9.5
 --- !u!212 &971835045
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -4994,7 +4450,6 @@ GameObject:
   m_Component:
   - component: {fileID: 993518873}
   - component: {fileID: 993518872}
-  - component: {fileID: 993518871}
   m_Layer: 0
   m_Name: Layer_0006_4 (7)
   m_TagString: Untagged
@@ -5002,21 +4457,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &993518871
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 993518870}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6e9e32b7281e96947899f72129830dbf, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: -0.5
-  PontoDeDestino: -8.56
-  PontoOriginal: 9.5
 --- !u!212 &993518872
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -5092,7 +4532,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1004550912}
   - component: {fileID: 1004550911}
-  - component: {fileID: 1004550910}
   m_Layer: 0
   m_Name: Layer_0004_Lights (1)
   m_TagString: Untagged
@@ -5100,21 +4539,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1004550910
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1004550909}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6e9e32b7281e96947899f72129830dbf, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: -0.8
-  PontoDeDestino: -8.56
-  PontoOriginal: 9
 --- !u!212 &1004550911
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -5307,7 +4731,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1096752422}
   - component: {fileID: 1096752421}
-  - component: {fileID: 1096752420}
   m_Layer: 0
   m_Name: Layer_0000_9 (2)
   m_TagString: Untagged
@@ -5315,21 +4738,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1096752420
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1096752419}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6e9e32b7281e96947899f72129830dbf, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: -1.2
-  PontoDeDestino: -8.56
-  PontoOriginal: 9
 --- !u!212 &1096752421
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -5405,7 +4813,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1122781050}
   - component: {fileID: 1122781049}
-  - component: {fileID: 1122781048}
   m_Layer: 0
   m_Name: Layer_0006_4 (8)
   m_TagString: Untagged
@@ -5413,21 +4820,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1122781048
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1122781047}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6e9e32b7281e96947899f72129830dbf, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: -0.5
-  PontoDeDestino: -8.56
-  PontoOriginal: 9.5
 --- !u!212 &1122781049
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -5585,7 +4977,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1166645177}
   - component: {fileID: 1166645176}
-  - component: {fileID: 1166645175}
   m_Layer: 0
   m_Name: Layer_0000_9 (3)
   m_TagString: Untagged
@@ -5593,21 +4984,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1166645175
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1166645174}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6e9e32b7281e96947899f72129830dbf, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: -1.2
-  PontoDeDestino: -8.56
-  PontoOriginal: 9
 --- !u!212 &1166645176
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -5745,7 +5121,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1206529264}
   - component: {fileID: 1206529263}
-  - component: {fileID: 1206529262}
   m_Layer: 0
   m_Name: Layer_0007_Lights (5)
   m_TagString: Untagged
@@ -5753,21 +5128,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1206529262
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1206529261}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6e9e32b7281e96947899f72129830dbf, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: -0.35
-  PontoDeDestino: -8.56
-  PontoOriginal: 9.5
 --- !u!212 &1206529263
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -5843,7 +5203,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1246699689}
   - component: {fileID: 1246699688}
-  - component: {fileID: 1246699687}
   m_Layer: 0
   m_Name: Layer_0008_3
   m_TagString: Untagged
@@ -5851,21 +5210,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1246699687
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1246699686}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6e9e32b7281e96947899f72129830dbf, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: -0.2
-  PontoDeDestino: -8.56
-  PontoOriginal: 9.5
 --- !u!212 &1246699688
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -8790,7 +8134,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1286665208}
   - component: {fileID: 1286665207}
-  - component: {fileID: 1286665206}
   m_Layer: 0
   m_Name: Layer_0002_7 (3)
   m_TagString: Untagged
@@ -8798,21 +8141,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1286665206
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1286665205}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6e9e32b7281e96947899f72129830dbf, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: -1
-  PontoDeDestino: -8.56
-  PontoOriginal: 9
 --- !u!212 &1286665207
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -8888,7 +8216,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1297816163}
   - component: {fileID: 1297816162}
-  - component: {fileID: 1297816161}
   m_Layer: 0
   m_Name: Layer_0006_4
   m_TagString: Untagged
@@ -8896,21 +8223,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1297816161
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1297816160}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6e9e32b7281e96947899f72129830dbf, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: -0.5
-  PontoDeDestino: -8.56
-  PontoOriginal: 9.5
 --- !u!212 &1297816162
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -8986,7 +8298,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1319674589}
   - component: {fileID: 1319674588}
-  - component: {fileID: 1319674587}
   m_Layer: 0
   m_Name: Layer_0007_Lights (8)
   m_TagString: Untagged
@@ -8994,21 +8305,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1319674587
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1319674586}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6e9e32b7281e96947899f72129830dbf, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: -0.35
-  PontoDeDestino: -8.56
-  PontoOriginal: 9.5
 --- !u!212 &1319674588
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -9084,7 +8380,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1347605387}
   - component: {fileID: 1347605386}
-  - component: {fileID: 1347605385}
   m_Layer: 0
   m_Name: Layer_0006_4 (1)
   m_TagString: Untagged
@@ -9092,21 +8387,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1347605385
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1347605384}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6e9e32b7281e96947899f72129830dbf, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: -0.5
-  PontoDeDestino: -8.56
-  PontoOriginal: 9.5
 --- !u!212 &1347605386
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -9187,7 +8467,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1423658842}
   - component: {fileID: 1423658841}
-  - component: {fileID: 1423658840}
   m_Layer: 0
   m_Name: Layer_0004_Lights (3)
   m_TagString: Untagged
@@ -9195,21 +8474,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1423658840
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1423658839}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6e9e32b7281e96947899f72129830dbf, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: -0.8
-  PontoDeDestino: -8.56
-  PontoOriginal: 9
 --- !u!212 &1423658841
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -9285,7 +8549,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1470389780}
   - component: {fileID: 1470389779}
-  - component: {fileID: 1470389778}
   m_Layer: 0
   m_Name: Layer_0007_Lights (7)
   m_TagString: Untagged
@@ -9293,21 +8556,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1470389778
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1470389777}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6e9e32b7281e96947899f72129830dbf, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: -0.35
-  PontoDeDestino: -8.56
-  PontoOriginal: 9.5
 --- !u!212 &1470389779
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -9621,7 +8869,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1578221177}
   - component: {fileID: 1578221176}
-  - component: {fileID: 1578221175}
   m_Layer: 0
   m_Name: Layer_0006_4 (3)
   m_TagString: Untagged
@@ -9629,21 +8876,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1578221175
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1578221174}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6e9e32b7281e96947899f72129830dbf, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: -0.5
-  PontoDeDestino: -8.56
-  PontoOriginal: 9.5
 --- !u!212 &1578221176
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -10104,7 +9336,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1808310811}
   - component: {fileID: 1808310810}
-  - component: {fileID: 1808310809}
   m_Layer: 0
   m_Name: Layer_0006_4 (4)
   m_TagString: Untagged
@@ -10112,21 +9343,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1808310809
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1808310808}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6e9e32b7281e96947899f72129830dbf, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: -0.5
-  PontoDeDestino: -8.56
-  PontoOriginal: 9.5
 --- !u!212 &1808310810
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -10386,7 +9602,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1877966567}
   - component: {fileID: 1877966566}
-  - component: {fileID: 1877966565}
   m_Layer: 0
   m_Name: Layer_0008_3 (6)
   m_TagString: Untagged
@@ -10394,21 +9609,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1877966565
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1877966564}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6e9e32b7281e96947899f72129830dbf, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: -0.2
-  PontoDeDestino: -8.56
-  PontoOriginal: 9.5
 --- !u!212 &1877966566
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -10484,7 +9684,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1946931474}
   - component: {fileID: 1946931473}
-  - component: {fileID: 1946931472}
   m_Layer: 0
   m_Name: Layer_0008_3 (5)
   m_TagString: Untagged
@@ -10492,21 +9691,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1946931472
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1946931471}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6e9e32b7281e96947899f72129830dbf, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: -0.2
-  PontoDeDestino: -8.56
-  PontoOriginal: 9.5
 --- !u!212 &1946931473
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -10664,7 +9848,6 @@ GameObject:
   m_Component:
   - component: {fileID: 2026668609}
   - component: {fileID: 2026668608}
-  - component: {fileID: 2026668607}
   m_Layer: 0
   m_Name: Layer_0008_3 (2)
   m_TagString: Untagged
@@ -10672,21 +9855,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &2026668607
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2026668606}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6e9e32b7281e96947899f72129830dbf, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: -0.2
-  PontoDeDestino: -8.56
-  PontoOriginal: 9.5
 --- !u!212 &2026668608
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -10762,7 +9930,6 @@ GameObject:
   m_Component:
   - component: {fileID: 2064821302}
   - component: {fileID: 2064821301}
-  - component: {fileID: 2064821300}
   m_Layer: 0
   m_Name: Layer_0000_9 (6)
   m_TagString: Untagged
@@ -10770,21 +9937,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &2064821300
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2064821299}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6e9e32b7281e96947899f72129830dbf, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: -1.2
-  PontoDeDestino: -8.56
-  PontoOriginal: 9
 --- !u!212 &2064821301
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -10860,7 +10012,6 @@ GameObject:
   m_Component:
   - component: {fileID: 2143227727}
   - component: {fileID: 2143227726}
-  - component: {fileID: 2143227725}
   m_Layer: 0
   m_Name: Layer_0002_7 (4)
   m_TagString: Untagged
@@ -10868,21 +10019,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &2143227725
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2143227724}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6e9e32b7281e96947899f72129830dbf, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: -1
-  PontoDeDestino: -8.56
-  PontoOriginal: 9
 --- !u!212 &2143227726
 SpriteRenderer:
   m_ObjectHideFlags: 0
