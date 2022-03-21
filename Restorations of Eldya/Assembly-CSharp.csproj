@@ -47,7 +47,9 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
+     <Compile Include="Assets\__Scripts\FireMinionMove.cs" />
      <Compile Include="Assets\_Backgrounds\Free Pixel Art Forest\Demo\MoveBackground.cs" />
+     <Compile Include="Assets\__Scripts\BoundsCheck.cs" />
      <None Include="Assets\_Backgrounds\Cainos\Pixel Art Platformer - Village Props\Changelog.txt" />
      <None Include="Assets\_Backgrounds\Free Pixel Art Forest\Contact.txt" />
      <None Include="Assets\_Backgrounds\Free Pixel Art Forest\Lisense.txt" />
