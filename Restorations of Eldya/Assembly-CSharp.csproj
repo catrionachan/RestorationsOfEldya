@@ -60,6 +60,8 @@
     <Compile Include="Assets\_Backgrounds\Free Pixel Art Forest\Demo\MoveBackground.cs" />
     <Compile Include="Assets\__Scripts\BoundsCheck.cs" />
     <Compile Include="Assets\__Scripts\MainController.cs" />
+    <Compile Include="Assets\__Scripts\waypoint.cs" />
+    <Compile Include="Assets\__Scripts\Rotation.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\_Backgrounds\Cainos\Pixel Art Platformer - Village Props\Changelog.txt" />
