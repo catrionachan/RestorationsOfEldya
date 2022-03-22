@@ -8,10 +8,6 @@ public class FireBallMover : MonoBehaviour
     [Header("Set in Inspector")]
     public float speed = 2f; //speed in m/s
 
-<<<<<<< Updated upstream
-    private int fireSpawn;
-      
-=======
     [HideInInspector]
     //variable for BoundsCheck
     public BoundsCheck bndCheck;
@@ -25,7 +21,7 @@ public class FireBallMover : MonoBehaviour
         bndCheck = GetComponent<BoundsCheck>();
     }
 
->>>>>>> Stashed changes
+
     //Property of the Vector3 representing the position of the object
     public Vector3 pos
     {
@@ -63,13 +59,7 @@ public class FireBallMover : MonoBehaviour
     //CheckBounds method checks if the enemy has passed the bottom of the screen
     public virtual void CheckBounds()
     {
-        ////if the enemy object is off the screen at the bottom, it destroys the object
-<<<<<<< Updated upstream
-        
-=======
-        //if (bndCheck != null && pos.x=-3)
->>>>>>> Stashed changes
-
+       
         if (pos.x <= -5)
         {
             Destroy(gameObject);
