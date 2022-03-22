@@ -602,12 +602,6 @@ AnimatorStateTransition:
   m_InterruptionSource: 0
   m_OrderedInterruption: 1
   m_CanTransitionToSelf: 1
-<<<<<<< Updated upstream
-=======
-<<<<<<< HEAD
---- !u!1101 &2060200766314657064
-=======
->>>>>>> Stashed changes
 --- !u!1101 &2311585249594336686
 AnimatorStateTransition:
   m_ObjectHideFlags: 1
