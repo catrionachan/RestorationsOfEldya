@@ -15464,16 +15464,5 @@ PrefabInstance:
       propertyPath: m_Name
       value: DarkSorcerer
       objectReference: {fileID: 0}
-<<<<<<< HEAD
-    - target: {fileID: 6886675942239358179, guid: 574cd4b1855744b0ea31283b5731bfa5, type: 3}
-      propertyPath: m_Layer
-      value: 9
-      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 2003178279793216010, guid: 574cd4b1855744b0ea31283b5731bfa5, type: 3}
-    m_RemovedComponents: []
-=======
-    m_RemovedComponents:
-    - {fileID: 2003178279793216010, guid: 574cd4b1855744b0ea31283b5731bfa5, type: 3}
->>>>>>> parent of f1bd26f8 (Dark Sorcerer Attributes2)
-  m_SourcePrefab: {fileID: 100100000, guid: 574cd4b1855744b0ea31283b5731bfa5, type: 3}
