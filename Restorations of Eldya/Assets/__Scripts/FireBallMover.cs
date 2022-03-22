@@ -12,8 +12,6 @@ public class FireBallMover : MonoBehaviour
     //variable for BoundsCheck
     public BoundsCheck bndCheck;
 
-    private int fireSpawn;
-    private int counter = 0;
     //public Animator animatorController;
     //Awake method that gets the Components of BoundsCheck
     void Awake()
