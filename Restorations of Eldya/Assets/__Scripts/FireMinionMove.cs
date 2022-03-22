@@ -15,6 +15,8 @@ public class FireMinionMove : MonoBehaviour
     private int fireSpawn;
     private int counter = 0;
     public GameObject fireball;
+
+    
     //public Animator animatorController;
     //Awake method that gets the Components of BoundsCheck
     void Awake()
@@ -43,7 +45,7 @@ public class FireMinionMove : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Move(); //calls move method 
+        //Move(); //calls move method is not necessary because waypoint check already does this 
         counter++;
         if (counter == 2000 && bndCheck!=null)
         {
@@ -56,8 +58,13 @@ public class FireMinionMove : MonoBehaviour
             fire.transform.position = tempPos;
         }
         
-        CheckBounds(); //checks if enemy is within the bounds of the screen
+        //CheckBounds(); //checks if enemy is within the bounds of the screen
     }
+
+    /*private void OnCollisionEnter2D(Collision2D collision)
+    {
+        Destroy(fireball);
+    }*/
 
     //Move method which moves the enemy down the screen at the given speed
     public virtual void Move()

@@ -12,6 +12,7 @@ public class FireBallMover : MonoBehaviour
     //variable for BoundsCheck
     public BoundsCheck bndCheck;
 
+
     //public Animator animatorController;
     //Awake method that gets the Components of BoundsCheck
     void Awake()
@@ -41,8 +42,10 @@ public class FireBallMover : MonoBehaviour
     void Update()
     {
         Move(); //calls move method 
-        CheckBounds(); //checks if enemy is within the bounds of the screen
+        //CheckBounds(); //checks if enemy is within the bounds of the screen
     }
+
+    
 
     //Move method which moves the enemy down the screen at the given speed
     public virtual void Move()
