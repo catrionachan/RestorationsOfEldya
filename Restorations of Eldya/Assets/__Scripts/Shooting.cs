@@ -7,6 +7,11 @@ public class Shooting : MonoBehaviour
     public Animator animator;
     public Transform firePoint;
     public GameObject bulletPrefab;
+    bool shoot = false;
+
+    public float attackRate = 2f;
+    float nextAttackTime = 0f;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -16,12 +21,17 @@ public class Shooting : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetButtonDown("Fire1")) 
+        if (Time.time >= nextAttackTime)
         {
-            Shoot();
-            animator.SetBool("IsShooting", true);
+            if (Input.GetButtonDown("Fire1"))
+            {
+                Shoot();
+                nextAttackTime = Time.time + 1f / attackRate;
+            }
         }
-        
+        //animator.SetBool("IsShooting", false);
+
+
     }
 
 
@@ -29,5 +39,8 @@ public class Shooting : MonoBehaviour
     {
         //Shooting logic 
         Instantiate(bulletPrefab, firePoint.position, firePoint.rotation);
+        //shoot = true;
+        //animator.SetBool("IsShooting", shoot);
+
     }
 }

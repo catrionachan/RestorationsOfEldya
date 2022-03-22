@@ -21,6 +21,7 @@ public class Enemy : MonoBehaviour
 
     public void TakeDamage(int damage) 
     {
+        health -= damage;
         if (health <= 0) 
         {
             Die();
@@ -29,7 +30,7 @@ public class Enemy : MonoBehaviour
 
     void Die() 
     {
-        Instantiate(deathEffect, transform.position, Quaternion.identity);
+        //Instantiate(deathEffect, transform.position, Quaternion.identity);
         Destroy(gameObject);
     }
 }
