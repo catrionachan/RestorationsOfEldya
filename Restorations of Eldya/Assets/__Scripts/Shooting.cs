@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class Shooting : MonoBehaviour
 {
+    public Animator animator;
     public Transform firePoint;
     public GameObject bulletPrefab;
     // Start is called before the first frame update
@@ -18,6 +19,7 @@ public class Shooting : MonoBehaviour
         if (Input.GetButtonDown("Fire1")) 
         {
             Shoot();
+            animator.SetBool("IsShooting", true);
         }
         
     }

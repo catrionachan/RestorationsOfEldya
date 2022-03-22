@@ -47,6 +47,7 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
+     <Compile Include="Assets\__Scripts\Enemy.cs" />
      <Compile Include="Assets\__Scripts\FireMinionMove.cs" />
      <Compile Include="Assets\_Backgrounds\Free Pixel Art Forest\Demo\MoveBackground.cs" />
      <Compile Include="Assets\__Scripts\PlayerMouvement.cs" />
@@ -56,6 +57,8 @@
      <Compile Include="Assets\__Scripts\CharacterController2D.cs" />
      <Compile Include="Assets\__Scripts\DarkSorcererMove.cs" />
      <Compile Include="Assets\__Scripts\FireBallMover.cs" />
+     <Compile Include="Assets\__Scripts\Shooting.cs" />
+     <Compile Include="Assets\__Scripts\FireShots.cs" />
      <Compile Include="Assets\__Scripts\MainController.cs" />
      <None Include="Assets\_Backgrounds\Cainos\Pixel Art Platformer - Village Props\Changelog.txt" />
      <None Include="Assets\_Backgrounds\Free Pixel Art Forest\Contact.txt" />
