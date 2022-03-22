@@ -3823,25 +3823,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 52
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &952508258 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 6886675942239358179, guid: 574cd4b1855744b0ea31283b5731bfa5, type: 3}
-  m_PrefabInstance: {fileID: 6886675941973725427}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &952508264
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 952508258}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c2635233a78d66d4cbc645e1d55d01a9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  health: 100
-  deathEffect: {fileID: 0}
 --- !u!1 &963208859
 GameObject:
   m_ObjectHideFlags: 0
@@ -4030,7 +4011,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 986594131}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.836, y: -0.519, z: 0}
+  m_LocalPosition: {x: 1, y: -0.519, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1889311824}
@@ -14819,7 +14800,7 @@ Animator:
   m_GameObject: {fileID: 1889311822}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 089e554fb51ab6d438a5a63abccee84e, type: 2}
+  m_Controller: {fileID: 9100000, guid: 77ada5f3907e7d642bd71a951f0c4b53, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -15466,3 +15447,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 2003178279793216010, guid: 574cd4b1855744b0ea31283b5731bfa5, type: 3}
+<<<<<<< Updated upstream
+=======
+  m_SourcePrefab: {fileID: 100100000, guid: 574cd4b1855744b0ea31283b5731bfa5, type: 3}
+>>>>>>> Stashed changes

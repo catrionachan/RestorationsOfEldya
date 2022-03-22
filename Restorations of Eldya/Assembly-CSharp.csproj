@@ -59,6 +59,7 @@
      <Compile Include="Assets\__Scripts\FireBallMover.cs" />
      <Compile Include="Assets\__Scripts\Shooting.cs" />
      <Compile Include="Assets\__Scripts\FireShots.cs" />
+     <Compile Include="Assets\__Scripts\PlayerCombat.cs" />
      <Compile Include="Assets\__Scripts\MainController.cs" />
      <None Include="Assets\_Backgrounds\Cainos\Pixel Art Platformer - Village Props\Changelog.txt" />
      <None Include="Assets\_Backgrounds\Free Pixel Art Forest\Contact.txt" />
