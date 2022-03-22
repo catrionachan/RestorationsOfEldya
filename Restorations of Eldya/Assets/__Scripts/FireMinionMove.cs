@@ -13,6 +13,8 @@ public class FireMinionMove : MonoBehaviour
     //variable for BoundsCheck
     public BoundsCheck bndCheck;
 
+    public bool framePresent = false;
+
     private int fireSpawn;
     private int counter = 0;
     public GameObject fireball;
@@ -46,7 +48,7 @@ public class FireMinionMove : MonoBehaviour
     {
         Move(); //calls move method 
         counter++;
-        if (counter == 2000 && bndCheck!=null)
+        if (counter == 2000 && bndCheck != null && framePresent == true) 
         {
             //animatorController.SetBool("isAttack", true);
             counter = 0;
@@ -56,15 +58,12 @@ public class FireMinionMove : MonoBehaviour
             tempPos.y = (float)pos.y - 0.15f;
             fire.transform.position = tempPos;
         }
-<<<<<<< Updated upstream
         
-        CheckBounds(); //checks if enemy is within the bounds of the screen
-=======
+        
         else if (counter == 200) {
             //animatorController.SetBool("isAttack", false);
         }
         //CheckBounds(); //checks if enemy is within the bounds of the screen
->>>>>>> Stashed changes
     }
 
     //Move method which moves the enemy down the screen at the given speed
