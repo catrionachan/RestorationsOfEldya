@@ -210,8 +210,8 @@
      <Compile Include="Packages\com.unity.timeline\Editor\Items\MarkerItem.cs" />
      <Compile Include="Packages\com.unity.timeline\Editor\inspectors\CurvesOwner\CurvesOwnerInspectorHelper.cs" />
      <Compile Include="Packages\com.unity.timeline\Editor\Manipulators\AddDelete\AddDeleteItemModeMix.cs" />
-     <Compile Include="Packages\com.unity.timeline\Editor\treeview\ItemGui\TimelineItemGUI.cs" />
      <Compile Include="Packages\com.unity.timeline\Editor\Window\TimelineWindow.cs" />
+     <Compile Include="Packages\com.unity.timeline\Editor\treeview\ItemGui\TimelineItemGUI.cs" />
      <Compile Include="Packages\com.unity.timeline\Editor\Signals\SignalAssetInspector.cs" />
      <Compile Include="Packages\com.unity.timeline\Editor\Undo\UndoScope.cs" />
      <Compile Include="Packages\com.unity.timeline\Editor\CustomEditors\TrackEditor.cs" />
@@ -254,9 +254,9 @@
      <Compile Include="Packages\com.unity.timeline\Editor\Utilities\Scopes\GUIGroupScope.cs" />
      <Compile Include="Packages\com.unity.timeline\Editor\Actions\MarkerActions.cs" />
      <Compile Include="Packages\com.unity.timeline\Editor\Utilities\AnimatedParameterUtility.cs" />
-     <Compile Include="Packages\com.unity.timeline\Editor\inspectors\TrackAssetInspector.cs" />
      <Compile Include="Packages\com.unity.timeline\Editor\Window\TimelineWindow_Manipulators.cs" />
      <Compile Include="Packages\com.unity.timeline\Editor\treeview\PickerUtils.cs" />
+     <Compile Include="Packages\com.unity.timeline\Editor\inspectors\TrackAssetInspector.cs" />
      <Compile Include="Packages\com.unity.timeline\Editor\inspectors\BasicAssetInspector.cs" />
      <Compile Include="Packages\com.unity.timeline\Editor\treeview\TrackGui\TimelineGroupGUI.cs" />
      <Compile Include="Packages\com.unity.timeline\Editor\Actions\ActionManager.cs" />

@@ -262,8 +262,8 @@
      <Compile Include="Packages\com.unity.collab-proxy\Editor\PlasticSCM\Views\CreateWorkspace\DrawCreateWorkspaceView.cs" />
      <Compile Include="Packages\com.unity.collab-proxy\Editor\PlasticSCM\Views\Changesets\ChangesetsListHeaderState.cs" />
      <Compile Include="Packages\com.unity.collab-proxy\Editor\PlasticSCM\DrawGuiModeSwitcher.cs" />
-     <Compile Include="Packages\com.unity.collab-proxy\Editor\PlasticSCM\Gluon\UpdateReport\UpdateReportListView.cs" />
      <Compile Include="Packages\com.unity.collab-proxy\Editor\PlasticSCM\CheckWorkspaceTreeNodeStatus.cs" />
+     <Compile Include="Packages\com.unity.collab-proxy\Editor\PlasticSCM\Gluon\UpdateReport\UpdateReportListView.cs" />
      <Compile Include="Packages\com.unity.collab-proxy\Editor\PlasticSCM\Tool\LaunchTool.cs" />
      <Compile Include="Packages\com.unity.collab-proxy\Editor\PlasticSCM\AssetsUtils\Processor\AssetsProcessor.cs" />
      <Compile Include="Packages\com.unity.collab-proxy\Editor\PlasticSCM\ViewSwitcher.cs" />

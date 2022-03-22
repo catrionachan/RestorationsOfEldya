@@ -123,8 +123,8 @@
      <Compile Include="Packages\com.unity.2d.animation\Editor\SkinningModule\Undo\IUndo.cs" />
      <Compile Include="Packages\com.unity.2d.animation\Editor\SkinningModule\IMGUI\SkeletonController.cs" />
      <Compile Include="Packages\com.unity.2d.animation\Editor\SkinningModule\SkinningModuleView.cs" />
-     <Compile Include="Packages\com.unity.2d.animation\Editor\SkinningModule\SkinningCache\SkeletonCache.cs" />
      <Compile Include="Packages\com.unity.2d.animation\Editor\SkinningModule\WeightPainterToolWrapper.cs" />
+     <Compile Include="Packages\com.unity.2d.animation\Editor\SkinningModule\SkinningCache\SkeletonCache.cs" />
      <Compile Include="Packages\com.unity.2d.animation\Editor\SkinningModule\UI\VisualElementExtensions.cs" />
      <Compile Include="Packages\com.unity.2d.animation\Editor\SpriteLib\SpriteSelectionWidget.cs" />
      <Compile Include="Packages\com.unity.2d.animation\Editor\SkinningModule\ColorExtensions.cs" />
