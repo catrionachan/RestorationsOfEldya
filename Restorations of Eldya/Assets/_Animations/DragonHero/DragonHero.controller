@@ -625,7 +625,6 @@ AnimatorStateTransition:
   m_OrderedInterruption: 1
   m_CanTransitionToSelf: 1
 --- !u!1101 &3488485294846276875
->>>>>>> f1bd26f86f2e15e75dfaadf29c1ae2ee3e425b8f
 AnimatorStateTransition:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
