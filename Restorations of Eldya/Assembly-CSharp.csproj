@@ -52,10 +52,7 @@
      <Compile Include="Assets\__Scripts\BoundsCheck.cs" />
      <Compile Include="Assets\__Scripts\waypoint.cs" />
      <Compile Include="Assets\__Scripts\Rotation.cs" />
-<<<<<<< Updated upstream
      <Compile Include="Assets\__Scripts\FireBallMover.cs" />
-=======
->>>>>>> Stashed changes
      <Compile Include="Assets\__Scripts\MainController.cs" />
      <None Include="Assets\_Backgrounds\Cainos\Pixel Art Platformer - Village Props\Changelog.txt" />
      <None Include="Assets\_Backgrounds\Free Pixel Art Forest\Contact.txt" />
@@ -622,7 +619,6 @@
  <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.31f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Xml.Serialization.dll</HintPath>
  </Reference>
  <Reference Include="Unity.2D.IK.Runtime">
-<<<<<<< Updated upstream
  <HintPath>C:/Users/cpwyc/Desktop/RestorationsOfEldya/Restorations of Eldya/Library/ScriptAssemblies/Unity.2D.IK.Runtime.dll</HintPath>
  </Reference>
  <Reference Include="Unity.2D.Animation.Editor">
@@ -696,6 +692,7 @@
  </Reference>
  <Reference Include="Unity.Mathematics">
  <HintPath>C:/Users/cpwyc/Desktop/RestorationsOfEldya/Restorations of Eldya/Library/ScriptAssemblies/Unity.Mathematics.dll</HintPath>
+<<<<<<< HEAD
 =======
  <HintPath>C:/SE2250/SE2250_Game/RestorationsOfEldya/Restorations of Eldya/Library/ScriptAssemblies/Unity.2D.IK.Runtime.dll</HintPath>
  </Reference>
@@ -785,6 +782,8 @@
 =======
 >>>>>>> parent of ac4409bc (minor changes on minion)
 >>>>>>> Stashed changes
+=======
+>>>>>>> parent of df875704 (Minion spots moving)
  </Reference>
   </ItemGroup>
   <ItemGroup>

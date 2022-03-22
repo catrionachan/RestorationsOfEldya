@@ -19,7 +19,7 @@ public class MainController : MonoBehaviour
         S = this;
         // Set bndCheck to reference the BoundsCheck component on this GameObject
         _bndCheck = GetComponent<BoundsCheck>();
-        //Invoke("SpawnEnemy", 1f / enemySpawnRate);
+        Invoke("SpawnEnemy", 1f / enemySpawnRate);
     }
 
     public void SpawnEnemy()
