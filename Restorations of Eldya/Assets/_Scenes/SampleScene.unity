@@ -543,6 +543,26 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &142398713 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6886675942239358179, guid: 574cd4b1855744b0ea31283b5731bfa5, type: 3}
+  m_PrefabInstance: {fileID: 6886675941973725427}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &142398719
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 142398713}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: edbb068a5b76a4a71b9560691cded24b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 1
+  bndCheck: {fileID: 0}
+  darkSorcerer: {fileID: 0}
 --- !u!1 &232002386
 GameObject:
   m_ObjectHideFlags: 0
@@ -1314,7 +1334,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 416043542}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.5220001, y: -0.9, z: -10}
+  m_LocalPosition: {x: -1.5220002, y: -0.9, z: -10}
   m_LocalScale: {x: 4.275, y: 16.5, z: 1}
   m_Children:
   - {fileID: 1135883537}
@@ -1410,7 +1430,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 421521272}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.5220001, y: -0.9, z: -10}
+  m_LocalPosition: {x: -1.5220002, y: -0.9, z: -10}
   m_LocalScale: {x: 1.2625, y: 1.4, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -15578,6 +15598,5 @@ PrefabInstance:
       propertyPath: m_Name
       value: DarkSorcerer
       objectReference: {fileID: 0}
-    m_RemovedComponents:
-    - {fileID: 2003178279793216010, guid: 574cd4b1855744b0ea31283b5731bfa5, type: 3}
+    m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 574cd4b1855744b0ea31283b5731bfa5, type: 3}

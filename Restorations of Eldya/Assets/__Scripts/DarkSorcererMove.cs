@@ -79,5 +79,6 @@ public class DarkSorcererMove : MonoBehaviour
         if (pos.x <= 62){
             speed = -1;
         }
-    }
+    
+}
 }
