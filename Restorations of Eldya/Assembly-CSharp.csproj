@@ -52,7 +52,10 @@
      <Compile Include="Assets\__Scripts\BoundsCheck.cs" />
      <Compile Include="Assets\__Scripts\waypoint.cs" />
      <Compile Include="Assets\__Scripts\Rotation.cs" />
+<<<<<<< Updated upstream
      <Compile Include="Assets\__Scripts\FireBallMover.cs" />
+=======
+>>>>>>> Stashed changes
      <Compile Include="Assets\__Scripts\MainController.cs" />
      <None Include="Assets\_Backgrounds\Cainos\Pixel Art Platformer - Village Props\Changelog.txt" />
      <None Include="Assets\_Backgrounds\Free Pixel Art Forest\Contact.txt" />
@@ -627,6 +630,7 @@
  <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.31f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Xml.Serialization.dll</HintPath>
  </Reference>
  <Reference Include="Unity.2D.IK.Runtime">
+<<<<<<< Updated upstream
  <HintPath>C:/Users/cpwyc/Desktop/RestorationsOfEldya/Restorations of Eldya/Library/ScriptAssemblies/Unity.2D.IK.Runtime.dll</HintPath>
  </Reference>
  <Reference Include="Unity.2D.Animation.Editor">
@@ -700,6 +704,81 @@
  </Reference>
  <Reference Include="Unity.Mathematics">
  <HintPath>C:/Users/cpwyc/Desktop/RestorationsOfEldya/Restorations of Eldya/Library/ScriptAssemblies/Unity.Mathematics.dll</HintPath>
+=======
+ <HintPath>C:/SE2250/SE2250_Game/RestorationsOfEldya/Restorations of Eldya/Library/ScriptAssemblies/Unity.2D.IK.Runtime.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.2D.Animation.Editor">
+ <HintPath>C:/SE2250/SE2250_Game/RestorationsOfEldya/Restorations of Eldya/Library/ScriptAssemblies/Unity.2D.Animation.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.InternalAPIEngineBridge.001">
+ <HintPath>C:/SE2250/SE2250_Game/RestorationsOfEldya/Restorations of Eldya/Library/ScriptAssemblies/Unity.InternalAPIEngineBridge.001.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.VSCode.Editor">
+ <HintPath>C:/SE2250/SE2250_Game/RestorationsOfEldya/Restorations of Eldya/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.2D.Tilemap.Editor">
+ <HintPath>C:/SE2250/SE2250_Game/RestorationsOfEldya/Restorations of Eldya/Library/ScriptAssemblies/Unity.2D.Tilemap.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="PsdPlugin">
+ <HintPath>C:/SE2250/SE2250_Game/RestorationsOfEldya/Restorations of Eldya/Library/ScriptAssemblies/PsdPlugin.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.2D.Animation.Triangle.Runtime">
+ <HintPath>C:/SE2250/SE2250_Game/RestorationsOfEldya/Restorations of Eldya/Library/ScriptAssemblies/Unity.2D.Animation.Triangle.Runtime.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.TextMeshPro.Editor">
+ <HintPath>C:/SE2250/SE2250_Game/RestorationsOfEldya/Restorations of Eldya/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.VisualStudio.Editor">
+ <HintPath>C:/SE2250/SE2250_Game/RestorationsOfEldya/Restorations of Eldya/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.2D.Animation.Runtime">
+ <HintPath>C:/SE2250/SE2250_Game/RestorationsOfEldya/Restorations of Eldya/Library/ScriptAssemblies/Unity.2D.Animation.Runtime.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.Timeline.Editor">
+ <HintPath>C:/SE2250/SE2250_Game/RestorationsOfEldya/Restorations of Eldya/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.Timeline">
+ <HintPath>C:/SE2250/SE2250_Game/RestorationsOfEldya/Restorations of Eldya/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.TextMeshPro">
+ <HintPath>C:/SE2250/SE2250_Game/RestorationsOfEldya/Restorations of Eldya/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.Mathematics.Editor">
+ <HintPath>C:/SE2250/SE2250_Game/RestorationsOfEldya/Restorations of Eldya/Library/ScriptAssemblies/Unity.Mathematics.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.2D.Common.Runtime">
+ <HintPath>C:/SE2250/SE2250_Game/RestorationsOfEldya/Restorations of Eldya/Library/ScriptAssemblies/Unity.2D.Common.Runtime.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.2D.IK.Editor">
+ <HintPath>C:/SE2250/SE2250_Game/RestorationsOfEldya/Restorations of Eldya/Library/ScriptAssemblies/Unity.2D.IK.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.2D.Sprite.Editor">
+ <HintPath>C:/SE2250/SE2250_Game/RestorationsOfEldya/Restorations of Eldya/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.2D.Psdimporter.Editor">
+ <HintPath>C:/SE2250/SE2250_Game/RestorationsOfEldya/Restorations of Eldya/Library/ScriptAssemblies/Unity.2D.Psdimporter.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.UI">
+ <HintPath>C:/SE2250/SE2250_Game/RestorationsOfEldya/Restorations of Eldya/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.PlasticSCM.Editor">
+ <HintPath>C:/SE2250/SE2250_Game/RestorationsOfEldya/Restorations of Eldya/Library/ScriptAssemblies/Unity.PlasticSCM.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.Rider.Editor">
+ <HintPath>C:/SE2250/SE2250_Game/RestorationsOfEldya/Restorations of Eldya/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UI">
+ <HintPath>C:/SE2250/SE2250_Game/RestorationsOfEldya/Restorations of Eldya/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.2D.Common.Editor">
+ <HintPath>C:/SE2250/SE2250_Game/RestorationsOfEldya/Restorations of Eldya/Library/ScriptAssemblies/Unity.2D.Common.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.InternalAPIEditorBridge.001">
+ <HintPath>C:/SE2250/SE2250_Game/RestorationsOfEldya/Restorations of Eldya/Library/ScriptAssemblies/Unity.InternalAPIEditorBridge.001.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.Mathematics">
+ <HintPath>C:/SE2250/SE2250_Game/RestorationsOfEldya/Restorations of Eldya/Library/ScriptAssemblies/Unity.Mathematics.dll</HintPath>
+>>>>>>> Stashed changes
  </Reference>
   </ItemGroup>
   <ItemGroup>

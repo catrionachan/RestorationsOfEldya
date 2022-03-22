@@ -7,6 +7,7 @@ public class FireMinionMove : MonoBehaviour
     //Sets the value of speed in the Inspector
     [Header("Set in Inspector")]
     public float speed = 1f; //speed in m/s
+    public int points = 50;
 
     [HideInInspector]
     //variable for BoundsCheck
@@ -55,8 +56,15 @@ public class FireMinionMove : MonoBehaviour
             tempPos.y = (float)pos.y - 0.15f;
             fire.transform.position = tempPos;
         }
+<<<<<<< Updated upstream
         
         CheckBounds(); //checks if enemy is within the bounds of the screen
+=======
+        else if (counter == 200) {
+            //animatorController.SetBool("isAttack", false);
+        }
+        //CheckBounds(); //checks if enemy is within the bounds of the screen
+>>>>>>> Stashed changes
     }
 
     //Move method which moves the enemy down the screen at the given speed
