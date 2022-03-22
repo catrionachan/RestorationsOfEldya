@@ -8686,11 +8686,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 8931881858292609271, guid: 1a20ef5410fdbd14abf91882422462a0, type: 3}
   m_PrefabInstance: {fileID: 872384917}
   m_PrefabAsset: {fileID: 0}
-<<<<<<< HEAD
-<<<<<<< Updated upstream
-=======
-=======
->>>>>>> parent of df875704 (Minion spots moving)
 --- !u!1 &1564837951
 GameObject:
   m_ObjectHideFlags: 0
@@ -8727,10 +8722,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 1
   bndCheck: {fileID: 0}
-<<<<<<< HEAD
   fireball: {fileID: 0}
-=======
->>>>>>> parent of df875704 (Minion spots moving)
 --- !u!58 &1564837953
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -8868,10 +8860,6 @@ MonoBehaviour:
   - {fileID: 1483312922}
   - {fileID: 437888358}
   speed: 2
-<<<<<<< HEAD
->>>>>>> Stashed changes
-=======
->>>>>>> parent of df875704 (Minion spots moving)
 --- !u!1 &1578221174
 GameObject:
   m_ObjectHideFlags: 0
