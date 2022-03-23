@@ -4,12 +4,15 @@ using UnityEngine;
 
 public class TrapDamage : MonoBehaviour
 {
-    public float damage = 0.25f;
+    public float damage = 100f;
+    public GameObject player;
     void OnTriggerEnter2D(Collider2D collider)
     {
-        if (collider.CompareTag("Player"))
+        if (collider.gameObject.CompareTag("Player"))
         {
             PlayerMouvement player = collider.GetComponent<PlayerMouvement>();
+
+            
 
             if (player != null)
             {
