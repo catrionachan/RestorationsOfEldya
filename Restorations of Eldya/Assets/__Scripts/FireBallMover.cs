@@ -6,64 +6,60 @@ public class FireBallMover : MonoBehaviour
 {
         //Sets the value of speed in the Inspector
     [Header("Set in Inspector")]
-    public float speed = 2f; //speed in m/s
+    private Transform player;
 
-    [HideInInspector]
-    //variable for BoundsCheck
-    public BoundsCheck bndCheck;
-
-
-    //public Animator animatorController;
-    //Awake method that gets the Components of BoundsCheck
-    void Awake()
-    {
-        bndCheck = GetComponent<BoundsCheck>();
-    }
+    private Vector3 target;
+    public int damage = 20;
+    public float speed = 20f;
+    public Rigidbody2D rb;
 
 
-    //Property of the Vector3 representing the position of the object
-    public Vector3 pos
-    {
-        get
-        {
-            return (this.transform.position);
-        }
-        set
-        {
-            this.transform.position = value;
-        }
-    }
-
-    //
+    // Start is called before the first frame update
     void Start()
     {
+        rb.velocity = transform.right * speed;
+        player = GameObject.FindGameObjectWithTag("Player").transform;
+        target = new Vector2(player.position.x, player.position.y);
     }
+  
     // Update is called once per frame
     void Update()
     {
-        Move(); //calls move method 
-        //CheckBounds(); //checks if enemy is within the bounds of the screen
-    }
-
-    
-
-    //Move method which moves the enemy down the screen at the given speed
-    public virtual void Move()
-    {
-        //creates Vector3 object which holds the value of the temporary position
-        Vector3 tempPos = pos;
-        //sets the temporary position of the enemy down the screen based on the speed of the enemy
-        tempPos.x -= speed * Time.deltaTime;
-        //sets the position of the enemy based on the temporary position
-        pos = tempPos;
-    }
-    //CheckBounds method checks if the enemy has passed the bottom of the screen
-    public virtual void CheckBounds()
-    {
-       
-        if (pos.x <= -5)
+        if (transform.position.x == target.x && transform.position.y == target.y)
         {
-            Destroy(gameObject);
+            DestroyProjectile();
         }
+
     }
+
+    void OnTriggerEnter2D(Collider2D collider) 
+    {
+        if (collider.CompareTag("Player")) 
+        {
+            PlayerMouvement player = collider.GetComponent<PlayerMouvement>();
+
+            if (player != null)
+            {
+                player.TakeDamage(damage);
+                DestroyProjectile();
+            }
+        }
+        
+    }
+
+    void OnCollisionEnter2D(Collision2D col)
+    {
+        if (col.gameObject.tag == "Ground")
+        {
+            DestroyProjectile();
+
+        }
+
+    }
+
+    void DestroyProjectile() 
+    {
+        Destroy(gameObject);
+    }
+
 }

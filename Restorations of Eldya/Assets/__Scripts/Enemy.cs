@@ -4,31 +4,62 @@ using UnityEngine;
 
 public class Enemy : MonoBehaviour
 {
-    public int health = 100;
+    public Transform target; //where we want to shoot(player? mouse?)
+    public Transform weaponMuzzle; //The empty game object which will be our weapon muzzle to shoot from
+    public GameObject bullet; //Your set-up prefab
+    public float shootingPower = 20f; //force of projection
+    public float shootDistance = 8f;
+
+    private float timeBtwShots;
+    public float startTimeBtwShots = 2f;
+
+    private int maxHealth = 100;
+    public int health;
     public GameObject deathEffect;
 
-    // Start is called before the first frame update
-    void Start()
+    void Start() 
     {
+        health = maxHealth;
+        timeBtwShots = startTimeBtwShots;
+    }
+
+    private void Update()
+    {
+
+        if (Vector2.Distance(transform.position, target.position) <= shootDistance) 
+        {
+            Fire(); //Constantly fire
+        }
+
+    }
+
+    private void Fire()
+    {
+        if (timeBtwShots <= 0)
+        {
+            //Shooting logic 
+            Instantiate(bullet, weaponMuzzle.position, weaponMuzzle.rotation);
+            timeBtwShots = startTimeBtwShots;
+
+        }
+        else 
+        {
+            timeBtwShots -= Time.deltaTime;
+        }
         
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-
-    public void TakeDamage(int damage) 
+    public void TakeDamage(int damage)
     {
         health -= damage;
-        if (health <= 0) 
+
+        if (health <= 0)
         {
             Die();
         }
     }
 
-    void Die() 
+    void Die()
     {
         //Instantiate(deathEffect, transform.position, Quaternion.identity);
         Destroy(gameObject);

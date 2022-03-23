@@ -10,10 +10,18 @@ public class PlayerMouvement : MonoBehaviour
     bool jump = false;
     bool crouch = false;
     public Animator animator;
+    public float health = 200f;
+    //public float currentHealth;
+    public GameObject deathEffect;
+    private int yMin = -10;
+    public HealthBar healthBar;
+
 
     // Start is called before the first frame update
     void Start()
     {
+        //currentHealth = health;
+        healthBar.SetMaxHealth(health);
         
     }
 
@@ -38,6 +46,11 @@ public class PlayerMouvement : MonoBehaviour
             crouch = false;
         }
 
+        if (transform.position.y <= yMin) 
+        {
+            Die();
+        }
+
     }
 
     public void onLanding() 
@@ -53,7 +66,24 @@ public class PlayerMouvement : MonoBehaviour
     {
         controller.Move(horizontalMove * Time.fixedDeltaTime, crouch, jump);//move our character 
         jump = false;
-    
+    }
+
+    public void TakeDamage(float damage)
+    {
+        health -= damage;
+        healthBar.SetHealth(health);
+
+        if (health <= 0)
+        {
+            Die();
+        }
+    }
+
+    void Die()
+    {
+        //Instantiate(deathEffect, transform.position, Quaternion.identity);
+        Destroy(gameObject);
+        Application.LoadLevel("SampleScene");
 
     }
 

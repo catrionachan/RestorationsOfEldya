@@ -13,9 +13,10 @@ GameObject:
   - component: {fileID: 2189236365302150065}
   - component: {fileID: 2189236365302150067}
   - component: {fileID: 2189236365302150066}
+  - component: {fileID: 5775368525642663553}
   m_Layer: 0
   m_Name: Saw
-  m_TagString: Untagged
+  m_TagString: Trap
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -124,9 +125,22 @@ CircleCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: -0.0016710162, y: 0}
   serializedVersion: 2
   m_Radius: 0.99874705
+--- !u!114 &5775368525642663553
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2189236365302150071}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1cd119c154e714147bb23de228102152, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  damage: 0.25

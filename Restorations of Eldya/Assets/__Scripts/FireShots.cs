@@ -6,7 +6,7 @@ public class FireShots : MonoBehaviour
 {
     public float speed = 20f;
     public Rigidbody2D rb;
-    public int damage = 50;
+    public int damage = 25;
 
     // Start is called before the first frame update
     void Start()
@@ -16,7 +16,7 @@ public class FireShots : MonoBehaviour
         
     }
 
-    void OnTriggerEnter2d(Collider2D hitInfo) 
+    void OnTriggerEnter2D(Collider2D hitInfo) 
     {
         Enemy enemy = hitInfo.GetComponent<Enemy>();
         if (enemy != null) 

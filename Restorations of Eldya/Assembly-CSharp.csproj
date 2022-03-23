@@ -63,7 +63,7 @@
      <Compile Include="Assets\__Scripts\MainController.cs" />
      <None Include="Assets\_Backgrounds\Cainos\Pixel Art Platformer - Village Props\Changelog.txt" />
      <None Include="Assets\_Backgrounds\Free Pixel Art Forest\Contact.txt" />
-     <None Include="Assets\Dragon Warrior Files\Read Me.txt" />
+     <None Include="Assets\_Sprites\Dragon Warrior Files\Read Me.txt" />
      <None Include="Assets\_Backgrounds\Free Pixel Art Forest\Lisense.txt" />
      <None Include="Assets\_Backgrounds\Free Pixel Art Forest\readme.txt" />
  <Reference Include="UnityEngine">

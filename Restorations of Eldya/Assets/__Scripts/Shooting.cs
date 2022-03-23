@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Shooting : MonoBehaviour
 {
-    public Animator animator;
+    //public Animator animator;
     public Transform firePoint;
     public GameObject bulletPrefab;
     bool shoot = false;
@@ -22,7 +22,6 @@ public class Shooting : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        count ++;
         if (Time.time >= nextAttackTime)
         {
             if (Input.GetButtonDown("Fire1"))
@@ -31,10 +30,10 @@ public class Shooting : MonoBehaviour
                 nextAttackTime = Time.time + 1f / attackRate;
             }
         }
-        if (count >= 2000)
+        /*if (count >= 2000)
         {
             animator.SetBool("IsShooting", false);
-        }
+        }*/
 
 
     }
@@ -45,7 +44,7 @@ public class Shooting : MonoBehaviour
         //Shooting logic 
         Instantiate(bulletPrefab, firePoint.position, firePoint.rotation);
         shoot = true;
-        animator.SetBool("IsShooting", shoot);
+        //animator.SetBool("IsShooting", shoot);
 
     }
 }
