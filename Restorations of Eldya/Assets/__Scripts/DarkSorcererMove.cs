@@ -21,7 +21,7 @@ public class DarkSorcererMove : MonoBehaviour
         Move();
     } 
     public void Move() {
-        if(target.position.x >= 63) {
+        if(target.position.x >= 64) {
             anim.SetBool("OnEnter", true);
             ev = true;
         }
