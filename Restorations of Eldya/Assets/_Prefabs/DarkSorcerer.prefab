@@ -118,8 +118,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 1
-  bndCheck: {fileID: 0}
-  darkSorcerer: {fileID: 0}
+  anim: {fileID: 6886675942239358178}
 --- !u!70 &-2064579186600165795
 CapsuleCollider2D:
   m_ObjectHideFlags: 0

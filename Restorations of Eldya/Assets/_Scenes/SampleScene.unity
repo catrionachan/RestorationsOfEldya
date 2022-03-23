@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657815, g: 0.49641192, b: 0.57481617, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -2080,6 +2080,30 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 21
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &492406241 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6886675942239358179, guid: 574cd4b1855744b0ea31283b5731bfa5, type: 3}
+  m_PrefabInstance: {fileID: 6886675941973725427}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &492406244 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 6886675942239358178, guid: 574cd4b1855744b0ea31283b5731bfa5, type: 3}
+  m_PrefabInstance: {fileID: 6886675941973725427}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &492406247
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 492406241}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: edbb068a5b76a4a71b9560691cded24b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 1
+  anim: {fileID: 492406244}
 --- !u!1 &506980729
 GameObject:
   m_ObjectHideFlags: 0
@@ -16432,6 +16456,14 @@ PrefabInstance:
       value: 66
       objectReference: {fileID: 0}
     - target: {fileID: 6886675942239358176, guid: 574cd4b1855744b0ea31283b5731bfa5, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 6886675942239358176, guid: 574cd4b1855744b0ea31283b5731bfa5, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 6886675942239358176, guid: 574cd4b1855744b0ea31283b5731bfa5, type: 3}
       propertyPath: m_LocalPosition.x
       value: 70.066
       objectReference: {fileID: 0}
@@ -16471,6 +16503,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6886675942239358178, guid: 574cd4b1855744b0ea31283b5731bfa5, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: d4572c27a9fe8cf4b9d5febba1358248, type: 2}
     - target: {fileID: 6886675942239358179, guid: 574cd4b1855744b0ea31283b5731bfa5, type: 3}
       propertyPath: m_Name
       value: DarkSorcerer
