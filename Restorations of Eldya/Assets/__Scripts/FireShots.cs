@@ -19,9 +19,16 @@ public class FireShots : MonoBehaviour
     void OnTriggerEnter2D(Collider2D hitInfo) 
     {
         Enemy enemy = hitInfo.GetComponent<Enemy>();
+        EnemyBoss enemyBoss = hitInfo.GetComponent<EnemyBoss>();
+
         if (enemy != null) 
         {
             enemy.TakeDamage(damage);
+        }
+
+        if (enemyBoss != null)
+        {
+            enemyBoss.TakeDamage(damage);
         }
         Destroy(gameObject);
     }

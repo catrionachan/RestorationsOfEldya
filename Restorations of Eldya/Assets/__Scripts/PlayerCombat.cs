@@ -40,9 +40,10 @@ public class PlayerCombat : MonoBehaviour
 
         Collider2D[] hitEnemies = Physics2D.OverlapCircleAll(attackPoint.position, attackRange, enemyLayers);//creates a circle of radius and collects all objects hit 
 
-        foreach(Collider2D enemy in hitEnemies) 
+        foreach(Collider2D each in hitEnemies) 
         {
-            enemy.GetComponent<Enemy>().TakeDamage(attackDamage);
+            each.GetComponent<Enemy>().TakeDamage(attackDamage);
+            each.GetComponent<EnemyBoss>().TakeDamage(attackDamage);
 
         }
     }
