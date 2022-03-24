@@ -14,12 +14,13 @@ public class Enemy : MonoBehaviour
     public float startTimeBtwShots = 2f;
 
     private int maxHealth = 100;
-    public int health;
     public GameObject deathEffect;
+    public HealthBar healthBar;
+    public GameObject healthB;
 
     void Start() 
     {
-        health = maxHealth;
+        healthBar.SetMaxHealth(maxHealth);
         timeBtwShots = startTimeBtwShots;
     }
 
@@ -51,9 +52,11 @@ public class Enemy : MonoBehaviour
 
     public void TakeDamage(int damage)
     {
-        health -= damage;
+        maxHealth -= damage;
+        healthBar.SetHealth(maxHealth);
 
-        if (health <= 0)
+
+        if (maxHealth <= 0)
         {
             Die();
         }
@@ -62,6 +65,7 @@ public class Enemy : MonoBehaviour
     void Die()
     {
         //Instantiate(deathEffect, transform.position, Quaternion.identity);
+        healthB.SetActive(false);
         Destroy(gameObject);
     }
 }
