@@ -9,6 +9,7 @@ public class Shooting : MonoBehaviour
     public GameObject bulletPrefab;
     bool shoot = false;
     int count = 0;
+    public Animator animation;
 
     public float attackRate = 2f;
     float nextAttackTime = 0f;
@@ -44,6 +45,8 @@ public class Shooting : MonoBehaviour
         //Shooting logic 
         Instantiate(bulletPrefab, firePoint.position, firePoint.rotation);
         shoot = true;
+        animation.SetTrigger("IsShoot");
+
         //animator.SetBool("IsShooting", shoot);
 
     }

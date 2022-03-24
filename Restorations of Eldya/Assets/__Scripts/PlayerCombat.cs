@@ -28,6 +28,7 @@ public class PlayerCombat : MonoBehaviour
             {
                 Attack();
                 nextAttackTime = Time.time + 1f/attackRate;
+                
             }
         }
         
@@ -35,7 +36,7 @@ public class PlayerCombat : MonoBehaviour
 
     void Attack() 
     {
-        animator.SetBool("IsAttacking", true);//sets animation to true 
+        animator.SetTrigger("IsHit");//sets animation to true 
 
 
         Collider2D[] hitEnemies = Physics2D.OverlapCircleAll(attackPoint.position, attackRange, enemyLayers);//creates a circle of radius and collects all objects hit 

@@ -12,8 +12,6 @@ public class TrapDamage : MonoBehaviour
         {
             PlayerMouvement player = collider.GetComponent<PlayerMouvement>();
 
-            
-
             if (player != null)
             {
                 player.TakeDamage(damage);
