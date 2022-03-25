@@ -38,12 +38,6 @@ public class EnemyShooting : MonoBehaviour
     {
         //Shooting logic 
         Instantiate(bulletPrefab, firePoint.position, firePoint.rotation);
-<<<<<<< Updated upstream
-        shoot = true;
-
-=======
->>>>>>> Stashed changes
-        //animator.SetBool("IsShooting", shoot);
 
     }
 }
