@@ -71,7 +71,7 @@ public class BoundsCheck : MonoBehaviour
         {
             //sets boolean value as true
             transform.position = pos;
-            onScreen = true; //sets on Screen as tru
+            onScreen = true; //sets on Screen as true
             offRight = offLeft = offUp = offDown = false;
 
         }

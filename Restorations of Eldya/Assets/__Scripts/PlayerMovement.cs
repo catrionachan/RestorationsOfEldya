@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class PlayerMouvement : MonoBehaviour
+public class PlayerMovement : MonoBehaviour
 {
     public CharacterController2D controller;
     float horizontalMove = 0f;
@@ -51,6 +51,7 @@ public class PlayerMouvement : MonoBehaviour
             crouch = false;
         }
 
+        //invoke the die method
         if (transform.position.y <= yMin) 
         {
             Die();
@@ -64,22 +65,27 @@ public class PlayerMouvement : MonoBehaviour
 
     }
 
+    //Landing the jump animating
     public void onLanding() 
     {
         animator.SetBool("IsJumping", false);
     }
     
+    //crouching movement animating
     public void onCrouching(bool isCrouching)
     {
         animator.SetBool("IsCrouching", isCrouching);
     }
 
+    //Movement for the character
     void FixedUpdate() 
     {
         controller.Move(horizontalMove * Time.fixedDeltaTime, crouch, jump);//move our character 
         jump = false;
     }
 
+
+    //Mehtod to take damage when the object gets hit
     public void TakeDamage(float damage)
     {
         health -= damage;
@@ -92,9 +98,9 @@ public class PlayerMouvement : MonoBehaviour
         }
     }
 
+    //removes gameObject and resets the scene
     void Die()
     {
-        //Instantiate(deathEffect, transform.position, Quaternion.identity);
         Destroy(gameObject);
         SceneManager.LoadScene("SampleScene");
     }

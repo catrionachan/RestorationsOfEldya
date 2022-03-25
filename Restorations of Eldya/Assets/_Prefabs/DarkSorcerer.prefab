@@ -122,13 +122,15 @@ MonoBehaviour:
   bullet: {fileID: 0}
   shootingPower: 20
   shootDistance: 5
-  anim: {fileID: 0}
-  speed: 0
-  isFlipped: 0
+  timeBtwShots: 0
   startTimeBtwShots: 2
+  maxHealth: 1000
   deathEffect: {fileID: 0}
   healthBar: {fileID: 0}
   healthB: {fileID: 0}
+  anim: {fileID: 0}
+  speed: 0
+  isFlipped: 0
 --- !u!70 &-2064579186600165795
 CapsuleCollider2D:
   m_ObjectHideFlags: 0

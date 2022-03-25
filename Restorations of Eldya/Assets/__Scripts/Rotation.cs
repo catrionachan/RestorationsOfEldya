@@ -9,6 +9,7 @@ public class Rotation : MonoBehaviour
     // Update is called once per frame
     private void Update()
     {
+        //rotates object based on the speed
         transform.Rotate(0, 0, 360 * speed * Time.deltaTime);
     }
 }

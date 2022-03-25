@@ -2,52 +2,39 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class EnemyBoss : MonoBehaviour
+//Inheritance with Enemy Class
+
+public class EnemyBoss : Enemy
 {
-    public Transform target; //where we want to shoot(player)
-    public Transform weaponMuzzle; //The empty game object which will be our weapon muzzle to shoot from
-    public GameObject bullet; //Your set-up prefab
-    public float shootingPower = 20f; //force of projection
-    public float shootDistance = 5f;
     public Animator anim;
     private bool ev = false;
     public float speed;
     public bool isFlipped = false;
 
-
-
-    private float timeBtwShots;
-    public float startTimeBtwShots = 2f;
-
-    private int maxHealth = 500;
-    public GameObject deathEffect;
-    public HealthBar healthBar;
-    public GameObject healthB;
-
     void Start()
     {
-        healthBar.SetMaxHealth(maxHealth);
-        timeBtwShots = startTimeBtwShots;
+        healthBar.SetMaxHealth(maxHealth); //sets the inital health as max
+        timeBtwShots = startTimeBtwShots; //sets initial time constraint between weapon spawining 
     }
 
     private void Update()
     {
-        LookAtPlayer();
+        LookAtPlayer(); //Method to have the enemy follow the hero character
 
         if (target.position.x >= 64)
         {
-            anim.SetBool("OnEnter", true);
-            ev = true;
+            anim.SetBool("OnEnter", true); //starts animator OnEnter
+            ev = true; //variable is set as try
         }
 
 
-        if (ev == true)
+        if (ev == true) //move towards the hero character
         {
             transform.position = Vector2.MoveTowards(transform.position, target.position, speed * Time.deltaTime);
 
         }
        
-
+           // if the hero character is within the shooting range of the hero, the enemy fires
         if (Vector2.Distance(transform.position, target.position) <= shootDistance)
         {
             Fire(); //Constantly fire
@@ -55,43 +42,18 @@ public class EnemyBoss : MonoBehaviour
 
     }
 
-    private void Fire()
+    //method to fire its weapon (combat style)
+    public void Fire()
     {
         if (timeBtwShots <= 0)
         {
-            //Shooting logic 
-            Instantiate(bullet, weaponMuzzle.position, weaponMuzzle.rotation);
-            timeBtwShots = startTimeBtwShots;
+            
             anim.SetTrigger("Attack1");
 
         }
-        else
-        {
-            timeBtwShots -= Time.deltaTime;
-        }
-
+        base.Fire();
     }
-
-    public void TakeDamage(int damage)
-    {
-        maxHealth -= damage;
-        healthBar.SetHealth(maxHealth);
-
-
-        if (maxHealth <= 0)
-        {
-            Die();
-        }
-    }
-
-    void Die()
-    {
-        //Instantiate(deathEffect, transform.position, Quaternion.identity);
-        healthB.SetActive(false);
-        Destroy(gameObject);
-    }
-
-
+    
     public void LookAtPlayer()
     {
         Vector3 flipped = transform.localScale;

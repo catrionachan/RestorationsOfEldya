@@ -7,6 +7,7 @@ public class Play : MonoBehaviour
 {
     public void PlayGame() 
     {
+        //Builds and loads game on the start to the home page
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
 
     }

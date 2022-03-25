@@ -25,25 +25,25 @@ public class CharacterController2D : MonoBehaviour
 	public UnityEvent OnLandEvent;
 
 	[System.Serializable]
-	public class BoolEvent : UnityEvent<bool> { }
+	public class BoolEvent : UnityEvent<bool> { } //Boolean event
 
-	public BoolEvent OnCrouchEvent;
-	private bool m_wasCrouching = false;
+	public BoolEvent OnCrouchEvent; //Crouch Bookean Event
+	private bool m_wasCrouching = false; //private variable for boolean event
 
 	private void Awake()
 	{
 		m_Rigidbody2D = GetComponent<Rigidbody2D>();
 
-		if (OnLandEvent == null)
+		if (OnLandEvent == null) //Creates new onLandEvent if it is null on Awake
 			OnLandEvent = new UnityEvent();
 
-		if (OnCrouchEvent == null)
+		if (OnCrouchEvent == null) //Creates new BoolEvent if it is null on Awake
 			OnCrouchEvent = new BoolEvent();
 	}
 
 	private void FixedUpdate()
 	{
-		bool wasGrounded = m_Grounded;
+		bool wasGrounded = m_Grounded; //set wasGrounded as value of m_Grounded
 		m_Grounded = false;
 
 		// The player is grounded if a circlecast to the groundcheck position hits anything designated as ground

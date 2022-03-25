@@ -43,15 +43,4 @@ public class MainController : MonoBehaviour
         Invoke("SpawnEnemy", 1f / enemySpawnRate);
     }
 
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 }

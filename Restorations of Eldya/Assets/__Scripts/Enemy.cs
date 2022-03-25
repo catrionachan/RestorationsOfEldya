@@ -10,23 +10,23 @@ public class Enemy : MonoBehaviour
     public float shootingPower = 20f; //force of projection
     public float shootDistance = 8f;
 
-    private float timeBtwShots;
+    public float timeBtwShots;
     public float startTimeBtwShots = 2f;
 
-    private int maxHealth = 100;
+    public int maxHealth = 100; //Max health level set
     public GameObject deathEffect;
-    public HealthBar healthBar;
+    public HealthBar healthBar; //health bar 
     public GameObject healthB;
 
     void Start() 
     {
-        healthBar.SetMaxHealth(maxHealth);
-        timeBtwShots = startTimeBtwShots;
+        healthBar.SetMaxHealth(maxHealth); //at the start of the game the healthbar is set with maximum health
+        timeBtwShots = startTimeBtwShots; //set time between start as the start time 
     }
 
     private void Update()
     {
-
+        //moves the weapon from the enemy character
         if (Vector2.Distance(transform.position, target.position) <= shootDistance) 
         {
             Fire(); //Constantly fire
@@ -34,7 +34,8 @@ public class Enemy : MonoBehaviour
 
     }
 
-    private void Fire()
+    //method that fires a weapon from the enemy
+    public virtual void Fire()
     {
         if (timeBtwShots <= 0)
         {
@@ -45,27 +46,28 @@ public class Enemy : MonoBehaviour
         }
         else 
         {
-            timeBtwShots -= Time.deltaTime;
+            timeBtwShots -= Time.deltaTime; //reduces variable that sets a time constraint on when the next enemy can fire a fireball
         }
         
     }
 
-    public void TakeDamage(int damage)
+    //method which reduces the enemy health bar based on the damage recieved from the object hit
+    public virtual void TakeDamage(int damage)
     {
         maxHealth -= damage;
         healthBar.SetHealth(maxHealth);
 
-
+        //when the health of the character is less then 0, the character dies
         if (maxHealth <= 0)
         {
             Die();
         }
     }
 
-    void Die()
+    // Die method which removes the character from the scree
+    public virtual void Die()
     {
-        //Instantiate(deathEffect, transform.position, Quaternion.identity);
-        healthB.SetActive(false);
-        Destroy(gameObject);
+        healthB.SetActive(false);//the healthBar object is removed from the screen
+        Destroy(gameObject);//the character is removed from the screen 
     }
 }
