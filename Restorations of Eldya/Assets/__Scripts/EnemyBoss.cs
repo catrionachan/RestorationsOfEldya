@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class EnemyBoss : MonoBehaviour
 {
-    public Transform target; //where we want to shoot(player? mouse?)
+    public Transform target; //where we want to shoot(player)
     public Transform weaponMuzzle; //The empty game object which will be our weapon muzzle to shoot from
     public GameObject bullet; //Your set-up prefab
     public float shootingPower = 20f; //force of projection
@@ -12,6 +12,8 @@ public class EnemyBoss : MonoBehaviour
     public Animator anim;
     private bool ev = false;
     public float speed;
+    public bool isFlipped = false;
+
 
 
     private float timeBtwShots;
@@ -30,22 +32,21 @@ public class EnemyBoss : MonoBehaviour
 
     private void Update()
     {
+        LookAtPlayer();
+
         if (target.position.x >= 64)
         {
             anim.SetBool("OnEnter", true);
             ev = true;
         }
+
+
         if (ev == true)
         {
             transform.position = Vector2.MoveTowards(transform.position, target.position, speed * Time.deltaTime);
-            
-            if (transform.position.x < target.position.x) 
-            {
-                transform.Rotate(0f, 180f, 0f);
-            }
-            
 
         }
+       
 
         if (Vector2.Distance(transform.position, target.position) <= shootDistance)
         {
@@ -87,5 +88,25 @@ public class EnemyBoss : MonoBehaviour
         //Instantiate(deathEffect, transform.position, Quaternion.identity);
         healthB.SetActive(false);
         Destroy(gameObject);
+    }
+
+
+    public void LookAtPlayer()
+    {
+        Vector3 flipped = transform.localScale;
+        flipped.z *= -1f;
+
+        if (transform.position.x > target.position.x && isFlipped)
+        {
+            transform.localScale = flipped;
+            transform.Rotate(0f, 180f, 0f);
+            isFlipped = true;
+        }
+        else if (transform.position.x < target.position.x && !isFlipped)
+        {
+            transform.localScale = flipped;
+            transform.Rotate(0f, 180f, 0f);
+            isFlipped = true;
+        }
     }
 }

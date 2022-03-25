@@ -48,16 +48,16 @@
   </PropertyGroup>
   <ItemGroup>
      <Compile Include="Assets\__Scripts\Enemy.cs" />
-     <Compile Include="Assets\__Scripts\FireMinionMove.cs" />
      <Compile Include="Assets\__Scripts\EnemyShooting.cs" />
      <Compile Include="Assets\__Scripts\TrapDamage.cs" />
      <Compile Include="Assets\__Scripts\MoveBackground.cs" />
+     <Compile Include="Assets\__Scripts\BossFlipping.cs" />
      <Compile Include="Assets\__Scripts\PlayerMouvement.cs" />
      <Compile Include="Assets\__Scripts\BoundsCheck.cs" />
      <Compile Include="Assets\__Scripts\waypoint.cs" />
      <Compile Include="Assets\__Scripts\Rotation.cs" />
      <Compile Include="Assets\__Scripts\CharacterController2D.cs" />
-     <Compile Include="Assets\__Scripts\DarkSorcererMove.cs" />
+     <Compile Include="Assets\__Scripts\EnemyBoss.cs" />
      <Compile Include="Assets\__Scripts\FireBallMover.cs" />
      <Compile Include="Assets\__Scripts\Shooting.cs" />
      <Compile Include="Assets\__Scripts\HealthBar.cs" />
@@ -65,7 +65,7 @@
      <Compile Include="Assets\__Scripts\FireShots.cs" />
      <Compile Include="Assets\__Scripts\PlayerCombat.cs" />
      <Compile Include="Assets\__Scripts\dashMove.cs" />
-     <Compile Include="Assets\SorcererShots.cs" />
+     <Compile Include="Assets\__Scripts\SorcererShots.cs" />
      <Compile Include="Assets\__Scripts\MainController.cs" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />

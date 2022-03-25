@@ -2717,6 +2717,7 @@ MonoBehaviour:
   shootDistance: 5
   anim: {fileID: 492406244}
   speed: 1
+  isFlipped: 0
   startTimeBtwShots: 2
   deathEffect: {fileID: 0}
   healthBar: {fileID: 1107125834}
@@ -16514,7 +16515,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1548376295}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.288, y: 0.006, z: 0}
+  m_LocalPosition: {x: 0.324, y: -0.213, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 492406246}
@@ -19170,6 +19171,10 @@ PrefabInstance:
       propertyPath: m_IsTrigger
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1138757030845873425, guid: 574cd4b1855744b0ea31283b5731bfa5, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1889311824}
     - target: {fileID: 6886675942239358176, guid: 574cd4b1855744b0ea31283b5731bfa5, type: 3}
       propertyPath: m_RootOrder
       value: 61

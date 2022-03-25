@@ -114,17 +114,21 @@ MonoBehaviour:
   m_GameObject: {fileID: 6886675942239358179}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: edbb068a5b76a4a71b9560691cded24b, type: 3}
+  m_Script: {fileID: 11500000, guid: d055d437e0a2681499599613a1355db5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 1
-  anim: {fileID: 6886675942239358178}
+  target: {fileID: 0}
   weaponMuzzle: {fileID: 0}
   bullet: {fileID: 0}
   shootingPower: 20
+  shootDistance: 5
+  anim: {fileID: 0}
+  speed: 0
+  isFlipped: 0
+  startTimeBtwShots: 2
+  deathEffect: {fileID: 0}
   healthBar: {fileID: 0}
   healthB: {fileID: 0}
-  startTimeBtwShots: 2
 --- !u!70 &-2064579186600165795
 CapsuleCollider2D:
   m_ObjectHideFlags: 0

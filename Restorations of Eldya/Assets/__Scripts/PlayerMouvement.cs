@@ -35,6 +35,7 @@ public class PlayerMouvement : MonoBehaviour
 
 
         horizontalMove = Input.GetAxisRaw("Horizontal") * runSpeed;//takes left and right input and multiplies by speed 
+        
         if (Input.GetButtonDown("Jump")) //takes up down inputs and sets jump to true 
         {
             jump = true;
@@ -66,6 +67,7 @@ public class PlayerMouvement : MonoBehaviour
     {
         animator.SetBool("IsJumping", false);
     }
+    
     public void onCrouching(bool isCrouching)
     {
         animator.SetBool("IsCrouching", isCrouching);
