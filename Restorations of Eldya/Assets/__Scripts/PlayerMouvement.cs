@@ -6,6 +6,7 @@ public class PlayerMouvement : MonoBehaviour
 {
     public CharacterController2D controller;
     float horizontalMove = 0f;
+    float verticalMove = 0f;
     public float runSpeed = 40f;
     bool jump = false;
     bool crouch = false;
@@ -28,6 +29,8 @@ public class PlayerMouvement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (health > 0) {
+            
         animator.SetFloat("Speed", Mathf.Abs(horizontalMove));//takes positive value of speed and assigns it to "Speed" in animator
 
 
@@ -50,6 +53,12 @@ public class PlayerMouvement : MonoBehaviour
         {
             Die();
         }
+        
+        }
+        else {
+            horizontalMove = 0;
+        }
+        
 
     }
 
@@ -75,7 +84,8 @@ public class PlayerMouvement : MonoBehaviour
 
         if (health <= 0)
         {
-            Die();
+            animator.SetTrigger("IsDead");
+            Invoke("Die", 0.7f);
         }
     }
 
@@ -84,8 +94,8 @@ public class PlayerMouvement : MonoBehaviour
         //Instantiate(deathEffect, transform.position, Quaternion.identity);
         Destroy(gameObject);
         Application.LoadLevel("SampleScene");
-
     }
+    
 
 
 }

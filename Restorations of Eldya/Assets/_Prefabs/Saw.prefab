@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 2189236365302150067}
   - component: {fileID: 2189236365302150066}
   - component: {fileID: 5775368525642663553}
+  - component: {fileID: 187382502010876943}
   m_Layer: 0
   m_Name: Saw
   m_TagString: Trap
@@ -145,3 +146,29 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   damage: 200
   player: {fileID: 0}
+--- !u!61 &187382502010876943
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2189236365302150071}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.027948797, y: -0.03493592}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 2.375, y: 2.375}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1.6762818, y: 1.5225644}
+  m_EdgeRadius: 0
