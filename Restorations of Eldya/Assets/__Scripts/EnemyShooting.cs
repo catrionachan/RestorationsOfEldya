@@ -9,8 +9,6 @@ public class EnemyShooting : MonoBehaviour
     public Animator animation;
     public GameObject bulletPrefab;
     public GameObject target;
-    bool shoot = false;
-    int count = 0;
 
     public float attackRate = 2f;
     float nextAttackTime = 0f;
@@ -31,10 +29,6 @@ public class EnemyShooting : MonoBehaviour
             nextAttackTime = Time.time + 1f / attackRate;
            
         }
-        /*if (count >= 2000)
-        {
-            animator.SetBool("IsShooting", false);
-        }*/
 
 
     }
@@ -44,8 +38,11 @@ public class EnemyShooting : MonoBehaviour
     {
         //Shooting logic 
         Instantiate(bulletPrefab, firePoint.position, firePoint.rotation);
+<<<<<<< Updated upstream
         shoot = true;
 
+=======
+>>>>>>> Stashed changes
         //animator.SetBool("IsShooting", shoot);
 
     }

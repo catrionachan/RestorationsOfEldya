@@ -1,12 +1,13 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PlayerMouvement : MonoBehaviour
 {
     public CharacterController2D controller;
     float horizontalMove = 0f;
-    float verticalMove = 0f;
+    //float verticalMove = 0f;
     public float runSpeed = 40f;
     bool jump = false;
     bool crouch = false;
@@ -40,8 +41,8 @@ public class PlayerMouvement : MonoBehaviour
         {
             jump = true;
             animator.SetBool("IsJumping", true);//takes  value of jump and assigns it to "IsJumping" in animator
-
         }
+
         if (Input.GetButtonDown("Crouch")) //takes up down inputs and sets crouch to true 
         {
             crouch = true;
@@ -95,7 +96,7 @@ public class PlayerMouvement : MonoBehaviour
     {
         //Instantiate(deathEffect, transform.position, Quaternion.identity);
         Destroy(gameObject);
-        Application.LoadLevel("SampleScene");
+        SceneManager.LoadScene("SampleScene");
     }
     
 

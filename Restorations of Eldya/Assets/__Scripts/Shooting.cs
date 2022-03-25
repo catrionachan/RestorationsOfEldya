@@ -7,8 +7,6 @@ public class Shooting : MonoBehaviour
     //public Animator animator;
     public Transform firePoint;
     public GameObject bulletPrefab;
-    bool shoot = false;
-    int count = 0;
     public Animator animation;
 
     public float attackRate = 2f;
@@ -31,11 +29,6 @@ public class Shooting : MonoBehaviour
                 nextAttackTime = Time.time + 1f / attackRate;
             }
         }
-        /*if (count >= 2000)
-        {
-            animator.SetBool("IsShooting", false);
-        }*/
-
 
     }
 
@@ -44,10 +37,8 @@ public class Shooting : MonoBehaviour
     {
         //Shooting logic 
         Instantiate(bulletPrefab, firePoint.position, firePoint.rotation);
-        shoot = true;
         animation.SetTrigger("IsShoot");
 
-        //animator.SetBool("IsShooting", shoot);
 
     }
 }
