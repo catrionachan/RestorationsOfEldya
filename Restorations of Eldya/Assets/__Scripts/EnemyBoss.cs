@@ -62,6 +62,7 @@ public class EnemyBoss : MonoBehaviour
             //Shooting logic 
             Instantiate(bullet, weaponMuzzle.position, weaponMuzzle.rotation);
             timeBtwShots = startTimeBtwShots;
+            anim.SetTrigger("Attack1");
 
         }
         else

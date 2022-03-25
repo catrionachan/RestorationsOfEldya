@@ -6,6 +6,7 @@ public class EnemyShooting : MonoBehaviour
 {
     //public Animator animator;
     public Transform firePoint;
+    public Animator animation;
     public GameObject bulletPrefab;
     public GameObject target;
     bool shoot = false;
@@ -44,6 +45,7 @@ public class EnemyShooting : MonoBehaviour
         //Shooting logic 
         Instantiate(bulletPrefab, firePoint.position, firePoint.rotation);
         shoot = true;
+
         //animator.SetBool("IsShooting", shoot);
 
     }
