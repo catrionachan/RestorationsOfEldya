@@ -124,7 +124,7 @@ MonoBehaviour:
   shootDistance: 5
   timeBtwShots: 0
   startTimeBtwShots: 2
-  maxHealth: 1000
+  maxHealth: 10000
   deathEffect: {fileID: 0}
   healthBar: {fileID: 0}
   healthB: {fileID: 0}

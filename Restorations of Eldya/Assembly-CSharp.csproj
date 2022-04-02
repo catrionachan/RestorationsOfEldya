@@ -51,9 +51,9 @@
      <Compile Include="Assets\__Scripts\EnemyShooting.cs" />
      <Compile Include="Assets\__Scripts\TrapDamage.cs" />
      <Compile Include="Assets\__Scripts\MoveBackground.cs" />
-     <Compile Include="Assets\__Scripts\PlayerMouvement.cs" />
+     <Compile Include="Assets\__Scripts\PlayerMovement.cs" />
      <Compile Include="Assets\__Scripts\BoundsCheck.cs" />
-     <Compile Include="Assets\__Scripts\waypoint.cs" />
+     <Compile Include="Assets\__Scripts\Waypoint.cs" />
      <Compile Include="Assets\__Scripts\Rotation.cs" />
      <Compile Include="Assets\__Scripts\CharacterController2D.cs" />
      <Compile Include="Assets\__Scripts\EnemyBoss.cs" />
@@ -63,7 +63,7 @@
      <Compile Include="Assets\__Scripts\Play.cs" />
      <Compile Include="Assets\__Scripts\FireShots.cs" />
      <Compile Include="Assets\__Scripts\PlayerCombat.cs" />
-     <Compile Include="Assets\__Scripts\dashMove.cs" />
+     <Compile Include="Assets\__Scripts\DashMove.cs" />
      <Compile Include="Assets\__Scripts\SorcererShots.cs" />
      <Compile Include="Assets\__Scripts\MainController.cs" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
