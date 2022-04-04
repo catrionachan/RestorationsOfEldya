@@ -1,9 +1,5 @@
 sceneSetups:
-<<<<<<< Updated upstream
-- path: Assets/_Scenes/StartingMenu.unity
-=======
-- path: Assets/Flat Textures Pack/Demo/Demo.unity
->>>>>>> Stashed changes
+- path: Assets/_Scenes/Level2.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0

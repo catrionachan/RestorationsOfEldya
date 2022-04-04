@@ -11,6 +11,11 @@ public class EnemyBoss : Enemy
     public float speed;
     public bool isFlipped = false;
 
+    public EnemyBoss()
+    {
+        maxHealth = 1000;
+    }
+
     void Start()
     {
         healthBar.SetMaxHealth(maxHealth); //sets the inital health as max
@@ -43,7 +48,7 @@ public class EnemyBoss : Enemy
     }
 
     //method to fire its weapon (combat style)
-    public void Fire()
+    public override void Fire()
     {
         if (timeBtwShots <= 0)
         {
@@ -63,7 +68,7 @@ public class EnemyBoss : Enemy
         {
             transform.localScale = flipped;
             transform.Rotate(0f, 180f, 0f);
-            isFlipped = true;
+            isFlipped = false;
         }
         else if (transform.position.x < target.position.x && !isFlipped)
         {
