@@ -17,13 +17,21 @@ public class PlayerMovement : MonoBehaviour
     public GameObject deathEffect;
     private int yMin = -10;
     public HealthBar healthBar;
+    public HealthBar expBar;
+    public float experience = 0f;
+    private float totalExp = 100f;
+
+
 
 
     // Start is called before the first frame update
     void Start()
     {
+        DontDestroyOnLoad(gameObject);
         //currentHealth = health;
         healthBar.SetMaxHealth(health);
+        expBar.SetMaxHealth(totalExp);
+        expBar.SetHealth(experience);
         
     }
 
@@ -95,6 +103,18 @@ public class PlayerMovement : MonoBehaviour
         {
             animator.SetTrigger("IsDead");
             Invoke("Die", 0.7f);
+        }
+    }
+
+    //Mehtod to gain experience when the player collides with a potion 
+    public void gainExperience(float exp)
+    {
+        experience += exp;
+        expBar.SetHealth(experience);
+
+        if (experience >= 100)
+        {
+            
         }
     }
 

@@ -10,6 +10,12 @@ public class EnemyBoss : Enemy
     private bool ev = false;
     public float speed;
     public bool isFlipped = false;
+    public GameObject treasurePrefab;
+    
+    public GameObject nextLevelDoor;
+    public Transform door;
+
+
 
     public EnemyBoss()
     {
@@ -76,5 +82,14 @@ public class EnemyBoss : Enemy
             transform.Rotate(0f, 180f, 0f);
             isFlipped = true;
         }
+    }
+
+    // Die method which removes the character from the scree
+    public override void Die()
+    {
+        healthB.SetActive(false);//the healthBar object is removed from the screen
+        Destroy(gameObject);//the character is removed from the screen 
+        Instantiate(treasurePrefab, weaponMuzzle.position, weaponMuzzle.rotation);
+        Instantiate(nextLevelDoor, door.position, door.rotation);
     }
 }

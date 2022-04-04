@@ -18,6 +18,10 @@ public class Enemy : MonoBehaviour
     public HealthBar healthBar; //health bar 
     public GameObject healthB;
 
+    public GameObject potionPrefab;
+
+
+
     void Start() 
     {
         healthBar.SetMaxHealth(maxHealth); //at the start of the game the healthbar is set with maximum health
@@ -69,5 +73,6 @@ public class Enemy : MonoBehaviour
     {
         healthB.SetActive(false);//the healthBar object is removed from the screen
         Destroy(gameObject);//the character is removed from the screen 
+        Instantiate(potionPrefab, weaponMuzzle.position, weaponMuzzle.rotation);
     }
 }

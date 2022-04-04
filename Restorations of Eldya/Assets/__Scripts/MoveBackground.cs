@@ -27,7 +27,7 @@ public class MoveBackground : MonoBehaviour {
 		//sets the image to the original x position
 		if (x <= finalPosition)
 		{
-			Debug.Log("hhhh");
+			//Debug.Log("hhhh");
 			x = originalPosition;
 			transform.position = new Vector3 (x, transform.position.y, transform.position.z);
 		}
