@@ -50,6 +50,13 @@ public class BombMinionEnemy : Enemy
         }
     }
 
+    // Die method which removes the character from the scree
+    public override void Die()
+    {
+        healthB.SetActive(false);//the healthBar object is removed from the screen
+        Destroy(gameObject);//the character is removed from the screen 
+    }
+
     public void PlayerEnters() {
         if (target.position.x >= transform.position.x - 2)
         {
