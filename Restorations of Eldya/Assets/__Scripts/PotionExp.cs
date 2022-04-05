@@ -37,7 +37,7 @@ public class PotionExp : MonoBehaviour
             if (player != null) //if the play is not null, player gains the experience points 
             {
                 player.gainExperience(expPoints);// gains experience points 
-                Destroy(gameObject);//removes the projectile from the screen
+                Destroy(gameObject);//removes the potion from the screen
             }
         }
 

@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 //Inheritance with Enemy Class
 
@@ -11,6 +12,7 @@ public class EnemyBoss : Enemy
     public float speed;
     public bool isFlipped = false;
     public GameObject treasurePrefab;
+
     
     public GameObject nextLevelDoor;
     public Transform door;
@@ -19,7 +21,7 @@ public class EnemyBoss : Enemy
 
     public EnemyBoss()
     {
-        maxHealth = 1000;
+        maxHealth = 500;
     }
 
     void Start()
@@ -30,6 +32,8 @@ public class EnemyBoss : Enemy
 
     private void Update()
     {
+
+        
         LookAtPlayer(); //Method to have the enemy follow the hero character
 
         if (target.position.x >= 64)
@@ -49,6 +53,12 @@ public class EnemyBoss : Enemy
         if (Vector2.Distance(transform.position, target.position) <= shootDistance)
         {
             Fire(); //Constantly fire
+        }
+
+        if (target.position.x >= 64)
+        {
+            anim.SetBool("OnEnter", true); //starts animator OnEnter
+            ev = true; //variable is set as try
         }
 
     }
@@ -84,12 +94,18 @@ public class EnemyBoss : Enemy
         }
     }
 
+    
+
     // Die method which removes the character from the scree
     public override void Die()
     {
+        
         healthB.SetActive(false);//the healthBar object is removed from the screen
         Destroy(gameObject);//the character is removed from the screen 
         Instantiate(treasurePrefab, weaponMuzzle.position, weaponMuzzle.rotation);
         Instantiate(nextLevelDoor, door.position, door.rotation);
     }
+
+    
+
 }
