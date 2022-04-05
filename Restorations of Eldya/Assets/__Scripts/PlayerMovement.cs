@@ -118,11 +118,11 @@ public class PlayerMovement : MonoBehaviour
         }
     }
 
-    //removes gameObject and resets the scene
+    //removes gameObject and send to the gameOver Scene
     void Die()
     {
         Destroy(gameObject);
-        SceneManager.LoadScene("SampleScene");
+        SceneManager.LoadScene("GameOver");
     }
     
 

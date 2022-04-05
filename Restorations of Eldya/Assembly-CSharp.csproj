@@ -51,12 +51,14 @@
      <Compile Include="Assets\__Scripts\EnemyShooting.cs" />
      <Compile Include="Assets\__Scripts\TrapDamage.cs" />
      <Compile Include="Assets\__Scripts\MoveBackground.cs" />
+     <Compile Include="Assets\__Scripts\Restart.cs" />
      <Compile Include="Assets\__Scripts\PlayerMovement.cs" />
      <Compile Include="Assets\__Scripts\BoundsCheck.cs" />
      <Compile Include="Assets\__Scripts\Waypoint.cs" />
      <Compile Include="Assets\__Scripts\Rotation.cs" />
      <Compile Include="Assets\__Scripts\CharacterController2D.cs" />
      <Compile Include="Assets\__Scripts\EnemyBoss.cs" />
+     <Compile Include="Assets\__Scripts\BombMinionEnemy.cs" />
      <Compile Include="Assets\__Scripts\FireBallMover.cs" />
      <Compile Include="Assets\__Scripts\Shooting.cs" />
      <Compile Include="Assets\__Scripts\HealthBar.cs" />
