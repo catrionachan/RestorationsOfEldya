@@ -14,7 +14,6 @@ GameObject:
   - component: {fileID: 2003178279793216010}
   - component: {fileID: -2064579186600165795}
   - component: {fileID: 5957449516608622230}
-  - component: {fileID: 3318798831760394065}
   m_Layer: 0
   m_Name: DarkSorcerer
   m_TagString: Untagged
@@ -129,13 +128,9 @@ MonoBehaviour:
   deathEffect: {fileID: 0}
   healthBar: {fileID: 0}
   healthB: {fileID: 0}
-  potionPrefab: {fileID: 0}
   anim: {fileID: 0}
   speed: 0
   isFlipped: 0
-  treasurePrefab: {fileID: 0}
-  nextLevelDoor: {fileID: 0}
-  door: {fileID: 0}
 --- !u!70 &-2064579186600165795
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -173,33 +168,3 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
---- !u!114 &3318798831760394065
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6886675942239358179}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d055d437e0a2681499599613a1355db5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  target: {fileID: 0}
-  weaponMuzzle: {fileID: 0}
-  bullet: {fileID: 2367299895462148750, guid: ad96da1e2b5e54e48b8a0237ab1f5032, type: 3}
-  shootingPower: 20
-  shootDistance: 5
-  timeBtwShots: 0
-  startTimeBtwShots: 2
-  maxHealth: 250
-  deathEffect: {fileID: 0}
-  healthBar: {fileID: 0}
-  healthB: {fileID: 0}
-  potionPrefab: {fileID: 0}
-  anim: {fileID: 6886675942239358178}
-  speed: 1
-  isFlipped: 0
-  treasurePrefab: {fileID: 3520361919269119974, guid: 83d9652edf8102948abc7e6551b4db36, type: 3}
-  nextLevelDoor: {fileID: 1013917086529220, guid: d10cbe6b249ddc34db2eae14d2ae9f3d, type: 3}
-  door: {fileID: 0}

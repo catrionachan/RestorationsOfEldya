@@ -1,5 +1,9 @@
 sceneSetups:
+<<<<<<< HEAD
 - path: Assets/_Scenes/SampleScene.unity
+=======
+- path: Assets/_Scenes/Win.unity
+>>>>>>> parent of 0c1b0dac (Story Scene added)
   isLoaded: 1
   isActive: 1
   isSubScene: 0
