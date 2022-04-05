@@ -12,7 +12,7 @@ EditorBuildSettings:
     path: Assets/_Scenes/StoryLine.unity
     guid: de36784459057b843a3fe1d9fce0d358
   - enabled: 1
-    path: Assets/_Scenes/SampleScene.unity
+    path: Assets/_Scenes/Level1Draco.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
   - enabled: 1
     path: Assets/_Scenes/Level2.unity
