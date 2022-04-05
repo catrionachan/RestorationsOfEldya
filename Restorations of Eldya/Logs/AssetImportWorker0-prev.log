@@ -22,7 +22,6 @@ AssetImportWorker0
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-<<<<<<< HEAD
 <<<<<<< Updated upstream
 50798
 Successfully changed project path to: C:/Users/cpwyc/Desktop/RestorationsOfEldya/Restorations of Eldya
@@ -36,13 +35,6 @@ Successfully changed project path to: /Users/derinyilmaz/Desktop/RestorationsOfE
 Using Asset Import Pipeline V2.
 Refreshing native plugins compatible for Editor in 50.41 ms, found 3 plugins.
 >>>>>>> Stashed changes
-=======
-59262
-Successfully changed project path to: C:/Users/cpwyc/Desktop/RestorationsOfEldya/Restorations of Eldya
-C:/Users/cpwyc/Desktop/RestorationsOfEldya/Restorations of Eldya
-Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 97.58 ms, found 3 plugins.
->>>>>>> parent of 0c1b0dac (Story Scene added)
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.31f1 (6b54b7616050)
 [Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2020.3.31f1/Unity.app/Contents/Resources/UnitySubsystems
@@ -51,26 +43,25 @@ GfxDevice: creating device client; threaded=0
 <<<<<<< Updated upstream
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce GTX 1650 Ti (ID=0x1f95)
+    Renderer: Intel(R) UHD Graphics (ID=0x9bc4)
     Vendor:   
-    VRAM:     3964 MB
-    Driver:   30.0.14.9649
+    VRAM:     16256 MB
+    Driver:   27.20.100.9749
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.31f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.31f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.31f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56336
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56400
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.31f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.005009 seconds.
+Registered in 0.003070 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 82.99 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 80.16 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.336 seconds
+- Completed reload, in  0.822 seconds
 Domain Reload Profiling:
-<<<<<<< HEAD
 	ReloadAssembly (822ms)
 		BeginReloadAssembly (92ms)
 =======
@@ -97,35 +88,25 @@ Domain Reload Profiling:
 	ReloadAssembly (1255ms)
 		BeginReloadAssembly (74ms)
 >>>>>>> Stashed changes
-=======
-	ReloadAssembly (1336ms)
-		BeginReloadAssembly (222ms)
->>>>>>> parent of 0c1b0dac (Story Scene added)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-<<<<<<< HEAD
 <<<<<<< Updated upstream
 			CreateAndSetChildDomain (1ms)
 		EndReloadAssembly (638ms)
 			LoadAssemblies (89ms)
-=======
-			CreateAndSetChildDomain (3ms)
-		EndReloadAssembly (985ms)
-			LoadAssemblies (211ms)
->>>>>>> parent of 0c1b0dac (Story Scene added)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (335ms)
+			SetupTypeCache (209ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (43ms)
-			SetupLoadedEditorAssemblies (282ms)
+			RebuildScriptCaches (42ms)
+			SetupLoadedEditorAssemblies (246ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (6ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (83ms)
+				RefreshPlugins (80ms)
 				BeforeProcessingInitializeOnLoad (11ms)
-				ProcessInitializeOnLoadAttributes (143ms)
+				ProcessInitializeOnLoadAttributes (109ms)
 				ProcessInitializeOnLoadMethodAttributes (39ms)
 =======
 			CreateAndSetChildDomain (3ms)
@@ -150,20 +131,15 @@ Domain Reload Profiling:
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-<<<<<<< HEAD
 <<<<<<< Updated upstream
 Registered in 0.006437 seconds.
-=======
-Registered in 0.007556 seconds.
->>>>>>> parent of 0c1b0dac (Story Scene added)
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 154.33 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 208.91 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.963 seconds
+- Completed reload, in  2.498 seconds
 Domain Reload Profiling:
-<<<<<<< HEAD
 	ReloadAssembly (2501ms)
 		BeginReloadAssembly (256ms)
 =======
@@ -178,40 +154,29 @@ Domain Reload Profiling:
 	ReloadAssembly (2400ms)
 		BeginReloadAssembly (270ms)
 >>>>>>> Stashed changes
-=======
-	ReloadAssembly (1965ms)
-		BeginReloadAssembly (221ms)
->>>>>>> parent of 0c1b0dac (Story Scene added)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (31ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-<<<<<<< HEAD
 <<<<<<< Updated upstream
 			CreateAndSetChildDomain (24ms)
 		EndReloadAssembly (2140ms)
 			LoadAssemblies (251ms)
-=======
-			CreateAndSetChildDomain (23ms)
-		EndReloadAssembly (1662ms)
-			LoadAssemblies (168ms)
->>>>>>> parent of 0c1b0dac (Story Scene added)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (491ms)
+			SetupTypeCache (457ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (65ms)
-			SetupLoadedEditorAssemblies (723ms)
+			RebuildScriptCaches (68ms)
+			SetupLoadedEditorAssemblies (1118ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (11ms)
+				InitializePlatformSupportModulesInManaged (12ms)
 				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (154ms)
-				BeforeProcessingInitializeOnLoad (98ms)
-				ProcessInitializeOnLoadAttributes (369ms)
-				ProcessInitializeOnLoadMethodAttributes (64ms)
-				AfterProcessingInitializeOnLoad (26ms)
+				RefreshPlugins (209ms)
+				BeforeProcessingInitializeOnLoad (190ms)
+				ProcessInitializeOnLoadAttributes (631ms)
+				ProcessInitializeOnLoadMethodAttributes (51ms)
+				AfterProcessingInitializeOnLoad (24ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-<<<<<<< HEAD
 			AwakeInstancesAfterBackupRestoration (20ms)
 =======
 			CreateAndSetChildDomain (42ms)
@@ -234,9 +199,6 @@ Domain Reload Profiling:
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (42ms)
 >>>>>>> Stashed changes
-=======
-			AwakeInstancesAfterBackupRestoration (23ms)
->>>>>>> parent of 0c1b0dac (Story Scene added)
 Platform modules already initialized, skipping
 Validating Project structure ... 0.011534 seconds.
 Shader import version has changed; will reimport all shaders...
@@ -334,17 +296,12 @@ Initializing Unity extensions:
 [C# Project]   673:       <Name>Unity.2D.Animation.Editor</Name>
 ========================================================================
 Worker process is ready to serve import requests
-<<<<<<< HEAD
 <<<<<<< Updated upstream
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
 Refreshing native plugins compatible for Editor in 0.74 ms, found 3 plugins.
 =======
 Refreshing native plugins compatible for Editor in 0.54 ms, found 3 plugins.
 >>>>>>> Stashed changes
-=======
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.12 seconds
-Refreshing native plugins compatible for Editor in 0.80 ms, found 3 plugins.
->>>>>>> parent of 0c1b0dac (Story Scene added)
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2288 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 223.1 MB.
@@ -352,7 +309,6 @@ System memory in use after: 222.3 MB.
 
 <<<<<<< Updated upstream
 Unloading 25 unused Assets to reduce memory usage. Loaded Objects now: 2731.
-<<<<<<< HEAD
 Total: 3.747000 ms (FindLiveObjects: 0.208100 ms CreateObjectMapping: 0.119500 ms MarkObjects: 3.389600 ms  DeleteObjects: 0.028900 ms)
 =======
 Unloading 159 unused Assets to reduce memory usage. Loaded Objects now: 2771.
@@ -533,9 +489,6 @@ System memory in use after: 226.5 MB.
 Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 2781.
 Total: 2.532292 ms (FindLiveObjects: 0.130125 ms CreateObjectMapping: 0.050042 ms MarkObjects: 2.297166 ms  DeleteObjects: 0.054000 ms)
 >>>>>>> Stashed changes
-=======
-Total: 3.782200 ms (FindLiveObjects: 0.217400 ms CreateObjectMapping: 0.128200 ms MarkObjects: 3.405700 ms  DeleteObjects: 0.029700 ms)
->>>>>>> parent of 0c1b0dac (Story Scene added)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -549,991 +502,70 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-<<<<<<< HEAD
 <<<<<<< Updated upstream
   path: Assets/Ninja Files/Ninja PNG/Sword/SNinja_run 05.png
   artifactKey: Guid(76cf8a474069d034092329ecb2dca538) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Ninja Files/Ninja PNG/Sword/SNinja_run 05.png using Guid(76cf8a474069d034092329ecb2dca538) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13176c14d5a5e02275c8efc5b523f837') in 0.194909 seconds 
-=======
-  path: Assets/_Scenes/GameOver.unity
-  artifactKey: Guid(90d529129f642114793824ae39a54f53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Scenes/GameOver.unity using Guid(90d529129f642114793824ae39a54f53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7afd34ff7ef731ed2a858e459f570f83') in 0.008169 seconds 
->>>>>>> parent of 0c1b0dac (Story Scene added)
 ========================================================================
 Received Import Request.
-  Time since last request: 8.719066 seconds.
-  path: Assets/_Scenes/Win.unity
-  artifactKey: Guid(b6320bb36856e2f408b5fff9bd505e85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Scenes/Win.unity using Guid(b6320bb36856e2f408b5fff9bd505e85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '353fd6f1c9fabf1e19492fb7fc64a58c') in 0.004162 seconds 
+  Time since last request: 0.000685 seconds.
+  path: Assets/Ninja Files/Ninja PNG/Sword/SNinja_run 06.png
+  artifactKey: Guid(b28094d0ea303634ab51b3a6d0ed0d2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ninja Files/Ninja PNG/Sword/SNinja_run 06.png using Guid(b28094d0ea303634ab51b3a6d0ed0d2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52ef88d9187d2d156af002d18bfbc451') in 0.020426 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 28.650881 seconds.
-  path: Assets/_Scenes/Win.unity
-  artifactKey: Guid(b6320bb36856e2f408b5fff9bd505e85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Scenes/Win.unity using Guid(b6320bb36856e2f408b5fff9bd505e85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16597dd22708f7abd9d545ce28c853d2') in 0.013423 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 45.969243 seconds.
-  path: Assets/_Scenes/Win.unity
-  artifactKey: Guid(b6320bb36856e2f408b5fff9bd505e85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Scenes/Win.unity using Guid(b6320bb36856e2f408b5fff9bd505e85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2aa80870845ead59c25df9e57d64c309') in 0.011066 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 49.331572 seconds.
-  path: Assets/_Scenes/Win.unity
-  artifactKey: Guid(b6320bb36856e2f408b5fff9bd505e85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Scenes/Win.unity using Guid(b6320bb36856e2f408b5fff9bd505e85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e6e4c67a177904f761b58bf96de6cb4') in 0.003684 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.006735 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.34 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.073 seconds
-Domain Reload Profiling:
-	ReloadAssembly (2074ms)
-		BeginReloadAssembly (185ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (11ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (41ms)
-		EndReloadAssembly (1785ms)
-			LoadAssemblies (179ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (449ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (64ms)
-			SetupLoadedEditorAssemblies (945ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (12ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (197ms)
-				ProcessInitializeOnLoadAttributes (706ms)
-				ProcessInitializeOnLoadMethodAttributes (16ms)
-				AfterProcessingInitializeOnLoad (11ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (12ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.79 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2261 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 103.1 MB.
-System memory in use after: 103.3 MB.
-
-Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2734.
-Total: 3.686400 ms (FindLiveObjects: 0.212700 ms CreateObjectMapping: 0.124400 ms MarkObjects: 3.321700 ms  DeleteObjects: 0.026800 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 35.848232 seconds.
-  path: Assets/_Scenes/Win.unity
-  artifactKey: Guid(b6320bb36856e2f408b5fff9bd505e85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Scenes/Win.unity using Guid(b6320bb36856e2f408b5fff9bd505e85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85fa6c1ad528037637cd0dabbc0d6659') in 0.006483 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.006600 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.72 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.814 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1815ms)
-		BeginReloadAssembly (186ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (11ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (54ms)
-		EndReloadAssembly (1537ms)
-			LoadAssemblies (160ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (558ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (61ms)
-			SetupLoadedEditorAssemblies (591ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (79ms)
-				ProcessInitializeOnLoadAttributes (456ms)
-				ProcessInitializeOnLoadMethodAttributes (28ms)
-				AfterProcessingInitializeOnLoad (19ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (28ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.87 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2261 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 103.1 MB.
-System memory in use after: 103.3 MB.
-
-Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2737.
-Total: 4.463400 ms (FindLiveObjects: 0.250100 ms CreateObjectMapping: 0.157500 ms MarkObjects: 4.023200 ms  DeleteObjects: 0.031400 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 49.220520 seconds.
-  path: Assets/_Scenes/Win.unity
-  artifactKey: Guid(b6320bb36856e2f408b5fff9bd505e85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Scenes/Win.unity using Guid(b6320bb36856e2f408b5fff9bd505e85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12a41de9303a972111934f6be53db7a3') in 0.007633 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 43.131208 seconds.
-  path: Assets/_Backgrounds/Pixel Adventure 1/Assets/Main Characters/Virtual Guy/Idle (32x32).png
-  artifactKey: Guid(40de9a8703e2e5a47882b0b86451c741) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Backgrounds/Pixel Adventure 1/Assets/Main Characters/Virtual Guy/Idle (32x32).png using Guid(40de9a8703e2e5a47882b0b86451c741) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dca18bd0bea6f19b30afac406a610838') in 0.211430 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000308 seconds.
-  path: Assets/COPY SPRIGHT/2D Character - Astronaut/Sprites/character_idle.png
-  artifactKey: Guid(9c447c54c8e0416e9446cadb88c48fd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/COPY SPRIGHT/2D Character - Astronaut/Sprites/character_idle.png using Guid(9c447c54c8e0416e9446cadb88c48fd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3dd7c5818216bd25836c8930321f4c0e') in 0.347668 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 5.139418 seconds.
-  path: Assets/COPY SPRIGHT/2D Character - Astronaut/Sprites/character_jump.png
-  artifactKey: Guid(263bbf868f1c40ef9da04b8d96ce8d7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/COPY SPRIGHT/2D Character - Astronaut/Sprites/character_jump.png using Guid(263bbf868f1c40ef9da04b8d96ce8d7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20a938e8e6d6a8c2b6e97f55409a26cb') in 0.261983 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 22.483173 seconds.
-  path: Assets/Ninja Files/Ninja PNG/Sword/SNinja_Atk 1.png
-  artifactKey: Guid(89ae96b1de0445e4da26c14357037e06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ninja Files/Ninja PNG/Sword/SNinja_Atk 1.png using Guid(89ae96b1de0445e4da26c14357037e06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ea124bdea2e7e464bce8c2170cba9c1') in 0.018413 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000326 seconds.
-  path: Assets/Ninja Files/Ninja PNG/Sword/SNinja_jumpskill 4.png
-  artifactKey: Guid(96787a5609484dd41b3c824b32a81683) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ninja Files/Ninja PNG/Sword/SNinja_jumpskill 4.png using Guid(96787a5609484dd41b3c824b32a81683) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a57e8ea49958f28dbdb05258bf13f77') in 0.019050 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000324 seconds.
-  path: Assets/Ninja Files/Ninja PNG/Sword/SNinja_Atk 5.png
-  artifactKey: Guid(90b85a56273b5824babf9e346f5a1dd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ninja Files/Ninja PNG/Sword/SNinja_Atk 5.png using Guid(90b85a56273b5824babf9e346f5a1dd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d38b36175f6e488a32517a56e7610d9') in 0.019735 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000329 seconds.
-  path: Assets/Ninja Files/Ninja PNG/Sword/SNinja_jumpskill 6.png
-  artifactKey: Guid(0e3eab9a852f18a41bea1210093f1507) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ninja Files/Ninja PNG/Sword/SNinja_jumpskill 6.png using Guid(0e3eab9a852f18a41bea1210093f1507) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '383655a582f3eecd97ceafdb5272dfe9') in 0.021271 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000293 seconds.
-  path: Assets/Ninja Files/Ninja PNG/Sword/SNinja_idle 1.png
-  artifactKey: Guid(097737625e3c0e8419ccfffab34674a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ninja Files/Ninja PNG/Sword/SNinja_idle 1.png using Guid(097737625e3c0e8419ccfffab34674a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aeddc3f1f1f0c4b44f6d54d8ffb75056') in 0.017921 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000260 seconds.
-  path: Assets/Ninja Files/Ninja PNG/Sword/SNinja_idle 4.png
-  artifactKey: Guid(eed319708f4c5574ca7edfcaa8edf37b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ninja Files/Ninja PNG/Sword/SNinja_idle 4.png using Guid(eed319708f4c5574ca7edfcaa8edf37b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd662ec78c986a8786047a86fbb41971b') in 0.018226 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000285 seconds.
-  path: Assets/Ninja Files/Ninja PNG/Sword/SNinja_jump 1.png
-  artifactKey: Guid(c2cee2112187dcd4eb1ac1fffe8c6672) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ninja Files/Ninja PNG/Sword/SNinja_jump 1.png using Guid(c2cee2112187dcd4eb1ac1fffe8c6672) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1f05817cb3865c85daa845c846598f5') in 0.021546 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000350 seconds.
-  path: Assets/Ninja Files/Ninja PNG/Sword/SNinja_jumpskill 1.png
-  artifactKey: Guid(be610b2f2f329584d89546946922c22e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ninja Files/Ninja PNG/Sword/SNinja_jumpskill 1.png using Guid(be610b2f2f329584d89546946922c22e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '120e2eefe1ea02ae7d625bbcb5b3d531') in 0.017734 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000296 seconds.
-  path: Assets/Ninja Files/Ninja PNG/Sword/SNinja_jumpskill 3.png
-  artifactKey: Guid(033925a69723e7d44a1b260d8a565959) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ninja Files/Ninja PNG/Sword/SNinja_jumpskill 3.png using Guid(033925a69723e7d44a1b260d8a565959) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3dea7f37ce4e4da636d299121f31dfb9') in 0.016220 seconds 
+  Time since last request: 0.000325 seconds.
+  path: Assets/Ninja Files/Ninja PNG/Sword/SNinja_run 01.png
+  artifactKey: Guid(3568e51c178eb1c41b652c1b2a6c205c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ninja Files/Ninja PNG/Sword/SNinja_run 01.png using Guid(3568e51c178eb1c41b652c1b2a6c205c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd33678787a407b49b71215f60f0589b') in 0.017928 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000345 seconds.
-  path: Assets/Ninja Files/Ninja PNG/Sword/SNinja_crouchdash 1.png
-  artifactKey: Guid(a9ed98873af4cba4ca76829483d9ab4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ninja Files/Ninja PNG/Sword/SNinja_crouchdash 1.png using Guid(a9ed98873af4cba4ca76829483d9ab4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca430a6eb9acd76b5fbfc26f827e6030') in 0.020471 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000309 seconds.
-  path: Assets/Ninja Files/Ninja PNG/Sword/SNinja_hurt 1.png
-  artifactKey: Guid(e0f89212860d7a948bebcfac6db6f258) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ninja Files/Ninja PNG/Sword/SNinja_hurt 1.png using Guid(e0f89212860d7a948bebcfac6db6f258) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '862e88ff66e7932945a2d8a6165b25e8') in 0.019906 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000337 seconds.
-  path: Assets/Ninja Files/Ninja PNG/Sword/SNinja_jumpatk 1.png
-  artifactKey: Guid(74fceca65e6f3f14ab571fa57f0b4047) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ninja Files/Ninja PNG/Sword/SNinja_jumpatk 1.png using Guid(74fceca65e6f3f14ab571fa57f0b4047) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d4675c4f3d79942b4cdf0d99e190678') in 0.018551 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000335 seconds.
-  path: Assets/Ninja Files/Ninja PNG/Sword/SNinja_jumpskill 5.png
-  artifactKey: Guid(b953ed1c9abf0e14186f93ed007cec97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ninja Files/Ninja PNG/Sword/SNinja_jumpskill 5.png using Guid(b953ed1c9abf0e14186f93ed007cec97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f83667562bed927071fd67b1495c00ba') in 0.017759 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000348 seconds.
-  path: Assets/Ninja Files/Ninja PNG/Sword/SNinja_Atk 2.png
-  artifactKey: Guid(505be5ebf4da2c540b488c5b474d8dba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ninja Files/Ninja PNG/Sword/SNinja_Atk 2.png using Guid(505be5ebf4da2c540b488c5b474d8dba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9de40f656621cfbce0b602e32f7ef852') in 0.017116 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000292 seconds.
-  path: Assets/Ninja Files/Ninja PNG/Sword/SNinja_redsword 2.png
-  artifactKey: Guid(1d00667ad1362724aabd24033fea8f73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ninja Files/Ninja PNG/Sword/SNinja_redsword 2.png using Guid(1d00667ad1362724aabd24033fea8f73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e2e1a09a480273944513370254a3ea1') in 0.017619 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000268 seconds.
-  path: Assets/Ninja Files/Ninja PNG/Sword/SNinja_jumpskill 7.png
-  artifactKey: Guid(0894075068e06f44d9366d514e15ae82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ninja Files/Ninja PNG/Sword/SNinja_jumpskill 7.png using Guid(0894075068e06f44d9366d514e15ae82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70eadecb6b6d8ce52d04779ee4892165') in 0.018483 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000363 seconds.
-  path: Assets/Ninja Files/Ninja PNG/Sword/SNinja_redsword 1.png
-  artifactKey: Guid(ab3188fe059792143a7d4300733ebf4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ninja Files/Ninja PNG/Sword/SNinja_redsword 1.png using Guid(ab3188fe059792143a7d4300733ebf4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0125eca8fe876c25010389cd0a7ab643') in 0.017772 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000281 seconds.
-  path: Assets/Ninja Files/Ninja PNG/Sword/SNinja_jumpatk 3.png
-  artifactKey: Guid(be889995b3be023429a7b85da9e3669e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ninja Files/Ninja PNG/Sword/SNinja_jumpatk 3.png using Guid(be889995b3be023429a7b85da9e3669e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49576002a244c40e38c7232e4e10e63e') in 0.019151 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000360 seconds.
-  path: Assets/Ninja Files/Ninja PNG/Sword/SNinja_crouchdash 2.png
-  artifactKey: Guid(7a83642838ac2374892f9e3a9dfee97e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ninja Files/Ninja PNG/Sword/SNinja_crouchdash 2.png using Guid(7a83642838ac2374892f9e3a9dfee97e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07f42bbca3666d825ffca434e9ed58a1') in 0.017478 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000284 seconds.
-  path: Assets/Ninja Files/Ninja PNG/Sword/SNinja_idle 6.png
-  artifactKey: Guid(0fe1375f28bbdb54aba9c3209e52e885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ninja Files/Ninja PNG/Sword/SNinja_idle 6.png using Guid(0fe1375f28bbdb54aba9c3209e52e885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c9d16eedc51d2d173b18dbf771f031b') in 0.016340 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000315 seconds.
-  path: Assets/Ninja Files/Ninja PNG/Sword/SNinja_idle 5.png
-  artifactKey: Guid(b7766b08bf5cd484daea97e275e9a9f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ninja Files/Ninja PNG/Sword/SNinja_idle 5.png using Guid(b7766b08bf5cd484daea97e275e9a9f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c5b0ea080513d9497ac312a7076da6a') in 0.019640 seconds 
+  path: Assets/Ninja Files/Ninja PNG/Sword/SNinja_run 02.png
+  artifactKey: Guid(347cf84a0b315d5498362ed64b3286e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ninja Files/Ninja PNG/Sword/SNinja_run 02.png using Guid(347cf84a0b315d5498362ed64b3286e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e62b78849774c3559da288ebaef95f8') in 0.017402 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000329 seconds.
-  path: Assets/Ninja Files/Ninja PNG/Sword/SNinja_hurt 2.png
-  artifactKey: Guid(528bc50efdc77754e8ee2577ac09b46e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ninja Files/Ninja PNG/Sword/SNinja_hurt 2.png using Guid(528bc50efdc77754e8ee2577ac09b46e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de2220cb4b0b3a769cad69a3d8db0139') in 0.020437 seconds 
+  path: Assets/Ninja Files/Ninja PNG/Sword/SNinja_redsword 3.png
+  artifactKey: Guid(8059df17b0fb92e448deb3386cfa8fdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ninja Files/Ninja PNG/Sword/SNinja_redsword 3.png using Guid(8059df17b0fb92e448deb3386cfa8fdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10f94a6ec9520c2e590e5eb7a9bf3b8d') in 0.017567 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000285 seconds.
-  path: Assets/Ninja Files/Ninja PNG/Sword/SNinja_jump 3.png
-  artifactKey: Guid(e20229ce2cfd15f48a4f9ae3caf859f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ninja Files/Ninja PNG/Sword/SNinja_jump 3.png using Guid(e20229ce2cfd15f48a4f9ae3caf859f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53c027648f261295731382975be32727') in 0.021337 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000334 seconds.
-  path: Assets/Ninja Files/Ninja PNG/Sword/SNinja_jumpatk 4.png
-  artifactKey: Guid(8095a0c84560910449d037c91955854e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ninja Files/Ninja PNG/Sword/SNinja_jumpatk 4.png using Guid(8095a0c84560910449d037c91955854e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff105b5748421e35cb830eff8428c949') in 0.018826 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000227 seconds.
-  path: Assets/Ninja Files/Ninja PNG/Sword/SNinja_jumpatk 6.png
-  artifactKey: Guid(75b2d03ade6b52e44ba78e0b7d3757c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ninja Files/Ninja PNG/Sword/SNinja_jumpatk 6.png using Guid(75b2d03ade6b52e44ba78e0b7d3757c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eac17c39bfd5c0bd1b23a9332b3ea666') in 0.016676 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000244 seconds.
-  path: Assets/Ninja Files/Ninja PNG/Sword/SNinja_jumpatk 2.png
-  artifactKey: Guid(4cbf323f2b082724d9c0fc883d00a056) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ninja Files/Ninja PNG/Sword/SNinja_jumpatk 2.png using Guid(4cbf323f2b082724d9c0fc883d00a056) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4d813d8109052c6d97a8f28630cb4e5') in 0.019586 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000276 seconds.
-  path: Assets/Ninja Files/Ninja PNG/Sword/SNinja_idle 2.png
-  artifactKey: Guid(8088b1c6d2833b444bbd27340fc39136) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ninja Files/Ninja PNG/Sword/SNinja_idle 2.png using Guid(8088b1c6d2833b444bbd27340fc39136) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a29cdc3bb3a9736e111e68a2af74d3f') in 0.018027 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000587 seconds.
-  path: Assets/Ninja Files/Ninja PNG/Sword/SNinja_crouch 2.png
-  artifactKey: Guid(e8c8739792537bc4b94123d7f7bbeddd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ninja Files/Ninja PNG/Sword/SNinja_crouch 2.png using Guid(e8c8739792537bc4b94123d7f7bbeddd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c8fa0c89875c089ebdd99130ab2464a') in 0.017192 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000346 seconds.
-  path: Assets/Ninja Files/Ninja PNG/Sword/SNinja_jumpskill 2.png
-  artifactKey: Guid(3ea544fe66504d445b19c1aeb1d40d98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ninja Files/Ninja PNG/Sword/SNinja_jumpskill 2.png using Guid(3ea544fe66504d445b19c1aeb1d40d98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63c87280093a94a57292240ecc80928f') in 0.017910 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000258 seconds.
-  path: Assets/Ninja Files/Ninja PNG/Sword/SNinja_hurt2 2.png
-  artifactKey: Guid(72ba34b8991f3cb4d8ea318dd62c80c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ninja Files/Ninja PNG/Sword/SNinja_hurt2 2.png using Guid(72ba34b8991f3cb4d8ea318dd62c80c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01a1fd37a2d95696fd4ec7724166b491') in 0.017792 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000411 seconds.
-  path: Assets/Ninja Files/Ninja PNG/Sword/SNinja_hurt2 3.png
-  artifactKey: Guid(84b41f98dd629414084df8b3c1ab2b82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ninja Files/Ninja PNG/Sword/SNinja_hurt2 3.png using Guid(84b41f98dd629414084df8b3c1ab2b82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69fb81d437f99fd81dfecc194269f5bf') in 0.019963 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000231 seconds.
-  path: Assets/Ninja Files/Ninja PNG/Sword/SNinja_crouch 1.png
-  artifactKey: Guid(3c78e9e88810bd04fa2287397aa97bb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ninja Files/Ninja PNG/Sword/SNinja_crouch 1.png using Guid(3c78e9e88810bd04fa2287397aa97bb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b208ac70bacc2264d5eb110d91c28492') in 0.021048 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000265 seconds.
-  path: Assets/Ninja Files/Ninja PNG/Sword/SNinja_hurt2 1.png
-  artifactKey: Guid(7052ea87f8dc183459cf4e59cad05dc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ninja Files/Ninja PNG/Sword/SNinja_hurt2 1.png using Guid(7052ea87f8dc183459cf4e59cad05dc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7169df9039115e06a569c2a732ea84b9') in 0.022335 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000259 seconds.
-  path: Assets/Ninja Files/Ninja PNG/Sword/SNinja_jump 2.png
-  artifactKey: Guid(1644a2b8032c15f418fddda082a896eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ninja Files/Ninja PNG/Sword/SNinja_jump 2.png using Guid(1644a2b8032c15f418fddda082a896eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '475ea0c9f8f996250bbf2e5343691a6a') in 0.018527 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000329 seconds.
-  path: Assets/Ninja Files/Ninja PNG/Sword/SNinja_Atk 3.png
-  artifactKey: Guid(c4f9c303fa7373743b691acdaab528b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ninja Files/Ninja PNG/Sword/SNinja_Atk 3.png using Guid(c4f9c303fa7373743b691acdaab528b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5cc74ceb80d90e50d02d637951b08c7') in 0.020200 seconds 
+  Time since last request: 0.000312 seconds.
+  path: Assets/Ninja Files/Ninja PNG/Sword/SNinja_redsword 6.png
+  artifactKey: Guid(60b398398d9726846babb1e1bdcd60ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ninja Files/Ninja PNG/Sword/SNinja_redsword 6.png using Guid(60b398398d9726846babb1e1bdcd60ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ffbf27fd29c712de8712c0307fbb2ee') in 0.022424 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000321 seconds.
-  path: Assets/Ninja Files/Ninja PNG/Sword/SNinja_idle 3.png
-  artifactKey: Guid(99a3801cedd77374b97cf281a5aacbaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ninja Files/Ninja PNG/Sword/SNinja_idle 3.png using Guid(99a3801cedd77374b97cf281a5aacbaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '651e7e174801af009be8459d6afcaca6') in 0.018061 seconds 
+  path: Assets/Ninja Files/Ninja PNG/Sword/SNinja_redsword 7.png
+  artifactKey: Guid(26e338e15e97ef243a6b1d0c76ece73b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ninja Files/Ninja PNG/Sword/SNinja_redsword 7.png using Guid(26e338e15e97ef243a6b1d0c76ece73b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5a2f2824abbb997459c83243a9341f1') in 0.018407 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000311 seconds.
-  path: Assets/Ninja Files/Ninja PNG/Sword/SNinja_Atk 4.png
-  artifactKey: Guid(93c33ca7cb3a1d24287406a0e08b8a22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ninja Files/Ninja PNG/Sword/SNinja_Atk 4.png using Guid(93c33ca7cb3a1d24287406a0e08b8a22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1766f6d7b44a8eac94b35c55db4aceb') in 0.019022 seconds 
+  Time since last request: 0.000368 seconds.
+  path: Assets/Ninja Files/Ninja PNG/Sword/SNinja_redsword 4.png
+  artifactKey: Guid(157ba604a20db9e4990566a87d8213f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ninja Files/Ninja PNG/Sword/SNinja_redsword 4.png using Guid(157ba604a20db9e4990566a87d8213f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3113f74ff65df4942e96ffbc91ce7cdd') in 0.018537 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000301 seconds.
-  path: Assets/Ninja Files/Ninja PNG/Sword/SNinja_Atk 6.png
-  artifactKey: Guid(a06903b1a6e7f324da0d963fdbe61124) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ninja Files/Ninja PNG/Sword/SNinja_Atk 6.png using Guid(a06903b1a6e7f324da0d963fdbe61124) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7575333e0873b0f5110ae0e3e7aab93b') in 0.018987 seconds 
+  Time since last request: 0.000302 seconds.
+  path: Assets/Ninja Files/Ninja PNG/Sword/SNinja_run 04.png
+  artifactKey: Guid(881d3f05362c8ff42813a57bb7429294) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ninja Files/Ninja PNG/Sword/SNinja_run 04.png using Guid(881d3f05362c8ff42813a57bb7429294) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc8c82d6550e4b01e589af4d8a20052f') in 0.017978 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000375 seconds.
-  path: Assets/Ninja Files/Ninja PNG/Sword/SNinja_crouch 3.png
-  artifactKey: Guid(39b4a38a98cb74a42b5a199bcf02aeee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ninja Files/Ninja PNG/Sword/SNinja_crouch 3.png using Guid(39b4a38a98cb74a42b5a199bcf02aeee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f49675d667aa6b9bb9211f89fc2b0618') in 0.019159 seconds 
+  Time since last request: 0.000355 seconds.
+  path: Assets/Ninja Files/Ninja PNG/Sword/SNinja_redsword 5.png
+  artifactKey: Guid(32361bdfba809be45a54cea2fb169843) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ninja Files/Ninja PNG/Sword/SNinja_redsword 5.png using Guid(32361bdfba809be45a54cea2fb169843) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35ed725445f7b0a0127a85a235f54318') in 0.018580 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000268 seconds.
-  path: Assets/Ninja Files/Ninja PNG/Sword/SNinja_jumpatk 5.png
-  artifactKey: Guid(6103555071fdaa744845e814c94750fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ninja Files/Ninja PNG/Sword/SNinja_jumpatk 5.png using Guid(6103555071fdaa744845e814c94750fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f87f1db13d24faaf86b8472202b8a17c') in 0.018883 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.029688 seconds.
-  path: Assets/MyLittleJourneyArt/Sprites/background.png
-  artifactKey: Guid(d52723e03c4e74eb3b79f00c8406286f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MyLittleJourneyArt/Sprites/background.png using Guid(d52723e03c4e74eb3b79f00c8406286f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae8c3da937f866cc480e0d8d351eddea') in 0.035783 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.181908 seconds.
-  path: Assets/MyLittleJourneyArt/Sprites/background2.png
-  artifactKey: Guid(46cd84085a1bc4afb8d7a091fbb39fcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MyLittleJourneyArt/Sprites/background2.png using Guid(46cd84085a1bc4afb8d7a091fbb39fcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8063e85108152aef5e635528a04e2969') in 0.020576 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000270 seconds.
-  path: Assets/MyLittleJourneyArt/Sprites/background3.png
-  artifactKey: Guid(a224bd4c59d60416399945c6e0ace083) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MyLittleJourneyArt/Sprites/background3.png using Guid(a224bd4c59d60416399945c6e0ace083) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0feace5f179d2be3560f29248e231c32') in 0.025441 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.037578 seconds.
-  path: Assets/MyLittleJourneyArt/Sprites/Background4.png
-  artifactKey: Guid(d44dad338416548d5951791cf389ded3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MyLittleJourneyArt/Sprites/Background4.png using Guid(d44dad338416548d5951791cf389ded3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '011b1724e42ce87cf1df9e95ff832248') in 0.026096 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.153299 seconds.
-  path: Assets/MyLittleJourneyArt/Sprites/Characters_sheet_03.png
-  artifactKey: Guid(6156dbdc660b84f5f9703ccf0f41c6ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MyLittleJourneyArt/Sprites/Characters_sheet_03.png using Guid(6156dbdc660b84f5f9703ccf0f41c6ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96bde39b37630d1b5369869b6e788adc') in 0.249389 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.121588 seconds.
-  path: Assets/COPY SPRIGHT/2D Character - Astronaut/Sprites/world_bomb_carry.png
-  artifactKey: Guid(a3ebf609d64354b47bd06cdd94098ebc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/COPY SPRIGHT/2D Character - Astronaut/Sprites/world_bomb_carry.png using Guid(a3ebf609d64354b47bd06cdd94098ebc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a9c889e5d2fee5fbb670d5b4df9f441') in 0.306216 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.095353 seconds.
-  path: Assets/COPY SPRIGHT/2D Character - Astronaut/Sprites/world_bomb_explosion.png
-  artifactKey: Guid(9f30f35184729d64e9778f3a861945dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/COPY SPRIGHT/2D Character - Astronaut/Sprites/world_bomb_explosion.png using Guid(9f30f35184729d64e9778f3a861945dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11c9db09da95e7eafb8055270db90ee9') in 0.067041 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.041611 seconds.
-  path: Assets/COPY SPRIGHT/2D Character - Astronaut/Sprites/world_bomb_ground.png
-  artifactKey: Guid(9c6314050d870a4409074e27c5e79132) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/COPY SPRIGHT/2D Character - Astronaut/Sprites/world_bomb_ground.png using Guid(9c6314050d870a4409074e27c5e79132) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0443e7df206c457162eaef6b3f21005') in 0.105063 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.565283 seconds.
-  path: Assets/COPY SPRIGHT/2D Character - Astronaut/Sprites/world_bomb_hold.png
-  artifactKey: Guid(09c6bf1cbce9be746b148f6019fd6750) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/COPY SPRIGHT/2D Character - Astronaut/Sprites/world_bomb_hold.png using Guid(09c6bf1cbce9be746b148f6019fd6750) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51de7933af1a0ab39c452bf4a2b8d7ea') in 0.495811 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.796870 seconds.
-  path: Assets/COPY SPRIGHT/2D Character - Astronaut/Sprites/character_bow.png
-  artifactKey: Guid(410a682b748d49d5b553923210776e64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/COPY SPRIGHT/2D Character - Astronaut/Sprites/character_bow.png using Guid(410a682b748d49d5b553923210776e64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14e5c2272b96f6c16f300a263ff168f3') in 0.058498 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000608 seconds.
-  path: Assets/COPY SPRIGHT/2D Character - Astronaut/Sprites/weapon_bow.png
-  artifactKey: Guid(6cd198aefcb544d6aa5f8f37be4f872a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/COPY SPRIGHT/2D Character - Astronaut/Sprites/weapon_bow.png using Guid(6cd198aefcb544d6aa5f8f37be4f872a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '704974308c39560460ea79e025fff804') in 0.134549 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.757509 seconds.
-  path: Assets/MyLittleJourneyArt/Sprites/branch.png
-  artifactKey: Guid(df1e3bbf3967c49e0a3833bfb7c438af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MyLittleJourneyArt/Sprites/branch.png using Guid(df1e3bbf3967c49e0a3833bfb7c438af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03582171bdb1bc95558930ce5a1eae15') in 0.024966 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.087789 seconds.
-  path: Assets/COPY SPRIGHT/2D Character - Astronaut/Sprites/world_bullets.png
-  artifactKey: Guid(30edb9d12883df642bcb8b4f9bb0c3da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/COPY SPRIGHT/2D Character - Astronaut/Sprites/world_bullets.png using Guid(30edb9d12883df642bcb8b4f9bb0c3da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ccdaaaae3daba4af3b4756f4496d4d6b') in 0.032777 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000345 seconds.
-  path: Assets/MyLittleJourneyArt/Sprites/Characters_sheet_02.png
-  artifactKey: Guid(4b86f827d2fe04fd9812d726434afc05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MyLittleJourneyArt/Sprites/Characters_sheet_02.png using Guid(4b86f827d2fe04fd9812d726434afc05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ca1af71cf9dc4326c87b7dbf7b5d112') in 0.258486 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000290 seconds.
-  path: Assets/COPY SPRIGHT/2D Character - Astronaut/Sprites/character_carry.png
-  artifactKey: Guid(4474d2218d1233d4d9d99a809b49554b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/COPY SPRIGHT/2D Character - Astronaut/Sprites/character_carry.png using Guid(4474d2218d1233d4d9d99a809b49554b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de8bbbf48b850d291e32712f1c7b3fe2') in 0.384506 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.605428 seconds.
-  path: Assets/_Backgrounds/Pixel Adventure 1/Assets/Items/Checkpoints/Checkpoint/Checkpoint (Flag Idle)(64x64).png
-  artifactKey: Guid(27a107940057e8743a507269b18a691a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Backgrounds/Pixel Adventure 1/Assets/Items/Checkpoints/Checkpoint/Checkpoint (Flag Idle)(64x64).png using Guid(27a107940057e8743a507269b18a691a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be0c01f00a0b0f06d0413b83576aaf79') in 0.118290 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000767 seconds.
-  path: Assets/_Backgrounds/Pixel Adventure 1/Assets/Items/Checkpoints/Checkpoint/Checkpoint (Flag Out) (64x64).png
-  artifactKey: Guid(32726eef68207514bbede9c6509379b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Backgrounds/Pixel Adventure 1/Assets/Items/Checkpoints/Checkpoint/Checkpoint (Flag Out) (64x64).png using Guid(32726eef68207514bbede9c6509379b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e0a2dbb8dc0089c97e5091171f1105e') in 0.108121 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.117253 seconds.
-  path: Assets/_Backgrounds/Pixel Adventure 1/Assets/Items/Checkpoints/Checkpoint/Checkpoint (No Flag).png
-  artifactKey: Guid(68f54e5fc0fa326458d3e18bdccce704) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Backgrounds/Pixel Adventure 1/Assets/Items/Checkpoints/Checkpoint/Checkpoint (No Flag).png using Guid(68f54e5fc0fa326458d3e18bdccce704) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee9cedd31d3e3c73eda93de8af8ebce8') in 0.021818 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000267 seconds.
-  path: Assets/_Backgrounds/Pixel Adventure 1/Assets/Items/Fruits/Cherries.png
-  artifactKey: Guid(3d6be91968cb95546ac95aeff5e52f84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Backgrounds/Pixel Adventure 1/Assets/Items/Fruits/Cherries.png using Guid(3d6be91968cb95546ac95aeff5e52f84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3cdcb245505ba60d82bc13e072eb9a56') in 0.076308 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.060912 seconds.
-  path: Assets/MyLittleJourneyArt/Sprites/Characters_sheet_01.png
-  artifactKey: Guid(9dc7d14879d9a4ce3951fea071483e12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MyLittleJourneyArt/Sprites/Characters_sheet_01.png using Guid(9dc7d14879d9a4ce3951fea071483e12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b619211dc280db3eb2ea8a746bff30a8') in 0.087599 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000300 seconds.
-  path: Assets/_Backgrounds/Pixel Adventure 1/Assets/Other/Confetti (16x16).png
-  artifactKey: Guid(84e73c5fcbc3d324a9bebf3715abc565) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Backgrounds/Pixel Adventure 1/Assets/Other/Confetti (16x16).png using Guid(84e73c5fcbc3d324a9bebf3715abc565) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c49f1f5bc2af08608a9371c5df55189') in 0.037417 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000325 seconds.
-  path: Assets/_Backgrounds/Pixel Adventure 1/Assets/Items/Fruits/Collected.png
-  artifactKey: Guid(be1a5bd13766ec048bab6f4c578baa0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Backgrounds/Pixel Adventure 1/Assets/Items/Fruits/Collected.png using Guid(be1a5bd13766ec048bab6f4c578baa0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c336827337cc3c4abefa3b4bf841f0be') in 0.036223 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000284 seconds.
-  path: Assets/COPY SPRIGHT/2D Character - Astronaut/Sprites/character_crawl.png
-  artifactKey: Guid(43eb704c8d3f4f02b188c5988c58b4fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/COPY SPRIGHT/2D Character - Astronaut/Sprites/character_crawl.png using Guid(43eb704c8d3f4f02b188c5988c58b4fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd54698611f34898e3b0648b290edfd31') in 0.293902 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.415656 seconds.
-  path: Assets/_Backgrounds/Pixel Adventure 1/Assets/Main Characters/Desappearing (96x96).png
-  artifactKey: Guid(99e1beacf34e67c42afd2d344aefcc3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Backgrounds/Pixel Adventure 1/Assets/Main Characters/Desappearing (96x96).png using Guid(99e1beacf34e67c42afd2d344aefcc3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca7f8d3e671dd9947ebb65a2d8a6fc11') in 0.045287 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.007577 seconds.
-  path: Assets/COPY SPRIGHT/2D Character - Astronaut/Sprites/world_desert.png
-  artifactKey: Guid(0ece8860f6ff7b949bcc603e99fefe92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/COPY SPRIGHT/2D Character - Astronaut/Sprites/world_desert.png using Guid(0ece8860f6ff7b949bcc603e99fefe92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79870ef83b0fd62be777a0b03afe0e6f') in 0.460750 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.874547 seconds.
-  path: Assets/_Backgrounds/Pixel Adventure 1/Assets/Main Characters/Ninja Frog/Double Jump (32x32).png
-  artifactKey: Guid(4099f676255555240b5240f897805dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Backgrounds/Pixel Adventure 1/Assets/Main Characters/Ninja Frog/Double Jump (32x32).png using Guid(4099f676255555240b5240f897805dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c8f2fc5fe7c7a480986f8eb9d26f508') in 0.034132 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000318 seconds.
-  path: Assets/_Backgrounds/Pixel Adventure 1/Assets/Main Characters/Pink Man/Double Jump (32x32).png
-  artifactKey: Guid(5fd9f3ec1e3e0bc4d8e308e10012a36a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Backgrounds/Pixel Adventure 1/Assets/Main Characters/Pink Man/Double Jump (32x32).png using Guid(5fd9f3ec1e3e0bc4d8e308e10012a36a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff2247393b75ea10dd300783552501c3') in 0.037145 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000264 seconds.
-  path: Assets/_Backgrounds/Pixel Adventure 1/Assets/Main Characters/Mask Dude/Double Jump (32x32).png
-  artifactKey: Guid(241f742f0911c3a428eea6612ae23b77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Backgrounds/Pixel Adventure 1/Assets/Main Characters/Mask Dude/Double Jump (32x32).png using Guid(241f742f0911c3a428eea6612ae23b77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85bab0c6e38daae05b9b3c35dfe71463') in 0.039189 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000264 seconds.
-  path: Assets/_Backgrounds/Pixel Adventure 1/Assets/Main Characters/Virtual Guy/Double Jump (32x32).png
-  artifactKey: Guid(62a315a8619ac644f899c29e008115c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Backgrounds/Pixel Adventure 1/Assets/Main Characters/Virtual Guy/Double Jump (32x32).png using Guid(62a315a8619ac644f899c29e008115c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f5c121153f2120609bdc219daf40d00') in 0.039158 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.070152 seconds.
-  path: Assets/COPY SPRIGHT/2D Character - Astronaut/Sprites/character_duck.png
-  artifactKey: Guid(b9998a0d16f84a57a88683adbfce9aea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/COPY SPRIGHT/2D Character - Astronaut/Sprites/character_duck.png using Guid(b9998a0d16f84a57a88683adbfce9aea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2b650b154910d9fe086b92c787e01fb') in 0.322107 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 4.694233 seconds.
-  path: Assets/Ninja Files/Ninja PNG/1024 pixel/Sword/SNinja_run 06.png
-  artifactKey: Guid(400fb6f27ca75ea46b693b26d21fc095) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ninja Files/Ninja PNG/1024 pixel/Sword/SNinja_run 06.png using Guid(400fb6f27ca75ea46b693b26d21fc095) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d0b772008e0cc1a324bfb3a2cda8858') in 0.050995 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000771 seconds.
-  path: Assets/Ninja Files/Ninja PNG/1024 pixel/Sword/SNinja_run 10.png
-  artifactKey: Guid(40012dc8a50aed340bb21d458f30e5e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ninja Files/Ninja PNG/1024 pixel/Sword/SNinja_run 10.png using Guid(40012dc8a50aed340bb21d458f30e5e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5e6c7782e3191701cb66547b6bfd4eb') in 0.043226 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000798 seconds.
-  path: Assets/Ninja Files/Ninja PNG/1024 pixel/Sword/SNinja_run 07.png
-  artifactKey: Guid(15b90cb4caeeab943b70202f9f7a27f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ninja Files/Ninja PNG/1024 pixel/Sword/SNinja_run 07.png using Guid(15b90cb4caeeab943b70202f9f7a27f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63f8a51acaf0360712d213ca23d6a29a') in 0.046873 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000880 seconds.
-  path: Assets/Ninja Files/Ninja PNG/1024 pixel/Sword/SNinja_run 08.png
-  artifactKey: Guid(2c2eeea42d993e54d83c5120079a1739) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ninja Files/Ninja PNG/1024 pixel/Sword/SNinja_run 08.png using Guid(2c2eeea42d993e54d83c5120079a1739) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74ee37399ca5b14e579bcc3ccbf5a040') in 0.043210 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000769 seconds.
-  path: Assets/Ninja Files/Ninja PNG/Sword/SNinja_run 10.png
-  artifactKey: Guid(0406e1870b182844da7a9d618beb3102) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ninja Files/Ninja PNG/Sword/SNinja_run 10.png using Guid(0406e1870b182844da7a9d618beb3102) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d34866a79b30a1dc24f129ca1539097') in 0.043677 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000748 seconds.
-  path: Assets/Ninja Files/Ninja PNG/1024 pixel/Sword/SNinja_run 09.png
-  artifactKey: Guid(2f4894a46d16ac141b518ffb6acc54ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ninja Files/Ninja PNG/1024 pixel/Sword/SNinja_run 09.png using Guid(2f4894a46d16ac141b518ffb6acc54ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '778acdd44174e79701a817d9af0d16ff') in 0.045440 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000871 seconds.
-  path: Assets/Ninja Files/Ninja PNG/Sword/SNinja_run 08.png
-  artifactKey: Guid(2f575663fd4092746a7004a0360263f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ninja Files/Ninja PNG/Sword/SNinja_run 08.png using Guid(2f575663fd4092746a7004a0360263f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fa53786b6e56fd0faef73ce50779e2a') in 0.041046 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.001098 seconds.
-  path: Assets/Ninja Files/Ninja PNG/Sword/SNinja_run 07.png
-  artifactKey: Guid(92acbe059613f4d489d0b273fe8d70e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ninja Files/Ninja PNG/Sword/SNinja_run 07.png using Guid(92acbe059613f4d489d0b273fe8d70e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29458d315f92958fa0d7be1bde72697d') in 0.028291 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000405 seconds.
-  path: Assets/Ninja Files/Ninja PNG/Sword/SNinja_run 09.png
-  artifactKey: Guid(ff1510b42a35e7b49aa15212d11d1de5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ninja Files/Ninja PNG/Sword/SNinja_run 09.png using Guid(ff1510b42a35e7b49aa15212d11d1de5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '474af9d05540b1d81dd9eba831250c7a') in 0.023882 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.789789 seconds.
-  path: Assets/Ninja Files/Ninja PNG/Sword/SNinja_run 11.png
-  artifactKey: Guid(96230695fd9435742a1e740d0ed9dc43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ninja Files/Ninja PNG/Sword/SNinja_run 11.png using Guid(96230695fd9435742a1e740d0ed9dc43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86e2fb56abea04a825a7f9facf0e824a') in 0.022472 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000262 seconds.
-  path: Assets/Ninja Files/Ninja PNG/1024 pixel/Sword/SNinja_run 11.png
-  artifactKey: Guid(07df4c2dc85245849829a576bfc86f85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ninja Files/Ninja PNG/1024 pixel/Sword/SNinja_run 11.png using Guid(07df4c2dc85245849829a576bfc86f85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c85badacfa9ae6da6a57c619d195a319') in 0.018077 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.061518 seconds.
-  path: Assets/Ninja Files/Ninja PNG/1024 pixel/Sword/SNinja_skill 1.png
-  artifactKey: Guid(686e256a3cc7266409d480f5c00b8c60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ninja Files/Ninja PNG/1024 pixel/Sword/SNinja_skill 1.png using Guid(686e256a3cc7266409d480f5c00b8c60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0be5dc5ccba4e490e198761b4209ae2b') in 0.020980 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000328 seconds.
-  path: Assets/Ninja Files/Ninja PNG/Sword/SNinja_skill 1.png
-  artifactKey: Guid(8770914f808e65643aa7f36c65ecd7dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ninja Files/Ninja PNG/Sword/SNinja_skill 1.png using Guid(8770914f808e65643aa7f36c65ecd7dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b69237385279de0473826b031a10f003') in 0.018015 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.055993 seconds.
-  path: Assets/Ninja Files/Ninja PNG/Sword/SNinja_skill 2.png
-  artifactKey: Guid(1fe292cb968415e42a485e5a8ff517a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ninja Files/Ninja PNG/Sword/SNinja_skill 2.png using Guid(1fe292cb968415e42a485e5a8ff517a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b717109ff37df37725040a1eba18e2e') in 0.021747 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000284 seconds.
-  path: Assets/Ninja Files/Ninja PNG/1024 pixel/Sword/SNinja_skill 2.png
-  artifactKey: Guid(e6102a8060459fc4cb82d1293e4cedc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ninja Files/Ninja PNG/1024 pixel/Sword/SNinja_skill 2.png using Guid(e6102a8060459fc4cb82d1293e4cedc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03b8aa5c68d309a7a71c4e7de53028aa') in 0.019296 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.085263 seconds.
-  path: Assets/Ninja Files/Ninja PNG/Sword/SNinja_skill 3.png
-  artifactKey: Guid(d0f9eb25f9da744449cc3fd310840da2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ninja Files/Ninja PNG/Sword/SNinja_skill 3.png using Guid(d0f9eb25f9da744449cc3fd310840da2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50611344cf527a287153f150c24f2d9e') in 0.018584 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000324 seconds.
-  path: Assets/Ninja Files/Ninja PNG/1024 pixel/Sword/SNinja_skill 3.png
-  artifactKey: Guid(fc89c86b32adbd244a8512841dd78eef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ninja Files/Ninja PNG/1024 pixel/Sword/SNinja_skill 3.png using Guid(fc89c86b32adbd244a8512841dd78eef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8240079d5f58750460f8579498a43a6f') in 0.017661 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.841886 seconds.
-  path: Assets/Ninja Files/Ninja PNG/1024 pixel/Sword/SNinja_skill 4.png
-  artifactKey: Guid(0a4ffbf0e0062504fb5775f44cf7635c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ninja Files/Ninja PNG/1024 pixel/Sword/SNinja_skill 4.png using Guid(0a4ffbf0e0062504fb5775f44cf7635c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27226a2df63468406da77459097dd68c') in 0.018807 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000336 seconds.
-  path: Assets/Ninja Files/Ninja PNG/Sword/SNinja_skill 4.png
-  artifactKey: Guid(8abce7c3d39295d49a9d18c2ef92ad3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ninja Files/Ninja PNG/Sword/SNinja_skill 4.png using Guid(8abce7c3d39295d49a9d18c2ef92ad3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb460c073111e9f329131c3b473d643e') in 0.015707 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.485866 seconds.
-  path: Assets/Ninja Files/Ninja PNG/Sword/SNinja_skill 5.png
-  artifactKey: Guid(42e58c862487351449fe1788b73961cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ninja Files/Ninja PNG/Sword/SNinja_skill 5.png using Guid(42e58c862487351449fe1788b73961cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da2e71ce95ae88900fb2bb1a325e3383') in 0.016947 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000331 seconds.
-  path: Assets/Ninja Files/Ninja PNG/1024 pixel/Sword/SNinja_skill 5.png
-  artifactKey: Guid(4f360ad7eba7e59459efeae233069769) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ninja Files/Ninja PNG/1024 pixel/Sword/SNinja_skill 5.png using Guid(4f360ad7eba7e59459efeae233069769) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '127dab2f483414a6a0ead91909dcc62d') in 0.018000 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.060059 seconds.
-  path: Assets/Ninja Files/Ninja PNG/1024 pixel/Sword/SNinja_skill 6.png
-  artifactKey: Guid(ab9a72be36ef2c64b9f54ca35320010a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ninja Files/Ninja PNG/1024 pixel/Sword/SNinja_skill 6.png using Guid(ab9a72be36ef2c64b9f54ca35320010a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b31b2ff6eee16ba6cec603ae974c6d1') in 0.022185 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000320 seconds.
-  path: Assets/Ninja Files/Ninja PNG/Sword/SNinja_skill 6.png
-  artifactKey: Guid(ef15c95532a07034d81a1ad104693e97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ninja Files/Ninja PNG/Sword/SNinja_skill 6.png using Guid(ef15c95532a07034d81a1ad104693e97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd39a2f03d6fb4c535fefd1e25172f9e') in 0.019061 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.080163 seconds.
-  path: Assets/Ninja Files/Ninja PNG/Sword/SNinja_skill 7.png
-  artifactKey: Guid(fbb98615f43f06b479717d629ebfe3f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ninja Files/Ninja PNG/Sword/SNinja_skill 7.png using Guid(fbb98615f43f06b479717d629ebfe3f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34ee91019fdd407510d1dd2a2bec78a0') in 0.017501 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000407 seconds.
-  path: Assets/Ninja Files/Ninja PNG/1024 pixel/Sword/SNinja_skill 7.png
-  artifactKey: Guid(aecbd8e3f8c90a44894ec19f3d94175e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ninja Files/Ninja PNG/1024 pixel/Sword/SNinja_skill 7.png using Guid(aecbd8e3f8c90a44894ec19f3d94175e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc15b2e8c6ffe60350131891bab51063') in 0.017592 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.770189 seconds.
-  path: Assets/Ninja Files/Ninja PNG/1024 pixel/Sword/SNinja_strike 1.png
-  artifactKey: Guid(2bb484f4c46e8e840809b48bff4e030c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ninja Files/Ninja PNG/1024 pixel/Sword/SNinja_strike 1.png using Guid(2bb484f4c46e8e840809b48bff4e030c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99a66acb77d3af5388d0fbd93c3b7c0c') in 0.021272 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000345 seconds.
-  path: Assets/Ninja Files/Ninja PNG/Sword/SNinja_strike 1.png
-  artifactKey: Guid(84efbe0c7dc42804ba12f5892aeaed73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ninja Files/Ninja PNG/Sword/SNinja_strike 1.png using Guid(84efbe0c7dc42804ba12f5892aeaed73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7efcf880ad65f7bd68cf03c8f1959d6') in 0.017362 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.020534 seconds.
-  path: Assets/Ninja Files/Ninja PNG/1024 pixel/Sword/SNinja_strike 2.png
-  artifactKey: Guid(148f6f7110d6e3d4fa75fb9884907664) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ninja Files/Ninja PNG/1024 pixel/Sword/SNinja_strike 2.png using Guid(148f6f7110d6e3d4fa75fb9884907664) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb7e0953c0d37afe186575b389f86456') in 0.023504 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000325 seconds.
-  path: Assets/Ninja Files/Ninja PNG/Sword/SNinja_strike 2.png
-  artifactKey: Guid(a1473ce1d90be0148a5ad29c6359904f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ninja Files/Ninja PNG/Sword/SNinja_strike 2.png using Guid(a1473ce1d90be0148a5ad29c6359904f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be6990a1c8803d688af39718375ea484') in 0.016451 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000323 seconds.
-  path: Assets/Ninja Files/Ninja PNG/Sword/SNinja_strike 3.png
-  artifactKey: Guid(502e787bdc32ba64ca25ddb1d323750d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ninja Files/Ninja PNG/Sword/SNinja_strike 3.png using Guid(502e787bdc32ba64ca25ddb1d323750d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6765f124d966ea076fe987d9b1bdafc5') in 0.015979 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000210 seconds.
-  path: Assets/Ninja Files/Ninja PNG/1024 pixel/Sword/SNinja_strike 3.png
-  artifactKey: Guid(43358af102e84584a9482f2c1ee15374) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ninja Files/Ninja PNG/1024 pixel/Sword/SNinja_strike 3.png using Guid(43358af102e84584a9482f2c1ee15374) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '917831b9e491348136714f97d154e193') in 0.017480 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.047842 seconds.
-  path: Assets/Ninja Files/Ninja PNG/1024 pixel/Sword/SNinja_strike 4.png
-  artifactKey: Guid(d290d08c922619b448febd9360694b0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ninja Files/Ninja PNG/1024 pixel/Sword/SNinja_strike 4.png using Guid(d290d08c922619b448febd9360694b0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'edcdc98aeb0216a433aabbedcc8b412f') in 0.017348 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000240 seconds.
-  path: Assets/Ninja Files/Ninja PNG/Sword/SNinja_strike 4.png
-  artifactKey: Guid(cdf061b8c6dd3e54386ba499c558657b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ninja Files/Ninja PNG/Sword/SNinja_strike 4.png using Guid(cdf061b8c6dd3e54386ba499c558657b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb4fc625dc1f7e75106adf1d35d15d1a') in 0.015815 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.562643 seconds.
-  path: Assets/Ninja Files/Ninja PNG/1024 pixel/Sword/SNinja_strike 5.png
-  artifactKey: Guid(c0d23ac2a4439e549b6097a114ea2ebb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ninja Files/Ninja PNG/1024 pixel/Sword/SNinja_strike 5.png using Guid(c0d23ac2a4439e549b6097a114ea2ebb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95d6f12a9c8fbb4f6c16f5e215ad0e73') in 0.018393 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000304 seconds.
-  path: Assets/Ninja Files/Ninja PNG/1024 pixel/Sword/SNinja_strike 6.png
-  artifactKey: Guid(a032af93f984f8844a1e0d35e0ee2b6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ninja Files/Ninja PNG/1024 pixel/Sword/SNinja_strike 6.png using Guid(a032af93f984f8844a1e0d35e0ee2b6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4c13c5beb30f9fd97e455b48fb16dd1') in 0.019263 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000270 seconds.
-  path: Assets/Ninja Files/Ninja PNG/Sword/SNinja_strike 6.png
-  artifactKey: Guid(be08df6609de76e49a53ade2cf88cef4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ninja Files/Ninja PNG/Sword/SNinja_strike 6.png using Guid(be08df6609de76e49a53ade2cf88cef4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '350bec1dfa67575bbe3cbf4f56cd95b2') in 0.021664 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000286 seconds.
-  path: Assets/Ninja Files/Ninja PNG/Sword/SNinja_strike 5.png
-  artifactKey: Guid(8dab2e8d091f8b74faeb486bdb813449) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ninja Files/Ninja PNG/Sword/SNinja_strike 5.png using Guid(8dab2e8d091f8b74faeb486bdb813449) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '742d4d612dbb1dd2aedb63acc6ce8a3e') in 0.016577 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.001467 seconds.
-  path: Assets/Ninja Files/Ninja PNG/Sword/SNinja_strike 7.png
-  artifactKey: Guid(94e3547162e394d4389b032cb17fcd9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ninja Files/Ninja PNG/Sword/SNinja_strike 7.png using Guid(94e3547162e394d4389b032cb17fcd9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6146367aea06be471113a4341e263ae5') in 0.016689 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000347 seconds.
-  path: Assets/Ninja Files/Ninja PNG/1024 pixel/Sword/SNinja_strike 7.png
-  artifactKey: Guid(81afe7b0aef39e942aebeaf87690779d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ninja Files/Ninja PNG/1024 pixel/Sword/SNinja_strike 7.png using Guid(81afe7b0aef39e942aebeaf87690779d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43c6b8ab0ebe88b477b8cfe8e53e5098') in 0.017592 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000339 seconds.
-  path: Assets/Ninja Files/Ninja PNG/1024 pixel/Sword/SNinja_strike 8.png
-  artifactKey: Guid(24ce3856f7b904f43bd14f74c8527ade) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ninja Files/Ninja PNG/1024 pixel/Sword/SNinja_strike 8.png using Guid(24ce3856f7b904f43bd14f74c8527ade) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbadcaaf7c81ce1cad05070329c56339') in 0.019828 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000262 seconds.
-  path: Assets/Ninja Files/Ninja PNG/Sword/SNinja_strike 8.png
-  artifactKey: Guid(682dfe437ea0303459e845355ce989d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ninja Files/Ninja PNG/Sword/SNinja_strike 8.png using Guid(682dfe437ea0303459e845355ce989d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbf63d44ae0aa50d085abea03c8038c1') in 0.016105 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.848389 seconds.
-  path: Assets/Ninja Files/Ninja PNG/Sword/SNinja_swordidle 1.png
-  artifactKey: Guid(56eaee993fc09af458f443ca00e97345) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ninja Files/Ninja PNG/Sword/SNinja_swordidle 1.png using Guid(56eaee993fc09af458f443ca00e97345) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6d3eff578dad0f8ef577e76c4df6b96') in 0.044532 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000737 seconds.
-  path: Assets/Ninja Files/Ninja PNG/1024 pixel/Sword/SNinja_swordidle 2.png
-  artifactKey: Guid(b845a0c37b8d0d04d97cea4f43f30968) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ninja Files/Ninja PNG/1024 pixel/Sword/SNinja_swordidle 2.png using Guid(b845a0c37b8d0d04d97cea4f43f30968) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '511b6e3d90efd1016ea956dd7a45a8af') in 0.047946 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000733 seconds.
-  path: Assets/Robot Shooting Game/Effect/Sparkle2.PNG
-  artifactKey: Guid(26400ea75e18c6543b7312977b9f3d5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Robot Shooting Game/Effect/Sparkle2.PNG using Guid(26400ea75e18c6543b7312977b9f3d5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c7b38ba11339439f4327f79fc14d819') in 0.051367 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000505 seconds.
-  path: Assets/Robot Shooting Game/PSD/sparkles.psd
-  artifactKey: Guid(bec6a6d394e13b24db1ece3e64b655b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Robot Shooting Game/PSD/sparkles.psd using Guid(bec6a6d394e13b24db1ece3e64b655b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63e084c0e635dccc1f491f2cff22ba4a') in 0.061462 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000276 seconds.
-  path: Assets/MyLittleJourneyArt/Sprites/Square.png
-  artifactKey: Guid(5b98f7617b9e44116924822bbe530962) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MyLittleJourneyArt/Sprites/Square.png using Guid(5b98f7617b9e44116924822bbe530962) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5de1828dc6d4f0bac81d81c0d5777318') in 0.017352 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000274 seconds.
-  path: Assets/MyLittleJourneyArt/Sprites/Enviroment_sheet_05.png
-  artifactKey: Guid(69ae5fc9872484597b9d7314c9961c21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MyLittleJourneyArt/Sprites/Enviroment_sheet_05.png using Guid(69ae5fc9872484597b9d7314c9961c21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd29e8e464c0ed117ec3d0921b91ecb1') in 0.050633 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000298 seconds.
-  path: Assets/Ninja Files/Ninja PNG/Sword/SNinja_swordidle 3.png
-  artifactKey: Guid(d666468cc5253764992cc1cce0f05537) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ninja Files/Ninja PNG/Sword/SNinja_swordidle 3.png using Guid(d666468cc5253764992cc1cce0f05537) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81d9cb76c6deed7c05e02279bed9c39f') in 0.020855 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000319 seconds.
-  path: Assets/Ninja Files/Ninja PNG/1024 pixel/Sword/SNinja_swordidle 1.png
-  artifactKey: Guid(be666c682215dd945a689c114d28dd9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ninja Files/Ninja PNG/1024 pixel/Sword/SNinja_swordidle 1.png using Guid(be666c682215dd945a689c114d28dd9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6cb674089ae3a4cb612dd9c570a16da8') in 0.017382 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000460 seconds.
-  path: Assets/Robot Shooting Game/Effect/sparkle1.PNG
-  artifactKey: Guid(885183e6edf9701448e18697911c3cb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Robot Shooting Game/Effect/sparkle1.PNG using Guid(885183e6edf9701448e18697911c3cb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '900a92232faf3841c5f2267d5f2aef0f') in 0.018794 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000222 seconds.
-  path: Assets/Ninja Files/Ninja PNG/Sword/SNinja_swordidle 2.png
-  artifactKey: Guid(3408e80062fca89428c2647499e814d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ninja Files/Ninja PNG/Sword/SNinja_swordidle 2.png using Guid(3408e80062fca89428c2647499e814d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f349b72f6d159560d80e907f2ae4b85c') in 0.019363 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000666 seconds.
-  path: Assets/Ninja Files/Ninja PNG/1024 pixel/Sword/SNinja_swordidle 3.png
-  artifactKey: Guid(43b8667497a8a9543ae0e8748232d47f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ninja Files/Ninja PNG/1024 pixel/Sword/SNinja_swordidle 3.png using Guid(43b8667497a8a9543ae0e8748232d47f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c907084a2f5444bb7b779c40150d535') in 0.017710 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000347 seconds.
-  path: Assets/Robot Shooting Game/Effect/Sparkle3.PNG
-  artifactKey: Guid(84130c6a8db91e847a69a5723d815a16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Robot Shooting Game/Effect/Sparkle3.PNG using Guid(84130c6a8db91e847a69a5723d815a16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '254d3ebec2ab811fd80bff6a7edca65b') in 0.015783 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 34.384667 seconds.
-  path: Assets/COPY SPRIGHT/2D Character - Astronaut/Sprites/weapon_sycthe.png
-  artifactKey: Guid(859caa1337f1497c857b71771e7c5295) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/COPY SPRIGHT/2D Character - Astronaut/Sprites/weapon_sycthe.png using Guid(859caa1337f1497c857b71771e7c5295) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39f1ac3394e74124aebb12227f1e6daa') in 0.238505 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000352 seconds.
-  path: Assets/COPY SPRIGHT/2D Character - Astronaut/Sprites/character_sycthe.png
-  artifactKey: Guid(2cd92e9f32354f3c924b9ba0617cfbd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/COPY SPRIGHT/2D Character - Astronaut/Sprites/character_sycthe.png using Guid(2cd92e9f32354f3c924b9ba0617cfbd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be47d1d251a1c30aced4b9fa24d984b0') in 0.340956 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.006328 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.75 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.569 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1570ms)
-		BeginReloadAssembly (187ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (9ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (49ms)
-		EndReloadAssembly (1299ms)
-			LoadAssemblies (171ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (449ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (60ms)
-			SetupLoadedEditorAssemblies (524ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (117ms)
-				ProcessInitializeOnLoadAttributes (375ms)
-				ProcessInitializeOnLoadMethodAttributes (15ms)
-				AfterProcessingInitializeOnLoad (10ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (11ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.74 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2261 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 106.6 MB.
-System memory in use after: 106.8 MB.
-
-Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2966.
-Total: 4.122400 ms (FindLiveObjects: 0.316600 ms CreateObjectMapping: 0.167600 ms MarkObjects: 3.606700 ms  DeleteObjects: 0.030400 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  Time since last request: 0.000322 seconds.
+  path: Assets/Ninja Files/Ninja PNG/Sword/SNinja_run 03.png
+  artifactKey: Guid(6718a819c2a92c24d897319c6d4abf0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ninja Files/Ninja PNG/Sword/SNinja_run 03.png using Guid(6718a819c2a92c24d897319c6d4abf0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1b4ab276302870a4dfd9238965f33b9') in 0.017919 seconds 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
 =======
   Time since last request: 560.088537 seconds.

@@ -20,12 +20,16 @@ public class LoadLevelTwo : MonoBehaviour
 
     void onTriggerEnter2D(Collider2D collision) 
     {
-        GameObject collisionGameObject = collision.gameObject;
-        if (collisionGameObject.name == "Player")
+        if (GetComponent<Collider>().CompareTag("Player"))
         {
-          
-            SceneManager.LoadScene("Level2");
+            PlayerMovement player = GetComponent<Collider>().GetComponent<PlayerMovement>();
+
+            if (player != null) //if the play is not null, player takes the damage
+            {
+                SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+                //loads the next scene 
+            }
         }
-       
+
     }
 }
