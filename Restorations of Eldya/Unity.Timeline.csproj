@@ -98,8 +98,8 @@
      <Compile Include="Packages\com.unity.timeline\Runtime\Control\ControlPlayableAsset.cs" />
      <Compile Include="Packages\com.unity.timeline\Runtime\ILayerable.cs" />
      <Compile Include="Packages\com.unity.timeline\Runtime\TimelineClip.cs" />
-     <Compile Include="Packages\com.unity.timeline\Runtime\Audio\AudioMixerProperties.cs" />
      <Compile Include="Packages\com.unity.timeline\Runtime\Animation\AnimationOutputWeightProcessor.cs" />
+     <Compile Include="Packages\com.unity.timeline\Runtime\Audio\AudioMixerProperties.cs" />
      <Compile Include="Packages\com.unity.timeline\Runtime\Events\Marker.cs" />
      <Compile Include="Packages\com.unity.timeline\Runtime\AssetUpgrade\AnimationTrackUpgrade.cs" />
      <Compile Include="Packages\com.unity.timeline\Runtime\DiscreteTime.cs" />

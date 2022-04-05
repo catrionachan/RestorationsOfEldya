@@ -10,8 +10,8 @@ GameObject:
   m_Component:
   - component: {fileID: 2345013390149708387}
   - component: {fileID: 4839199242032713573}
+  - component: {fileID: 3714315565912996147}
   - component: {fileID: 8073553103377523846}
-  - component: {fileID: 9060543128197039449}
   m_Layer: 0
   m_Name: Bomb
   m_TagString: Untagged
@@ -84,6 +84,25 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!95 &3714315565912996147
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7499992008755816285}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 3b327e1c4a8e0c84d9ab115a86d007e2, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!114 &8073553103377523846
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -109,25 +128,7 @@ MonoBehaviour:
   healthB: {fileID: 0}
   potionPrefab: {fileID: 0}
   anim: {fileID: 0}
-  speed: 2
+  speed: 0
   isFlipped: 0
+  treasurePrefab: {fileID: 0}
   counter: 0
---- !u!95 &9060543128197039449
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7499992008755816285}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 060702ffbdf75401bae64643ab6fbf30, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
