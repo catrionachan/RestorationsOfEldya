@@ -20,6 +20,7 @@ public class PlayerMovement : MonoBehaviour
     public HealthBar expBar;
     public float experience = 0f;
     private float totalExp = 100f;
+    public float requiredExperience;
 
 
 
@@ -111,11 +112,6 @@ public class PlayerMovement : MonoBehaviour
     {
         experience += exp;
         expBar.SetHealth(experience);
-
-        if (experience >= 100)
-        {
-            
-        }
     }
 
     //removes gameObject and send to the gameOver Scene
