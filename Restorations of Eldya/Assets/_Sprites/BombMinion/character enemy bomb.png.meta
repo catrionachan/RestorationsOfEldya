@@ -1,0 +1,2232 @@
+fileFormatVersion: 2
+guid: 00884f1e1ac9b0044bf993b7db6cc9ab
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8623007167460684197
+    second: character enemy bomb_0
+  - first:
+      213: -6088208390466787273
+    second: character enemy bomb_1
+  - first:
+      213: -1473813939806498758
+    second: character enemy bomb_2
+  - first:
+      213: -2319722546968754779
+    second: character enemy bomb_3
+  - first:
+      213: 4700580291305015375
+    second: character enemy bomb_4
+  - first:
+      213: 245535572783773678
+    second: character enemy bomb_5
+  - first:
+      213: 167763023009649413
+    second: character enemy bomb_6
+  - first:
+      213: -8788832670099457066
+    second: character enemy bomb_7
+  - first:
+      213: 4483039700494213068
+    second: character enemy bomb_8
+  - first:
+      213: 2327061682451940153
+    second: character enemy bomb_9
+  - first:
+      213: -2272813604109557052
+    second: character enemy bomb_10
+  - first:
+      213: 9203813823123019241
+    second: character enemy bomb_11
+  - first:
+      213: 9115588662704690821
+    second: character enemy bomb_12
+  - first:
+      213: 7623142899730414007
+    second: character enemy bomb_13
+  - first:
+      213: -5202736000324662945
+    second: character enemy bomb_14
+  - first:
+      213: 7104998945263182502
+    second: character enemy bomb_15
+  - first:
+      213: -5701055926461465437
+    second: character enemy bomb_16
+  - first:
+      213: -1935306613784704522
+    second: character enemy bomb_17
+  - first:
+      213: 7286810963159731685
+    second: character enemy bomb_18
+  - first:
+      213: 8343438818885118002
+    second: character enemy bomb_19
+  - first:
+      213: -296023807361506776
+    second: character enemy bomb_20
+  - first:
+      213: -8877631846504651966
+    second: character enemy bomb_21
+  - first:
+      213: 405924793037186417
+    second: character enemy bomb_22
+  - first:
+      213: 4373673245607810399
+    second: character enemy bomb_23
+  - first:
+      213: -6435162427049251214
+    second: character enemy bomb_24
+  - first:
+      213: -4204087033740980730
+    second: character enemy bomb_25
+  - first:
+      213: -5751584467697016502
+    second: character enemy bomb_26
+  - first:
+      213: 5668105944501694475
+    second: character enemy bomb_27
+  - first:
+      213: 7991000803497047759
+    second: character enemy bomb_28
+  - first:
+      213: -4203515160729622188
+    second: character enemy bomb_29
+  - first:
+      213: 4088041187089691878
+    second: character enemy bomb_30
+  - first:
+      213: -548532687382422870
+    second: character enemy bomb_31
+  - first:
+      213: -2874726666292826283
+    second: character enemy bomb_32
+  - first:
+      213: -7069574099222751033
+    second: character enemy bomb_33
+  - first:
+      213: -8036396771097114342
+    second: character enemy bomb_34
+  - first:
+      213: -6990735506299284959
+    second: character enemy bomb_35
+  - first:
+      213: -6412008392715699746
+    second: character enemy bomb_36
+  - first:
+      213: 7494017684082503029
+    second: character enemy bomb_37
+  - first:
+      213: -5426523304063973644
+    second: character enemy bomb_38
+  - first:
+      213: -593758302958186180
+    second: character enemy bomb_39
+  - first:
+      213: -7225980213216567082
+    second: character enemy bomb_40
+  - first:
+      213: 2938549301528626766
+    second: character enemy bomb_41
+  - first:
+      213: 2552229420401992269
+    second: character enemy bomb_42
+  - first:
+      213: -8175479671287226509
+    second: character enemy bomb_43
+  - first:
+      213: -7368227525650703491
+    second: character enemy bomb_44
+  - first:
+      213: 7504838487191898601
+    second: character enemy bomb_45
+  - first:
+      213: -586842329916817870
+    second: character enemy bomb_46
+  - first:
+      213: 498316978135430932
+    second: character enemy bomb_47
+  - first:
+      213: -440182844582404003
+    second: character enemy bomb_48
+  - first:
+      213: 2634141227175315588
+    second: character enemy bomb_49
+  - first:
+      213: 8482864829644803877
+    second: character enemy bomb_50
+  - first:
+      213: 2917670066904351837
+    second: character enemy bomb_51
+  - first:
+      213: 864969589390217531
+    second: character enemy bomb_52
+  - first:
+      213: 6080297819656513302
+    second: character enemy bomb_53
+  - first:
+      213: -5369378807873321957
+    second: character enemy bomb_54
+  - first:
+      213: -189324508582828581
+    second: character enemy bomb_55
+  - first:
+      213: 74607814548019485
+    second: character enemy bomb_56
+  - first:
+      213: 1318542707102589200
+    second: character enemy bomb_57
+  - first:
+      213: -6076673458842203710
+    second: character enemy bomb_58
+  - first:
+      213: -3051946842449327573
+    second: character enemy bomb_59
+  - first:
+      213: 2533961445145001985
+    second: character enemy bomb_60
+  - first:
+      213: 5708693150746786480
+    second: character enemy bomb_61
+  - first:
+      213: 8605744444058597670
+    second: character enemy bomb_62
+  - first:
+      213: -6619784243133911451
+    second: character enemy bomb_63
+  - first:
+      213: 6997161315505310970
+    second: character enemy bomb_64
+  - first:
+      213: -1819005515069717744
+    second: character enemy bomb_65
+  - first:
+      213: -6819742580173007288
+    second: character enemy bomb_66
+  - first:
+      213: -1652776802498763697
+    second: character enemy bomb_67
+  - first:
+      213: 1432859188717015104
+    second: character enemy bomb_68
+  - first:
+      213: -5700129226937653807
+    second: character enemy bomb_69
+  - first:
+      213: -1310151151606629923
+    second: character enemy bomb_70
+  - first:
+      213: 7477240348733684302
+    second: character enemy bomb_71
+  - first:
+      213: 6937816603720046979
+    second: character enemy bomb_72
+  - first:
+      213: 7484813761202600380
+    second: character enemy bomb_73
+  - first:
+      213: -6041175010174973951
+    second: character enemy bomb_74
+  - first:
+      213: -2051256282188845191
+    second: character enemy bomb_75
+  - first:
+      213: -7573011537332711396
+    second: character enemy bomb_76
+  - first:
+      213: 6232016412568673754
+    second: character enemy bomb_77
+  - first:
+      213: -2428044674600969351
+    second: character enemy bomb_78
+  - first:
+      213: -7919518826340491528
+    second: character enemy bomb_79
+  - first:
+      213: 137977025654214092
+    second: character enemy bomb_80
+  - first:
+      213: 3485439510974054344
+    second: character enemy bomb_81
+  - first:
+      213: -3558201615506789608
+    second: character enemy bomb_82
+  - first:
+      213: -1635755900116324306
+    second: character enemy bomb_83
+  - first:
+      213: 4937650264216658893
+    second: character enemy bomb_84
+  - first:
+      213: 156221348518441702
+    second: character enemy bomb_85
+  - first:
+      213: -6425397537473169405
+    second: character enemy bomb_86
+  - first:
+      213: 7623394648397102774
+    second: character enemy bomb_87
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 874, w: 836}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: character enemy bomb_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 815
+        width: 92
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5ecbd7faace45880800000000000000
+      internalID: -8623007167460684197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character enemy bomb_1
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 815
+        width: 92
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 738acafb9b6528ba0800000000000000
+      internalID: -6088208390466787273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character enemy bomb_2
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 815
+        width: 93
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3090d4c706fb8be0800000000000000
+      internalID: -1473813939806498758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character enemy bomb_3
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 902
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a5867a42a0becfd0800000000000000
+      internalID: -2319722546968754779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character enemy bomb_4
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 816
+        width: 95
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f480075ced0db3140800000000000000
+      internalID: 4700580291305015375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character enemy bomb_5
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 815
+        width: 95
+        height: 134
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee7bf737d41586300800000000000000
+      internalID: 245535572783773678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character enemy bomb_6
+      rect:
+        serializedVersion: 2
+        x: 613
+        y: 810
+        width: 95
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5039fe0a493045200800000000000000
+      internalID: 167763023009649413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character enemy bomb_7
+      rect:
+        serializedVersion: 2
+        x: 745
+        y: 810
+        width: 112
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6dbbf54704bc70680800000000000000
+      internalID: -8788832670099457066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character enemy bomb_8
+      rect:
+        serializedVersion: 2
+        x: 869
+        y: 815
+        width: 112
+        height: 134
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccf5eedfad4f63e30800000000000000
+      internalID: 4483039700494213068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character enemy bomb_9
+      rect:
+        serializedVersion: 2
+        x: 843
+        y: 880
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93388f855426b4020800000000000000
+      internalID: 2327061682451940153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character enemy bomb_10
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 679
+        width: 98
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c2ef56a1185570e0800000000000000
+      internalID: -2272813604109557052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character enemy bomb_11
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 679
+        width: 92
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e5d31288e38abf70800000000000000
+      internalID: 9203813823123019241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character enemy bomb_12
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 679
+        width: 92
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 586571f9793118e70800000000000000
+      internalID: 9115588662704690821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character enemy bomb_13
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 680
+        width: 92
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b9f8720418dac960800000000000000
+      internalID: 7623142899730414007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character enemy bomb_14
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 802
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5903884c2b2cc7b0800000000000000
+      internalID: -5202736000324662945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character enemy bomb_15
+      rect:
+        serializedVersion: 2
+        x: 623
+        y: 680
+        width: 88
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a2efe595e60a9260800000000000000
+      internalID: 7104998945263182502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character enemy bomb_16
+      rect:
+        serializedVersion: 2
+        x: 662
+        y: 799
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3acf0a227d7c1e0b0800000000000000
+      internalID: -5701055926461465437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character enemy bomb_17
+      rect:
+        serializedVersion: 2
+        x: 747
+        y: 680
+        width: 88
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f906e173e86425e0800000000000000
+      internalID: -1935306613784704522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character enemy bomb_18
+      rect:
+        serializedVersion: 2
+        x: 786
+        y: 799
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5edce8cb6f3ff1560800000000000000
+      internalID: 7286810963159731685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character enemy bomb_19
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 679
+        width: 98
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2382adc7669d9c370800000000000000
+      internalID: 8343438818885118002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character enemy bomb_20
+      rect:
+        serializedVersion: 2
+        x: 886
+        y: 680
+        width: 64
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 822a8256aef44ebf0800000000000000
+      internalID: -296023807361506776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character enemy bomb_21
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 563
+        width: 76
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 243256e0fd05cc480800000000000000
+      internalID: -8877631846504651966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character enemy bomb_22
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 638
+        width: 14
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1756186d27222a500800000000000000
+      internalID: 405924793037186417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character enemy bomb_23
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 554
+        width: 78
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f555518e4a862bc30800000000000000
+      internalID: 4373673245607810399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character enemy bomb_24
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 548
+        width: 76
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27ee9c71ed5b1b6a0800000000000000
+      internalID: -6435162427049251214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character enemy bomb_25
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 545
+        width: 64
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60e0b05fd1518a5c0800000000000000
+      internalID: -4204087033740980730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character enemy bomb_26
+      rect:
+        serializedVersion: 2
+        x: 620
+        y: 634
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a41e34b56644e20b0800000000000000
+      internalID: -5751584467697016502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character enemy bomb_27
+      rect:
+        serializedVersion: 2
+        x: 638
+        y: 543
+        width: 64
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b00bd4b535829ae40800000000000000
+      internalID: 5668105944501694475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character enemy bomb_28
+      rect:
+        serializedVersion: 2
+        x: 696
+        y: 633
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc67d4484ecb5ee60800000000000000
+      internalID: 7991000803497047759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character enemy bomb_29
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 544
+        width: 64
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 459edb48b3d1aa5c0800000000000000
+      internalID: -4203515160729622188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character enemy bomb_30
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 629
+        width: 14
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e4b5afdcc3abb830800000000000000
+      internalID: 4088041187089691878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character enemy bomb_31
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 589
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aaa51e45d683368f0800000000000000
+      internalID: -548532687382422870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character enemy bomb_32
+      rect:
+        serializedVersion: 2
+        x: 762
+        y: 544
+        width: 64
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55fe545f35bea18d0800000000000000
+      internalID: -2874726666292826283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character enemy bomb_33
+      rect:
+        serializedVersion: 2
+        x: 886
+        y: 544
+        width: 64
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c8968e10d3d3ed90800000000000000
+      internalID: -7069574099222751033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character enemy bomb_34
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 407
+        width: 84
+        height: 134
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1909a027bbf87090800000000000000
+      internalID: -8036396771097114342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character enemy bomb_35
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 535
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1221254781bebfe90800000000000000
+      internalID: -6990735506299284959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character enemy bomb_36
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 407
+        width: 89
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed97b5fc658f307a0800000000000000
+      internalID: -6412008392715699746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character enemy bomb_37
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 407
+        width: 84
+        height: 134
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57dab30f069100860800000000000000
+      internalID: 7494017684082503029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character enemy bomb_38
+      rect:
+        serializedVersion: 2
+        x: 587
+        y: 535
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f643ef4ecd11b4b0800000000000000
+      internalID: -5426523304063973644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character enemy bomb_39
+      rect:
+        serializedVersion: 2
+        x: 632
+        y: 407
+        width: 89
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c311db528fb82c7f0800000000000000
+      internalID: -593758302958186180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character enemy bomb_40
+      rect:
+        serializedVersion: 2
+        x: 878
+        y: 407
+        width: 84
+        height: 134
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d0a93de74928bb90800000000000000
+      internalID: -7225980213216567082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character enemy bomb_41
+      rect:
+        serializedVersion: 2
+        x: 959
+        y: 535
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4606984503d7c820800000000000000
+      internalID: 2938549301528626766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character enemy bomb_42
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 408
+        width: 92
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d42ac54b2275b6320800000000000000
+      internalID: 2552229420401992269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character enemy bomb_43
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 495
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37f5f74fd8cda8e80800000000000000
+      internalID: -8175479671287226509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character enemy bomb_44
+      rect:
+        serializedVersion: 2
+        x: 377
+        y: 408
+        width: 92
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7b955d9a1cceb990800000000000000
+      internalID: -7368227525650703491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character enemy bomb_45
+      rect:
+        serializedVersion: 2
+        x: 721
+        y: 495
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e9c0cd77da862860800000000000000
+      internalID: 7504838487191898601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character enemy bomb_46
+      rect:
+        serializedVersion: 2
+        x: 749
+        y: 408
+        width: 92
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23e352a920e1bd7f0800000000000000
+      internalID: -586842329916817870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character enemy bomb_47
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 490
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 417fe43c6a06ae600800000000000000
+      internalID: 498316978135430932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character enemy bomb_48
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 487
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d50e178f80824e9f0800000000000000
+      internalID: -440182844582404003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character enemy bomb_49
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 490
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4880ff56d795e8420800000000000000
+      internalID: 2634141227175315588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character enemy bomb_50
+      rect:
+        serializedVersion: 2
+        x: 589
+        y: 487
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52f02a05e9039b570800000000000000
+      internalID: 8482864829644803877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character enemy bomb_51
+      rect:
+        serializedVersion: 2
+        x: 837
+        y: 490
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d54cf95a775ad7820800000000000000
+      internalID: 2917670066904351837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character enemy bomb_52
+      rect:
+        serializedVersion: 2
+        x: 961
+        y: 487
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b319e1d324df00c00800000000000000
+      internalID: 864969589390217531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character enemy bomb_53
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 271
+        width: 89
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6176535f6ae816450800000000000000
+      internalID: 6080297819656513302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character enemy bomb_54
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 271
+        width: 84
+        height: 134
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1443342c622c75b0800000000000000
+      internalID: -5369378807873321957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character enemy bomb_55
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 399
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd525aecc526f5df0800000000000000
+      internalID: -189324508582828581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character enemy bomb_56
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 271
+        width: 89
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d195a9b796f090100800000000000000
+      internalID: 74607814548019485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character enemy bomb_57
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 359
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 011280e2b976c4210800000000000000
+      internalID: 1318542707102589200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character enemy bomb_58
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 272
+        width: 92
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c98aad4fa15baba0800000000000000
+      internalID: -6076673458842203710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character enemy bomb_59
+      rect:
+        serializedVersion: 2
+        x: 473
+        y: 359
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2ace66448e45a5d0800000000000000
+      internalID: -3051946842449327573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character enemy bomb_60
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 354
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 100476442807a2320800000000000000
+      internalID: 2533961445145001985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character enemy bomb_61
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 351
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bab7f5bc2a593f40800000000000000
+      internalID: 5708693150746786480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character enemy bomb_62
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 272
+        width: 64
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62977e70afebd6770800000000000000
+      internalID: 8605744444058597670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character enemy bomb_63
+      rect:
+        serializedVersion: 2
+        x: 638
+        y: 272
+        width: 64
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56e6642dd4dc124a0800000000000000
+      internalID: -6619784243133911451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character enemy bomb_64
+      rect:
+        serializedVersion: 2
+        x: 762
+        y: 272
+        width: 64
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afc8cc6d429ea1160800000000000000
+      internalID: 6997161315505310970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character enemy bomb_65
+      rect:
+        serializedVersion: 2
+        x: 886
+        y: 272
+        width: 64
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0130bcd1f1891c6e0800000000000000
+      internalID: -1819005515069717744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character enemy bomb_66
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 136
+        width: 64
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8469e2181486b51a0800000000000000
+      internalID: -6819742580173007288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character enemy bomb_67
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 136
+        width: 76
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f442e0241482019e0800000000000000
+      internalID: -1652776802498763697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character enemy bomb_68
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 136
+        width: 91
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 040d1ac27d982e310800000000000000
+      internalID: 1432859188717015104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character enemy bomb_69
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 136
+        width: 88
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d52f8e2ba215e0b0800000000000000
+      internalID: -5700129226937653807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character enemy bomb_70
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 136
+        width: 88
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd9fa66187861dde0800000000000000
+      internalID: -1310151151606629923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character enemy bomb_71
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 136
+        width: 91
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4a3d762b7e74c760800000000000000
+      internalID: 7477240348733684302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character enemy bomb_72
+      rect:
+        serializedVersion: 2
+        x: 744
+        y: 136
+        width: 94
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3895a856173184060800000000000000
+      internalID: 6937816603720046979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character enemy bomb_73
+      rect:
+        serializedVersion: 2
+        x: 875
+        y: 136
+        width: 87
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb9bf66a5766fd760800000000000000
+      internalID: 7484813761202600380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character enemy bomb_74
+      rect:
+        serializedVersion: 2
+        x: 377
+        y: 0
+        width: 90
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 108cd84f55f692ca0800000000000000
+      internalID: -6041175010174973951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character enemy bomb_75
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 124
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97f68d487497883e0800000000000000
+      internalID: -2051256282188845191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character enemy bomb_76
+      rect:
+        serializedVersion: 2
+        x: 501
+        y: 0
+        width: 94
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c10595d512247e690800000000000000
+      internalID: -7573011537332711396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character enemy bomb_77
+      rect:
+        serializedVersion: 2
+        x: 602
+        y: 128
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: add5f8998e19c7650800000000000000
+      internalID: 6232016412568673754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character enemy bomb_78
+      rect:
+        serializedVersion: 2
+        x: 793
+        y: 118
+        width: 6
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97b51a79b3add4ed0800000000000000
+      internalID: -2428044674600969351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character enemy bomb_79
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 0
+        width: 96
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fed4fb3697381290800000000000000
+      internalID: -7919518826340491528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character enemy bomb_80
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 0
+        width: 85
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccdc841bf513ae100800000000000000
+      internalID: 137977025654214092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character enemy bomb_81
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 0
+        width: 87
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cf38b1c4c4ce5030800000000000000
+      internalID: 3485439510974054344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character enemy bomb_82
+      rect:
+        serializedVersion: 2
+        x: 625
+        y: 0
+        width: 91
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81b2f7c9b7abe9ec0800000000000000
+      internalID: -3558201615506789608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character enemy bomb_83
+      rect:
+        serializedVersion: 2
+        x: 749
+        y: 0
+        width: 89
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e20315aeca0ac49e0800000000000000
+      internalID: -1635755900116324306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character enemy bomb_84
+      rect:
+        serializedVersion: 2
+        x: 873
+        y: 0
+        width: 87
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc36fb721ce068440800000000000000
+      internalID: 4937650264216658893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character enemy bomb_85
+      rect:
+        serializedVersion: 2
+        x: 974
+        y: 84
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e236c02d720b2200800000000000000
+      internalID: 156221348518441702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character enemy bomb_86
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 76
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 308fd3e9bf664d6a0800000000000000
+      internalID: -6425397537473169405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character enemy bomb_87
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 62
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6beb250da0dbbc960800000000000000
+      internalID: 7623394648397102774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

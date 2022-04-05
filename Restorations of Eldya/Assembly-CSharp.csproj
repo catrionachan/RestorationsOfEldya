@@ -64,6 +64,8 @@
      <Compile Include="Assets\__Scripts\FireShots.cs" />
      <Compile Include="Assets\__Scripts\PlayerCombat.cs" />
      <Compile Include="Assets\__Scripts\DashMove.cs" />
+     <Compile Include="Assets\__Scripts\LoadLevelTwo.cs" />
+     <Compile Include="Assets\__Scripts\PotionExp.cs" />
      <Compile Include="Assets\__Scripts\SorcererShots.cs" />
      <Compile Include="Assets\__Scripts\MainController.cs" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
