@@ -104,8 +104,8 @@
      <Compile Include="Packages\com.unity.ugui\Runtime\UI\Core\Dropdown.cs" />
      <Compile Include="Packages\com.unity.ugui\Runtime\UI\Core\MaskUtilities.cs" />
      <Compile Include="Packages\com.unity.ugui\Runtime\UI\Core\GraphicRegistry.cs" />
-     <Compile Include="Packages\com.unity.ugui\Runtime\UI\Core\CanvasUpdateRegistry.cs" />
      <Compile Include="Packages\com.unity.ugui\Runtime\UI\Core\GraphicRebuildTracker.cs" />
+     <Compile Include="Packages\com.unity.ugui\Runtime\UI\Core\CanvasUpdateRegistry.cs" />
      <Compile Include="Packages\com.unity.ugui\Runtime\UI\Core\Mask.cs" />
      <Compile Include="Packages\com.unity.ugui\Runtime\UI\Core\Culling\Clipping.cs" />
      <Compile Include="Packages\com.unity.ugui\Runtime\UI\Core\ScrollRect.cs" />
