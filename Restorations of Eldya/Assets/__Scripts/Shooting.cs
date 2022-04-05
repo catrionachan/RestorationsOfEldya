@@ -9,7 +9,8 @@ public class Shooting : MonoBehaviour
     public float nextAttackTime = 0f;
 
     //other objects to hide in inspector
-    [HideInInspector]
+    //[HideInInspector]
+
     public Transform firePoint;
     public GameObject bulletPrefab;
     public Animator animation;
