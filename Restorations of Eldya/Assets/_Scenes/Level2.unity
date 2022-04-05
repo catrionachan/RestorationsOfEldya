@@ -904,11 +904,7 @@ PrefabInstance:
     - target: {fileID: 3318798831760394065, guid: 574cd4b1855744b0ea31283b5731bfa5, type: 3}
       propertyPath: target
       value: 
-<<<<<<< Updated upstream
       objectReference: {fileID: 2142951647}
-=======
-      objectReference: {fileID: 0}
->>>>>>> Stashed changes
     - target: {fileID: 3318798831760394065, guid: 574cd4b1855744b0ea31283b5731bfa5, type: 3}
       propertyPath: healthB
       value: 
