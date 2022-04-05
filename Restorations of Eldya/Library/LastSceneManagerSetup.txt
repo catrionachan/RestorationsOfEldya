@@ -1,8 +1,12 @@
 sceneSetups:
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 - path: Assets/_Scenes/StoryLine.unity
 =======
 - path: Assets/_Scenes/Level1Draco.unity
+>>>>>>> Stashed changes
+=======
+- path: Assets/_Scenes/Level1Astro.unity
 >>>>>>> Stashed changes
   isLoaded: 1
   isActive: 1
