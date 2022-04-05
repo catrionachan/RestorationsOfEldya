@@ -57,6 +57,7 @@
   </PropertyGroup>
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   <PropertyGroup>
     <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <UnityProjectGenerator>Package</UnityProjectGenerator>
@@ -130,8 +131,12 @@
 >>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
   <ItemGroup>
      <Compile Include="Assets\__Scripts\Enemy.cs" />
+     <Compile Include="Assets\__Scripts\CharacterController2DAstro.cs" />
+     <Compile Include="Assets\__Scripts\PlayerMovementZoro.cs" />
      <Compile Include="Assets\__Scripts\EnemyShooting.cs" />
      <Compile Include="Assets\__Scripts\TrapDamage.cs" />
      <Compile Include="Assets\__Scripts\MoveBackground.cs" />
@@ -140,6 +145,7 @@
      <Compile Include="Assets\__Scripts\BoundsCheck.cs" />
      <Compile Include="Assets\__Scripts\Waypoint.cs" />
      <Compile Include="Assets\__Scripts\Rotation.cs" />
+     <Compile Include="Assets\__Scripts\ZoroPlayer.cs" />
      <Compile Include="Assets\__Scripts\CharacterController2D.cs" />
      <Compile Include="Assets\__Scripts\EnemyBoss.cs" />
      <Compile Include="Assets\__Scripts\BombMinionEnemy.cs" />
@@ -149,9 +155,12 @@
      <Compile Include="Assets\__Scripts\Play.cs" />
      <Compile Include="Assets\__Scripts\FireShots.cs" />
      <Compile Include="Assets\__Scripts\PlayerCombat.cs" />
+     <Compile Include="Assets\__Scripts\PlayerMovementAstro.cs" />
      <Compile Include="Assets\__Scripts\DashMove.cs" />
      <Compile Include="Assets\__Scripts\LoadLevelTwo.cs" />
      <Compile Include="Assets\__Scripts\PotionExp.cs" />
+     <Compile Include="Assets\__Scripts\AstroPlayer.cs" />
+     <Compile Include="Assets\__Scripts\CharacterControllerZoro.cs" />
      <Compile Include="Assets\__Scripts\SorcererShots.cs" />
      <Compile Include="Assets\__Scripts\MainController.cs" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
