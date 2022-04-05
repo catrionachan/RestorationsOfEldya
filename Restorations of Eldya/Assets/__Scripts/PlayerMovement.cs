@@ -19,7 +19,7 @@ public class PlayerMovement : MonoBehaviour
     public HealthBar healthBar;
     public HealthBar expBar;
     public float experience = 0f;
-    private float totalExp = 100f;
+    private float totalExp = 200f;
     public float requiredExperience;
 
 

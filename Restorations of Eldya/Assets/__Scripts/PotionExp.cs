@@ -5,7 +5,7 @@ using UnityEngine;
 public class PotionExp : MonoBehaviour
 {
     private Transform player;
-    public float expPoints = 1f;
+    public float expPoints;
     private Vector3 target;
 
 
