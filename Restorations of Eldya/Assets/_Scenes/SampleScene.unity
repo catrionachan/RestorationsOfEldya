@@ -18134,11 +18134,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 181506424596769425, guid: 5b7c84406ee7e994697e1134649abf79, type: 3}
   m_PrefabInstance: {fileID: 877016874}
   m_PrefabAsset: {fileID: 0}
---- !u!95 &2008018718 stripped
-Animator:
-  m_CorrespondingSourceObject: {fileID: 3714315565912996147, guid: e78fe0148eabeb54b88914088c86da36, type: 3}
-  m_PrefabInstance: {fileID: 7230669338446400084}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &2018196729
 GameObject:
   m_ObjectHideFlags: 0
@@ -19328,14 +19323,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bomb
       objectReference: {fileID: 0}
-    - target: {fileID: 8073553103377523846, guid: e78fe0148eabeb54b88914088c86da36, type: 3}
-      propertyPath: anim
-      value: 
-      objectReference: {fileID: 2008018718}
-    - target: {fileID: 8073553103377523846, guid: e78fe0148eabeb54b88914088c86da36, type: 3}
-      propertyPath: bullet
-      value: 
-      objectReference: {fileID: 5991679039624008882, guid: 56205e762c221244a8350083f7ffac51, type: 3}
     - target: {fileID: 8073553103377523846, guid: e78fe0148eabeb54b88914088c86da36, type: 3}
       propertyPath: target
       value: 

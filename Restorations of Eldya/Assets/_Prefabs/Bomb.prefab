@@ -12,6 +12,9 @@ GameObject:
   - component: {fileID: 4839199242032713573}
   - component: {fileID: 3714315565912996147}
   - component: {fileID: 8073553103377523846}
+  - component: {fileID: 4530599130029474244}
+  - component: {fileID: 244132745159158053}
+  - component: {fileID: -8846742513383767994}
   m_Layer: 0
   m_Name: Bomb
   m_TagString: Untagged
@@ -94,7 +97,7 @@ Animator:
   m_GameObject: {fileID: 7499992008755816285}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 3b327e1c4a8e0c84d9ab115a86d007e2, type: 2}
+  m_Controller: {fileID: 9100000, guid: 060702ffbdf75401bae64643ab6fbf30, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -115,8 +118,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 023f38f2bca7a9d469add3431f70ee3a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  target: {fileID: 8790564087007370620, guid: 0aa1b036aa2afa14a80015b8767fd71a, type: 3}
-  weaponMuzzle: {fileID: 5043342631487846155, guid: 56205e762c221244a8350083f7ffac51, type: 3}
+  target: {fileID: 0}
+  weaponMuzzle: {fileID: 0}
   bullet: {fileID: 5991679039624008882, guid: 56205e762c221244a8350083f7ffac51, type: 3}
   shootingPower: 20
   shootDistance: 8
@@ -127,8 +130,89 @@ MonoBehaviour:
   healthBar: {fileID: 6923515511339554340, guid: cd6f815c2d57eb346b13b4a8184ee0d0, type: 3}
   healthB: {fileID: 0}
   potionPrefab: {fileID: 0}
-  anim: {fileID: 0}
-  speed: 0
+  anim: {fileID: 3714315565912996147}
+  speed: 0.5
   isFlipped: 0
-  treasurePrefab: {fileID: 0}
+  animate: 0
   counter: 0
+  damage: 100
+--- !u!50 &4530599130029474244
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7499992008755816285}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 6
+--- !u!70 &244132745159158053
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7499992008755816285}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_Size: {x: 0.64, y: 0.87}
+  m_Direction: 0
+--- !u!114 &-8846742513383767994
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7499992008755816285}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2ad5cbb201ef4e54a9f95cae2751eb1f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  slider: {fileID: 0}
+  gradient:
+    serializedVersion: 2
+    key0: {r: 1, g: 1, b: 1, a: 1}
+    key1: {r: 1, g: 1, b: 1, a: 1}
+    key2: {r: 0, g: 0, b: 0, a: 0}
+    key3: {r: 0, g: 0, b: 0, a: 0}
+    key4: {r: 0, g: 0, b: 0, a: 0}
+    key5: {r: 0, g: 0, b: 0, a: 0}
+    key6: {r: 0, g: 0, b: 0, a: 0}
+    key7: {r: 0, g: 0, b: 0, a: 0}
+    ctime0: 0
+    ctime1: 65535
+    ctime2: 0
+    ctime3: 0
+    ctime4: 0
+    ctime5: 0
+    ctime6: 0
+    ctime7: 0
+    atime0: 0
+    atime1: 65535
+    atime2: 0
+    atime3: 0
+    atime4: 0
+    atime5: 0
+    atime6: 0
+    atime7: 0
+    m_Mode: 0
+    m_NumColorKeys: 2
+    m_NumAlphaKeys: 2
+  fill: {fileID: 0}
