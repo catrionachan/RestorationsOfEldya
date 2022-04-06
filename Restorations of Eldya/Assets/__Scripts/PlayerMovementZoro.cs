@@ -6,13 +6,13 @@ using UnityEngine.SceneManagement;
 
 public class PlayerMovementZoro : MonoBehaviour
 {
-    public CharacterController2D controller;
+    public CharacterControllerZoro controller;
     float horizontalMove = 0f;
     //float verticalMove = 0f;
     public float runSpeed = 40f;
     bool jump = false;
     bool crouch = false;
-    public Animator animator;
+    //public Animator animator;
     public float health = 200f;
     //public float currentHealth;
     public GameObject deathEffect;
@@ -43,7 +43,7 @@ public class PlayerMovementZoro : MonoBehaviour
         if (health > 0)
         {
 
-            animator.SetFloat("Speed", Mathf.Abs(horizontalMove));//takes positive value of speed and assigns it to "Speed" in animator
+            //animator.SetFloat("Speed", Mathf.Abs(horizontalMove));//takes positive value of speed and assigns it to "Speed" in animator
 
 
             horizontalMove = Input.GetAxisRaw("Horizontal") * runSpeed;//takes left and right input and multiplies by speed 
@@ -51,7 +51,7 @@ public class PlayerMovementZoro : MonoBehaviour
             if (Input.GetButtonDown("Jump")) //takes up down inputs and sets jump to true 
             {
                 jump = true;
-                animator.SetBool("IsJumping", true);//takes  value of jump and assigns it to "IsJumping" in animator
+                //animator.SetBool("IsJumping", true);//takes  value of jump and assigns it to "IsJumping" in animator
             }
 
             if (Input.GetButtonDown("Crouch")) //takes up down inputs and sets crouch to true 
@@ -70,7 +70,7 @@ public class PlayerMovementZoro : MonoBehaviour
                 Die();
             }
 
-        }
+    }
         else
         {
             horizontalMove = 0;
@@ -82,13 +82,13 @@ public class PlayerMovementZoro : MonoBehaviour
     //Landing the jump animating
     public void onLanding()
     {
-        animator.SetBool("IsJumping", false);
+       // animator.SetBool("IsJumping", false);
     }
 
     //crouching movement animating
     public void onCrouching(bool isCrouching)
     {
-        animator.SetBool("IsCrouching", isCrouching);
+        //animator.SetBool("IsCrouching", isCrouching);
     }
 
     //Movement for the character
@@ -107,7 +107,7 @@ public class PlayerMovementZoro : MonoBehaviour
 
         if (health <= 0)
         {
-            animator.SetTrigger("IsDead");
+            //animator.SetTrigger("IsDead");
             Invoke("Die", 0.7f);
         }
     }

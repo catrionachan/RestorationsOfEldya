@@ -32,12 +32,24 @@ public class PotionExp : MonoBehaviour
     {
         if (collider.CompareTag("Player"))
         {
-            PlayerMovement player = collider.GetComponent<PlayerMovement>();
+            PlayerMovement player = collider.GetComponent<PlayerMovement>();//sets collider with PlayerMovements
+            PlayerMovementZoro player2 = collider.GetComponent<PlayerMovementZoro>();
+            PlayerMovementAstro player3 = collider.GetComponent<PlayerMovementAstro>();
 
-            if (player != null) //if the play is not null, player gains the experience points 
+            if (player != null)
             {
-                player.gainExperience(expPoints);// gains experience points 
-                Destroy(gameObject);//removes the potion from the screen
+                player.gainExperience(expPoints);//player health is updated on collision
+                Destroy(gameObject);
+            }
+            if (player2 != null)
+            {
+                player2.gainExperience(expPoints);//player health is updated on collision
+                Destroy(gameObject);
+            }
+            if (player3 != null)
+            {
+                //player3.gainExperience(expPoints);//player health is updated on collision
+                //Destroy(gameObject);
             }
         }
 

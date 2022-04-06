@@ -33,7 +33,7 @@ public class PlayerCombat : MonoBehaviour
     //method for Attack
     void Attack() 
     {
-        animator.SetTrigger("IsHit");//sets animation to true 
+       // animator.SetTrigger("IsHit");//sets animation to true 
 
 
         Collider2D[] hitEnemies = Physics2D.OverlapCircleAll(attackPoint.position, attackRange, enemyLayers);//creates a circle of radius and collects all objects hit 

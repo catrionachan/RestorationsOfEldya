@@ -12,11 +12,24 @@ public class LoadLevelTwo : MonoBehaviour
     {
         if (collider.CompareTag("Player"))
         {
-            PlayerMovement player = collider.GetComponent<PlayerMovement>();
+            PlayerMovement player = collider.GetComponent<PlayerMovement>();//sets collider with PlayerMovements
+            PlayerMovementZoro player2 = collider.GetComponent<PlayerMovementZoro>();
+            PlayerMovementAstro player3 = collider.GetComponent<PlayerMovementAstro>();
 
-            if (player != null) //if the play is not null, player takes the damage
+            if (player != null)
             {
                 SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+
+            }
+            if (player2 != null)
+            {
+                SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+
+            }
+            if (player3 != null)
+            {
+                //SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+
             }
         }
 

@@ -19,16 +19,28 @@ public class SorcererShots : MonoBehaviour
     }
 
     //method for trigger for when the object collides with the player
-    void OnTriggerEnter2D(Collider2D hitInfo)
+    void OnTriggerEnter2D(Collider2D collider)
     {
-        if (hitInfo.CompareTag("Player"))
+        if (collider.CompareTag("Player"))
         {
-            PlayerMovement player = hitInfo.GetComponent<PlayerMovement>(); //gets the hit info based on the PlayerMovement class
-            //update player health and removes the gameObject
+            PlayerMovement player = collider.GetComponent<PlayerMovement>();//sets collider with PlayerMovements
+            PlayerMovementZoro player2 = collider.GetComponent<PlayerMovementZoro>();
+            PlayerMovementAstro player3 = collider.GetComponent<PlayerMovementAstro>();
+
             if (player != null)
             {
-                player.TakeDamage(damage);
+                player.TakeDamage(damage);//player health is updated on collision
                 Destroy(gameObject);
+            }
+            if (player2 != null)
+            {
+                player2.TakeDamage(damage);//player health is updated on collision
+                Destroy(gameObject);
+            }
+            if (player3 != null)
+            {
+                //player3.TakeDamage(damage);//player health is updated on collision
+                //Destroy(gameObject);
             }
         }
     }
