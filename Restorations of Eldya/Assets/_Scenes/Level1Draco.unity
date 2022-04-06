@@ -19323,6 +19323,18 @@ PrefabInstance:
       propertyPath: attackDamage
       value: 30
       objectReference: {fileID: 0}
+    - target: {fileID: 8790564087007370613, guid: 0aa1b036aa2afa14a80015b8767fd71a, type: 3}
+      propertyPath: dashSpeed
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 8790564087007370613, guid: 0aa1b036aa2afa14a80015b8767fd71a, type: 3}
+      propertyPath: dashEffect
+      value: 
+      objectReference: {fileID: 293907731518322151, guid: 114a69dd742fbcb47ab898a030666856, type: 3}
+    - target: {fileID: 8790564087007370613, guid: 0aa1b036aa2afa14a80015b8767fd71a, type: 3}
+      propertyPath: startDashTime
+      value: 0.3
+      objectReference: {fileID: 0}
     - target: {fileID: 8790564087007370616, guid: 0aa1b036aa2afa14a80015b8767fd71a, type: 3}
       propertyPath: expBar
       value: 

@@ -13,7 +13,7 @@ public class Shooting : MonoBehaviour
 
     public Transform firePoint;
     public GameObject bulletPrefab;
-    //public Animator animation;
+    public Animator animation;
 
     
     // Update is called once per frame
@@ -35,7 +35,7 @@ public class Shooting : MonoBehaviour
     {
         //Shooting logic 
         Instantiate(bulletPrefab, firePoint.position, firePoint.rotation);
-        //animation.SetTrigger("IsShoot"); //animator is set
+        animation.SetTrigger("IsShoot"); //animator is set
 
 
     }
