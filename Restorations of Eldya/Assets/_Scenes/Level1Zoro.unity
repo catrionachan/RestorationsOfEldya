@@ -15494,6 +15494,27 @@ PrefabInstance:
       objectReference: {fileID: 178882207}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bbac1d9dc93f6b84ebc3c66c1e204248, type: 3}
+--- !u!1 &1422570921 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1476114428441387982, guid: e098f61ee7d307443ac0afbf071d0106, type: 3}
+  m_PrefabInstance: {fileID: 1476114426391118100}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1422570923
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1422570921}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1d84df1be4297f144b281a175eba3885, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  attackRate: 2
+  nextAttackTime: 0
+  firePoint: {fileID: 204179028}
+  bulletPrefab: {fileID: 2850617802579877295, guid: e323e7960fbb80540b2bf8131eff94a4, type: 3}
 --- !u!1001 &1425910842
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -18770,7 +18791,7 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 1962649275327104190, guid: e098f61ee7d307443ac0afbf071d0106, type: 3}
   m_PrefabInstance: {fileID: 1476114426391118100}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
+  m_GameObject: {fileID: 1422570921}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a54a024728630a245958183a64fd1e0b, type: 3}
@@ -18781,7 +18802,7 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 2503712918482370564, guid: e098f61ee7d307443ac0afbf071d0106, type: 3}
   m_PrefabInstance: {fileID: 1476114426391118100}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
+  m_GameObject: {fileID: 1422570921}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0d5bcadc0d3ee734f8b38b785ab2d2fd, type: 3}
@@ -19407,17 +19428,13 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1476114428441387978, guid: e098f61ee7d307443ac0afbf071d0106, type: 3}
-      propertyPath: firePoint
-      value: 
-      objectReference: {fileID: 204179028}
     - target: {fileID: 1476114428441387982, guid: e098f61ee7d307443ac0afbf071d0106, type: 3}
       propertyPath: m_Name
       value: ZoroHero
       objectReference: {fileID: 0}
     - target: {fileID: 1476114428441388021, guid: e098f61ee7d307443ac0afbf071d0106, type: 3}
       propertyPath: m_GravityScale
-      value: 1.25
+      value: 1.3
       objectReference: {fileID: 0}
     - target: {fileID: 1476114428441388022, guid: e098f61ee7d307443ac0afbf071d0106, type: 3}
       propertyPath: m_IsTrigger
@@ -19427,6 +19444,10 @@ PrefabInstance:
       propertyPath: expBar
       value: 
       objectReference: {fileID: 560329370}
+    - target: {fileID: 1962649275327104190, guid: e098f61ee7d307443ac0afbf071d0106, type: 3}
+      propertyPath: health
+      value: 175
+      objectReference: {fileID: 0}
     - target: {fileID: 1962649275327104190, guid: e098f61ee7d307443ac0afbf071d0106, type: 3}
       propertyPath: runSpeed
       value: 30

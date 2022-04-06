@@ -133,8 +133,6 @@ GameObject:
   - component: {fileID: 1476114428441388023}
   - component: {fileID: 1476114428441388022}
   - component: {fileID: 1476114428441388021}
-  - component: {fileID: 1476114428441387978}
-  - component: {fileID: 1476114428441387977}
   - component: {fileID: 2503712918482370564}
   - component: {fileID: 1962649275327104190}
   m_Layer: 0
@@ -276,43 +274,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
---- !u!114 &1476114428441387978
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1476114428441387982}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9d566bccd7a55be438c4ea77a08342af, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  attackRate: 2
-  nextAttackTime: 0
-  firePoint: {fileID: 0}
-  bulletPrefab: {fileID: 4667542020629946364, guid: 6583902bbeef0b448b85d61876ffc54e, type: 3}
-  animation: {fileID: 0}
---- !u!114 &1476114428441387977
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1476114428441387982}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 40ea519d6de8a6b4fa3614e0cb20fc14, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  animator: {fileID: 0}
-  attackPoint: {fileID: 1476114427177118328}
-  attackRange: 0.2
-  enemyLayers:
-    serializedVersion: 2
-    m_Bits: 512
-  attackDamage: 20
-  attackRate: 2
 --- !u!114 &2503712918482370564
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -379,7 +340,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   controller: {fileID: 0}
   runSpeed: 20
-  animator: {fileID: 0}
   health: 200
   deathEffect: {fileID: 0}
   healthBar: {fileID: 0}

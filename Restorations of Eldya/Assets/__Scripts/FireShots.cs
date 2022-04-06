@@ -5,7 +5,7 @@ using UnityEngine;
 //Script for the main character fireshot
 public class FireShots : MonoBehaviour
 {
-    public float speed = 20f;
+    public float speed;
     public Rigidbody2D rb;
     public int damage = 25;
 
