@@ -39,8 +39,8 @@ public class SorcererShots : MonoBehaviour
             }
             if (player3 != null)
             {
-                //player3.TakeDamage(damage);//player health is updated on collision
-                //Destroy(gameObject);
+                player3.TakeDamage(damage);//player health is updated on collision
+                Destroy(gameObject);
             }
         }
     }

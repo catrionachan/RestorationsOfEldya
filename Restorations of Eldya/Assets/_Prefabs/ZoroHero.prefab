@@ -224,9 +224,9 @@ CircleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.18984526, y: -1.1865324}
+  m_Offset: {x: -0.18984526, y: -1.0675086}
   serializedVersion: 2
-  m_Radius: 0.6586373
+  m_Radius: 0.7776611
 --- !u!61 &1476114428441388022
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -240,7 +240,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.16611457, y: 0.52207446}
+  m_Offset: {x: -0.16611457, y: 0.5458791}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -251,7 +251,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1.4596574, y: 2.0824761}
+  m_Size: {x: 1.4596574, y: 1.5111618}
   m_EdgeRadius: 0
 --- !u!50 &1476114428441388021
 Rigidbody2D:
@@ -340,9 +340,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   controller: {fileID: 0}
   runSpeed: 20
+  animator: {fileID: 0}
   health: 200
   deathEffect: {fileID: 0}
   healthBar: {fileID: 0}
   expBar: {fileID: 0}
   experience: 0
-  requiredExperience: 0
+  totalExp: 0
+  scoreSO: {fileID: 0}

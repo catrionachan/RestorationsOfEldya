@@ -19,13 +19,14 @@ public class EnemyBoss : Enemy
 
 
 
-    public EnemyBoss()
+    void Awake() 
     {
-        maxHealth = 500;
+        maxHealth = 700;
     }
 
     void Start()
     {
+
         healthBar.SetMaxHealth(maxHealth); //sets the inital health as max
         timeBtwShots = startTimeBtwShots; //sets initial time constraint between weapon spawining 
     }

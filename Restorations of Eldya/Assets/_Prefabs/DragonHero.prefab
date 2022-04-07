@@ -268,7 +268,7 @@ Rigidbody2D:
   m_LinearDrag: 0
   m_AngularDrag: 0.05
   m_GravityScale: 1.25
-  m_Material: {fileID: 6200000, guid: c22549047c327604bb11df265f6fa3d3, type: 2}
+  m_Material: {fileID: 0}
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
@@ -293,6 +293,7 @@ MonoBehaviour:
   healthBar: {fileID: 0}
   expBar: {fileID: 0}
   experience: 0
+  totalExp: 0
 --- !u!61 &8790564087007370617
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -306,7 +307,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.023371458, y: -0.4206916}
+  m_Offset: {x: 0.047122598, y: -0.4028781}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -317,7 +318,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.5568571, y: 0.74366975}
+  m_Size: {x: 0.6043594, y: 0.51803315}
   m_EdgeRadius: 0
 --- !u!58 &8790564087007370621
 CircleCollider2D:
@@ -332,9 +333,9 @@ CircleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.0443424, y: -0.9213629}
+  m_Offset: {x: 0.0443424, y: -0.8916739}
   serializedVersion: 2
-  m_Radius: 0.26042855
+  m_Radius: 0.2901175
 --- !u!95 &8790564087007370618
 Animator:
   serializedVersion: 3
@@ -383,14 +384,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 40ea519d6de8a6b4fa3614e0cb20fc14, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  animator: {fileID: 8790564087007370618}
   attackPoint: {fileID: 8790564086098426488}
   attackRange: 0.2
   enemyLayers:
     serializedVersion: 2
     m_Bits: 512
   attackDamage: 40
-  attackRate: 2
+  animator: {fileID: 8790564087007370618}
 --- !u!1 &8790564087176173997
 GameObject:
   m_ObjectHideFlags: 0

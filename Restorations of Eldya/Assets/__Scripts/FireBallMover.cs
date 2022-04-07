@@ -55,8 +55,8 @@ public class FireBallMover : MonoBehaviour
             }
             if (player3 != null)
             {
-                //player3.TakeDamage(damage);//player health is updated on collision
-                //DestroyProjectile()
+                player3.TakeDamage(damage);//player health is updated on collision
+                DestroyProjectile();
             }
         }
         

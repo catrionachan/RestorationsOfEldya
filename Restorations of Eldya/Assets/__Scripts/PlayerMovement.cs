@@ -8,19 +8,21 @@ public class PlayerMovement : MonoBehaviour
     public CharacterController2D controller;
     float horizontalMove = 0f;
     //float verticalMove = 0f;
-    public float runSpeed = 40f;
+    public float runSpeed;
     bool jump = false;
     bool crouch = false;
     public Animator animator;
-    public float health = 200f;
+    public float health;
     //public float currentHealth;
     public GameObject deathEffect;
     private int yMin = -10;
     public HealthBar healthBar;
     public HealthBar expBar;
     public float experience = 0f;
-    private float totalExp = 200f;
-    public float requiredExperience;
+    public float totalExp;
+    //[SerializeField]
+    //private FloatSO scoreSO;
+    //public TextField potionCount;
 
 
 
@@ -28,11 +30,12 @@ public class PlayerMovement : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        DontDestroyOnLoad(gameObject);
+        //DontDestroyOnLoad(gameObject);
         //currentHealth = health;
         healthBar.SetMaxHealth(health);
         expBar.SetMaxHealth(totalExp);
         expBar.SetHealth(experience);
+        //potionCount.text = scoreSO.Value;
         
     }
 
@@ -112,6 +115,7 @@ public class PlayerMovement : MonoBehaviour
     {
         experience += exp;
         expBar.SetHealth(experience);
+        //scoreSO.Value += 1;
     }
 
     //removes gameObject and send to the gameOver Scene

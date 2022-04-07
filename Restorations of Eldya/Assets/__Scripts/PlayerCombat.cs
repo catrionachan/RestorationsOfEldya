@@ -5,13 +5,13 @@ using UnityEngine;
 public class PlayerCombat : MonoBehaviour
 {
     //Variables for the attack range, damage, rate, attack time and animator
-    public Animator animator;
     public Transform attackPoint;
     public float attackRange = 0.5f;
     public LayerMask enemyLayers;
-    public int attackDamage = 40;
-    public float attackRate = 2f;
+    public int attackDamage;
+    private float attackRate = 4f;
     float nextAttackTime = 0f;
+    public Animator animator;
 
 
     // Update is called once per frame
@@ -23,15 +23,15 @@ public class PlayerCombat : MonoBehaviour
             if (Input.GetButtonDown("Fire2"))
             {
                 Attack();
-                nextAttackTime = Time.time + 1f/attackRate;  //resets cooldown
-                
+                nextAttackTime = Time.time + 1f / attackRate;  //resets cooldown
+
             }
         }
-        
+
     }
 
     //method for Attack
-    void Attack() 
+    void Attack()
     {
         animator.SetTrigger("IsHit");//sets animation to true 
 
@@ -39,18 +39,20 @@ public class PlayerCombat : MonoBehaviour
         Collider2D[] hitEnemies = Physics2D.OverlapCircleAll(attackPoint.position, attackRange, enemyLayers);//creates a circle of radius and collects all objects hit 
 
         //each time an enemy is hit, damage is taken for the enemy and boss
-        foreach(Collider2D each in hitEnemies) 
+        foreach (Collider2D each in hitEnemies)
         {
             each.GetComponent<Enemy>().TakeDamage(attackDamage);
-            each.GetComponent<EnemyBoss>().TakeDamage(attackDamage);
+            //each.GetComponent<EnemyBoss>().TakeDamage(attackDamage);
+            //each.GetComponent<EnemyBoss2>().TakeDamage(attackDamage);
+            //each.GetComponent<BombMinionEnemy>().TakeDamage(attackDamage);
 
         }
     }
 
     //debugging to draw sphere for testing
-    void OnDrawGizmosSelected() 
+    void OnDrawGizmosSelected()
     {
-        if (attackPoint == null) 
+        if (attackPoint == null)
         {
             return;
         }

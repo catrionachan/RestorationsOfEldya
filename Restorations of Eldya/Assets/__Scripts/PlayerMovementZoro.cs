@@ -9,19 +9,20 @@ public class PlayerMovementZoro : MonoBehaviour
     public CharacterControllerZoro controller;
     float horizontalMove = 0f;
     //float verticalMove = 0f;
-    public float runSpeed = 40f;
+    public float runSpeed;
     bool jump = false;
     bool crouch = false;
-    //public Animator animator;
-    public float health = 200f;
+    public Animator animator;
+    public float health;
     //public float currentHealth;
     public GameObject deathEffect;
     private int yMin = -10;
     public HealthBar healthBar;
     public HealthBar expBar;
     public float experience = 0f;
-    private float totalExp = 200f;
-    public float requiredExperience;
+    public float totalExp;
+    //[SerializeField]
+    //private FloatSO scoreSO;
 
 
 
@@ -29,7 +30,7 @@ public class PlayerMovementZoro : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        DontDestroyOnLoad(gameObject);
+        //DontDestroyOnLoad(gameObject);
         //currentHealth = health;
         healthBar.SetMaxHealth(health);
         expBar.SetMaxHealth(totalExp);
@@ -43,7 +44,7 @@ public class PlayerMovementZoro : MonoBehaviour
         if (health > 0)
         {
 
-            //animator.SetFloat("Speed", Mathf.Abs(horizontalMove));//takes positive value of speed and assigns it to "Speed" in animator
+            animator.SetFloat("Speed", Mathf.Abs(horizontalMove));//takes positive value of speed and assigns it to "Speed" in animator
 
 
             horizontalMove = Input.GetAxisRaw("Horizontal") * runSpeed;//takes left and right input and multiplies by speed 
@@ -51,7 +52,7 @@ public class PlayerMovementZoro : MonoBehaviour
             if (Input.GetButtonDown("Jump")) //takes up down inputs and sets jump to true 
             {
                 jump = true;
-                //animator.SetBool("IsJumping", true);//takes  value of jump and assigns it to "IsJumping" in animator
+                animator.SetBool("IsJumping", true);//takes  value of jump and assigns it to "IsJumping" in animator
             }
 
             if (Input.GetButtonDown("Crouch")) //takes up down inputs and sets crouch to true 
@@ -82,13 +83,13 @@ public class PlayerMovementZoro : MonoBehaviour
     //Landing the jump animating
     public void onLanding()
     {
-       // animator.SetBool("IsJumping", false);
+       animator.SetBool("IsJumping", false);
     }
 
     //crouching movement animating
     public void onCrouching(bool isCrouching)
     {
-        //animator.SetBool("IsCrouching", isCrouching);
+        animator.SetBool("IsCrouching", isCrouching);
     }
 
     //Movement for the character
@@ -107,8 +108,8 @@ public class PlayerMovementZoro : MonoBehaviour
 
         if (health <= 0)
         {
-            //animator.SetTrigger("IsDead");
-            Invoke("Die", 0.7f);
+            animator.SetTrigger("IsDead");
+            Invoke("Die", 1f);
         }
     }
 
@@ -117,6 +118,7 @@ public class PlayerMovementZoro : MonoBehaviour
     {
         experience += exp;
         expBar.SetHealth(experience);
+        //scoreSO.Value += 1;
     }
 
     //removes gameObject and send to the gameOver Scene

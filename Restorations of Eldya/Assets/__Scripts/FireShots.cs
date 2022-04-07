@@ -7,7 +7,7 @@ public class FireShots : MonoBehaviour
 {
     public float speed;
     public Rigidbody2D rb;
-    public int damage = 25;
+    public int damage = 15;
 
     // Start is called before the first frame update
     void Start()

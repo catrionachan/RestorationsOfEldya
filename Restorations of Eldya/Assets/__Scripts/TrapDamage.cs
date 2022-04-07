@@ -26,7 +26,7 @@ public class TrapDamage : MonoBehaviour
             }
             if (player3 != null)
             {
-                //player3.TakeDamage(damage);//player health is updated on collision
+                player3.TakeDamage(damage);//player health is updated on collision
             }
         }
 

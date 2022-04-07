@@ -7,6 +7,8 @@ public class PotionExp : MonoBehaviour
     private Transform player;
     public float expPoints;
     private Vector3 target;
+    [SerializeField]
+    private FloatSO scoreSO;
 
 
 
@@ -40,16 +42,19 @@ public class PotionExp : MonoBehaviour
             {
                 player.gainExperience(expPoints);//player health is updated on collision
                 Destroy(gameObject);
+                scoreSO.Value += expPoints;
             }
             if (player2 != null)
             {
                 player2.gainExperience(expPoints);//player health is updated on collision
                 Destroy(gameObject);
+                scoreSO.Value += expPoints;
             }
             if (player3 != null)
             {
-                //player3.gainExperience(expPoints);//player health is updated on collision
-                //Destroy(gameObject);
+                player3.gainExperience(expPoints);//player health is updated on collision
+                Destroy(gameObject);
+                scoreSO.Value += expPoints;
             }
         }
 

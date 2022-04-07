@@ -14,8 +14,7 @@ GameObject:
   - component: {fileID: 8073553103377523846}
   - component: {fileID: 4530599130029474244}
   - component: {fileID: 244132745159158053}
-  - component: {fileID: 2084808441848215388}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Bomb
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -131,11 +130,13 @@ MonoBehaviour:
   healthB: {fileID: 0}
   potionPrefab: {fileID: 6908382229295961420, guid: 50d5076a1649361438a25690fdcaecb6, type: 3}
   anim: {fileID: 3714315565912996147}
-  speed: 0.5
+  speed: 2
   isFlipped: 0
   animate: 0
-  counter: 0
   damage: 100
+  player: {fileID: 0}
+  playerZ: {fileID: 0}
+  playerA: {fileID: 0}
 --- !u!50 &4530599130029474244
 Rigidbody2D:
   serializedVersion: 4
@@ -148,7 +149,7 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 1
+  m_Mass: 3
   m_LinearDrag: 0
   m_AngularDrag: 0.05
   m_GravityScale: 1
@@ -170,22 +171,6 @@ CapsuleCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_Size: {x: 0.64, y: 0.87}
+  m_Offset: {x: -0.01310581, y: 0}
+  m_Size: {x: 1.5349375, y: 1.5349375}
   m_Direction: 0
---- !u!58 &2084808441848215388
-CircleCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7499992008755816285}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: -0.113583446}
-  serializedVersion: 2
-  m_Radius: 0.25074244

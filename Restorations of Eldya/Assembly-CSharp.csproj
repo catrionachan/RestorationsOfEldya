@@ -48,11 +48,15 @@
   </PropertyGroup>
   <ItemGroup>
      <Compile Include="Assets\__Scripts\Enemy.cs" />
+     <Compile Include="Assets\__Scripts\ShootingAstro.cs" />
      <Compile Include="Assets\__Scripts\CharacterController2DAstro.cs" />
      <Compile Include="Assets\__Scripts\PlayerMovementZoro.cs" />
      <Compile Include="Assets\__Scripts\EnemyShooting.cs" />
      <Compile Include="Assets\__Scripts\TrapDamage.cs" />
+     <Compile Include="Assets\__Scripts\EndPoints.cs" />
+     <Compile Include="Assets\__Scripts\EnemyBoss2.cs" />
      <Compile Include="Assets\__Scripts\MoveBackground.cs" />
+     <Compile Include="Assets\__Scripts\LoadWinScreen.cs" />
      <Compile Include="Assets\__Scripts\Restart.cs" />
      <Compile Include="Assets\__Scripts\PlayerMovement.cs" />
      <Compile Include="Assets\__Scripts\ShootingZoro.cs" />
@@ -60,20 +64,24 @@
      <Compile Include="Assets\__Scripts\Waypoint.cs" />
      <Compile Include="Assets\__Scripts\Rotation.cs" />
      <Compile Include="Assets\__Scripts\ZoroPlayer.cs" />
+     <Compile Include="Assets\__Scripts\PlayerCombatZoro.cs" />
      <Compile Include="Assets\__Scripts\CharacterController2D.cs" />
      <Compile Include="Assets\__Scripts\EnemyBoss.cs" />
      <Compile Include="Assets\__Scripts\BombMinionEnemy.cs" />
      <Compile Include="Assets\__Scripts\AstroBoyController2D.cs" />
+     <Compile Include="Assets\__Scripts\PlayerCombatAstro.cs" />
      <Compile Include="Assets\__Scripts\FireBallMover.cs" />
      <Compile Include="Assets\__Scripts\Shooting.cs" />
      <Compile Include="Assets\__Scripts\HealthBar.cs" />
      <Compile Include="Assets\__Scripts\Play.cs" />
      <Compile Include="Assets\__Scripts\FireShots.cs" />
+     <Compile Include="Assets\__Scripts\PlayerCombat.cs" />
      <Compile Include="Assets\__Scripts\PlayerMovementAstro.cs" />
      <Compile Include="Assets\__Scripts\DashMove.cs" />
      <Compile Include="Assets\__Scripts\LoadLevelTwo.cs" />
      <Compile Include="Assets\__Scripts\PotionExp.cs" />
      <Compile Include="Assets\__Scripts\AstroPlayer.cs" />
+     <Compile Include="Assets\__Scripts\FloatSO.cs" />
      <Compile Include="Assets\__Scripts\CharacterControllerZoro.cs" />
      <Compile Include="Assets\__Scripts\SorcererShots.cs" />
      <Compile Include="Assets\__Scripts\MainController.cs" />

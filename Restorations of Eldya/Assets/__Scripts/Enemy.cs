@@ -13,7 +13,7 @@ public class Enemy : MonoBehaviour
     public float timeBtwShots;
     public float startTimeBtwShots = 2f;
 
-    public int maxHealth = 100; //Max health level set
+    protected int maxHealth = 100; //Max health level set
     public GameObject deathEffect;
     public HealthBar healthBar; //health bar 
     public GameObject healthB;
